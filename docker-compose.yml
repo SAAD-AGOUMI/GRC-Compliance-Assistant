@@ -1,0 +1,33 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant-server
+    restart: no
+    ports:
+      - "6333:6333"
+
+  agent:
+    build:
+      context: ./Agent
+      dockerfile: Dockerfile
+    container_name: agent
+    depends_on:
+      - qdrant
+    environment:
+      - QDRANT_URL=${QDRANT_URL}
+      - MISTRAL_API_KEY=${MISTRAL_API_KEY}
+      - LLM_RAG=${LLM_RAG}
+      - LLM_CHUNKING=${LLM_CHUNKING}
+      - LLM_EVALUATION=${LLM_EVALUATION}
+      - TRANSFORMERS_VERBOSITY=info
+      - HF_HUB_ENABLE_HF_TRANSFER=1
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL}
+      - RERANKER_MODEL=${RERANKER_MODEL}
+    volumes:
+      - ./Agent:/app
+      - hf_cache:/root/.cache/huggingface
+    ports:
+      - "8501:8501"
+
+volumes:
+  hf_cache:

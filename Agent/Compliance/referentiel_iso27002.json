@@ -1,0 +1,1288 @@
+{
+  "referentiel": "ISO/IEC 27002:2022",
+  "version_fichier": "1.0",
+  "nb_mesures": 93,
+  "avertissement": "Titres des mesures et critères reformulés à des fins pédagogiques ; ils ne remplacent pas le texte de la norme.",
+  "regles_de_decision": {
+    "statuts": [
+      "conforme",
+      "partiellement conforme",
+      "non conforme",
+      "non traitée"
+    ],
+    "conforme": "Tous les critères sont satisfaits par des passages explicites de la documentation.",
+    "partiellement conforme": "Au moins un critère est satisfait, mais au moins un critère ne l'est pas.",
+    "non conforme": "Le sujet est traité dans la documentation, mais aucun critère n'est satisfait, ou la documentation contredit l'exigence (par exemple une mesure déclarée en place alors que le document dit le contraire).",
+    "non traitée": "Aucun passage de la documentation ne traite le sujet de la mesure.",
+    "principes": [
+      "Un critère n'est satisfait que s'il est explicitement couvert par un passage cité ; l'absence de preuve vaut critère manquant.",
+      "Une intention future (« prévu », « planifié », « à définir », « reporté ») ne satisfait pas un critère.",
+      "Une déclaration de la déclaration d'applicabilité ne suffit pas : elle doit être confirmée par une politique ou une procédure.",
+      "En cas de contradiction entre deux documents, signaler la contradiction et retenir le statut le moins favorable."
+    ]
+  },
+  "mesures": [
+    {
+      "id": "5.1",
+      "theme": "Mesures organisationnelles",
+      "titre": "Politiques de sécurité de l'information",
+      "requete": "politique de sécurité PSSI approuvée direction objectifs principes revue",
+      "criteres": [
+        "Une politique générale de sécurité (PSSI) existe et est approuvée par la direction",
+        "Elle fixe des objectifs de sécurité ou un cadre pour les définir",
+        "Elle est déclinée en politiques thématiques",
+        "Une fréquence de revue de la politique est définie",
+        "La politique est communiquée aux collaborateurs et parties concernées"
+      ],
+      "nis2": [
+        "Art. 21.2 a"
+      ]
+    },
+    {
+      "id": "5.2",
+      "theme": "Mesures organisationnelles",
+      "titre": "Fonctions et responsabilités liées à la sécurité de l'information",
+      "requete": "rôles responsabilités RSSI DPO propriétaires d'actifs comité de sécurité RACI",
+      "criteres": [
+        "Les rôles de sécurité sont définis (direction, RSSI, DSI, DPO, propriétaires d'actifs)",
+        "Les responsabilités de chaque rôle sont décrites",
+        "Des personnes sont nommément désignées pour les rôles clés",
+        "Une instance de pilotage de la sécurité est définie (comité, fréquence)"
+      ],
+      "nis2": [
+        "Art. 20"
+      ]
+    },
+    {
+      "id": "5.3",
+      "theme": "Mesures organisationnelles",
+      "titre": "Séparation des tâches",
+      "requete": "séparation des tâches conflit d'intérêts cumul de fonctions administrateur",
+      "criteres": [
+        "Les tâches ou fonctions incompatibles sont identifiées",
+        "Ces tâches sont attribuées à des personnes différentes",
+        "À défaut, des mesures compensatoires sont définies et le risque est formellement accepté"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "5.4",
+      "theme": "Mesures organisationnelles",
+      "titre": "Responsabilités de la direction",
+      "requete": "direction responsabilité sécurité ressources budget engagement respect de la politique",
+      "criteres": [
+        "La direction exige l'application des politiques de sécurité par le personnel",
+        "La direction alloue des ressources (budget, personnel) à la sécurité",
+        "La responsabilité finale de la direction en matière de sécurité est formalisée",
+        "La formation de la direction aux risques cyber est prévue"
+      ],
+      "nis2": [
+        "Art. 20"
+      ]
+    },
+    {
+      "id": "5.5",
+      "theme": "Mesures organisationnelles",
+      "titre": "Contacts avec les autorités",
+      "requete": "contacts autorités ANSSI CNIL police gendarmerie notification CERT-FR",
+      "criteres": [
+        "Les autorités à contacter sont identifiées (ANSSI, CNIL, forces de l'ordre)",
+        "Les situations et délais de contact sont définis",
+        "La personne chargée du contact avec chaque autorité est désignée",
+        "Les coordonnées des autorités sont tenues à jour"
+      ],
+      "nis2": [
+        "Art. 23"
+      ]
+    },
+    {
+      "id": "5.6",
+      "theme": "Mesures organisationnelles",
+      "titre": "Contacts avec des groupes d'intérêt spécifiques",
+      "requete": "groupes d'intérêt CERT InterCERT CLUSIF forums sécurité associations professionnelles",
+      "criteres": [
+        "L'organisation participe à des groupes ou communautés de sécurité",
+        "Ces contacts sont utilisés pour la veille et le partage d'informations",
+        "Les personnes chargées de ces contacts sont désignées"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "5.7",
+      "theme": "Mesures organisationnelles",
+      "titre": "Renseignements sur les menaces",
+      "requete": "veille menaces renseignement threat intelligence CERT-FR sources",
+      "criteres": [
+        "Des sources de renseignement sur les menaces sont définies",
+        "Les informations collectées sont analysées au regard du contexte de l'organisation",
+        "Les résultats alimentent l'analyse de risques ou les mesures de détection et de protection",
+        "Un responsable de la veille est désigné"
+      ],
+      "nis2": [
+        "Art. 21.2 a"
+      ]
+    },
+    {
+      "id": "5.8",
+      "theme": "Mesures organisationnelles",
+      "titre": "Sécurité de l'information dans la gestion de projet",
+      "requete": "projets sécurité dès la conception exigences de sécurité validation RSSI mise en production",
+      "criteres": [
+        "La sécurité est intégrée aux projets dès leur conception",
+        "Une analyse des risques ou des exigences de sécurité est réalisée pour les projets",
+        "Le RSSI ou un référent sécurité est consulté aux étapes clés",
+        "Une validation de sécurité est requise avant la mise en production"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "5.9",
+      "theme": "Mesures organisationnelles",
+      "titre": "Inventaire des informations et autres actifs associés",
+      "requete": "inventaire des actifs matériel logiciel données propriétaire mise à jour",
+      "criteres": [
+        "Un inventaire des actifs existe (matériel, logiciels, données, services)",
+        "Chaque actif a un propriétaire désigné",
+        "L'inventaire est tenu à jour selon une règle définie",
+        "L'inventaire précise la sensibilité ou la criticité des actifs"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "5.10",
+      "theme": "Mesures organisationnelles",
+      "titre": "Utilisation correcte des informations et autres actifs associés",
+      "requete": "charte informatique utilisation acceptable règles d'usage signature",
+      "criteres": [
+        "Des règles d'utilisation des ressources informatiques sont définies",
+        "Elles sont communiquées et acceptées par les utilisateurs (signature, règlement intérieur)",
+        "Les usages interdits sont précisés",
+        "Les sanctions en cas de non-respect sont précisées"
+      ],
+      "nis2": [
+        "Art. 21.2 g"
+      ]
+    },
+    {
+      "id": "5.11",
+      "theme": "Mesures organisationnelles",
+      "titre": "Restitution des actifs",
+      "requete": "restitution du matériel départ fin de contrat badge ordinateur",
+      "criteres": [
+        "La restitution des actifs au départ ou en fin de contrat est obligatoire",
+        "Les actifs à restituer sont précisés (matériel, badges, données)",
+        "Un responsable de la récupération est désigné",
+        "La restitution est tracée"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "5.12",
+      "theme": "Mesures organisationnelles",
+      "titre": "Classification des informations",
+      "requete": "classification niveaux confidentiel interne public propriétaire de l'information",
+      "criteres": [
+        "Des niveaux de classification sont définis",
+        "Les critères permettant d'attribuer chaque niveau sont décrits",
+        "La responsabilité de la classification est attribuée (propriétaire)",
+        "Des règles de protection sont associées à chaque niveau"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "5.13",
+      "theme": "Mesures organisationnelles",
+      "titre": "Marquage des informations",
+      "requete": "marquage étiquetage mention confidentiel en-tête documents",
+      "criteres": [
+        "Des règles de marquage des informations classifiées sont définies",
+        "Les supports concernés sont précisés (documents, courriels, supports amovibles)",
+        "Le marquage couvre au minimum les niveaux sensibles"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "5.14",
+      "theme": "Mesures organisationnelles",
+      "titre": "Transfert des informations",
+      "requete": "transfert transmission messagerie partage externe chiffrement pièce jointe",
+      "criteres": [
+        "Des règles de transfert des informations sont définies selon leur sensibilité",
+        "Les moyens de transfert autorisés sont précisés",
+        "Les transferts sensibles sont protégés (chiffrement, lien sécurisé)",
+        "Les transferts vers des tiers sont encadrés"
+      ],
+      "nis2": [
+        "Art. 21.2 j"
+      ]
+    },
+    {
+      "id": "5.15",
+      "theme": "Mesures organisationnelles",
+      "titre": "Contrôle d'accès",
+      "requete": "politique de contrôle d'accès moindre privilège besoin d'en connaître règles d'accès",
+      "criteres": [
+        "Une politique de contrôle d'accès est formalisée",
+        "Les principes de moindre privilège et de besoin d'en connaître sont appliqués",
+        "Les accès sont attribués selon des profils ou des rôles",
+        "Les accès sont soumis à approbation"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "5.16",
+      "theme": "Mesures organisationnelles",
+      "titre": "Gestion des identités",
+      "requete": "identité compte nominatif unique création comptes génériques partagés",
+      "criteres": [
+        "Chaque utilisateur dispose d'une identité unique et nominative",
+        "Les comptes partagés ou génériques sont interdits ou strictement encadrés",
+        "Le cycle de vie des identités est géré (création, modification, suppression)",
+        "Les identités des tiers sont gérées avec une date d'expiration"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "5.17",
+      "theme": "Mesures organisationnelles",
+      "titre": "Informations d'authentification",
+      "requete": "mots de passe longueur complexité stockage gestionnaire secret communication",
+      "criteres": [
+        "Des règles de construction des mots de passe sont définies",
+        "Les informations d'authentification sont remises de façon sécurisée et changées à la première connexion",
+        "Leur partage ou divulgation est interdit",
+        "Le stockage des secrets est sécurisé (coffre-fort, gestionnaire de mots de passe)"
+      ],
+      "nis2": [
+        "Art. 21.2 j"
+      ]
+    },
+    {
+      "id": "5.18",
+      "theme": "Mesures organisationnelles",
+      "titre": "Droits d'accès",
+      "requete": "droits d'accès attribution revue des habilitations retrait départ mobilité",
+      "criteres": [
+        "L'attribution des droits suit un processus d'approbation",
+        "Les droits sont modifiés lors d'une mobilité",
+        "Les droits sont retirés rapidement au départ (délai défini et court)",
+        "Une revue périodique des droits est réalisée et tracée",
+        "Les droits d'administration sont revus plus fréquemment"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "5.19",
+      "theme": "Mesures organisationnelles",
+      "titre": "Sécurité de l'information dans les relations avec les fournisseurs",
+      "requete": "fournisseurs prestataires évaluation sécurité sélection criticité",
+      "criteres": [
+        "Les fournisseurs sont identifiés et classés selon leur criticité",
+        "La sécurité des fournisseurs est évaluée avant contractualisation",
+        "Les risques liés aux fournisseurs sont pris en compte",
+        "Les accès des fournisseurs au SI sont encadrés"
+      ],
+      "nis2": [
+        "Art. 21.2 d"
+      ]
+    },
+    {
+      "id": "5.20",
+      "theme": "Mesures organisationnelles",
+      "titre": "La sécurité de l'information dans les accords conclus avec les fournisseurs",
+      "requete": "contrat clauses de sécurité confidentialité droit d'audit notification incident réversibilité PAS",
+      "criteres": [
+        "Les contrats comportent des clauses de sécurité et de confidentialité",
+        "Un droit d'audit du fournisseur est prévu",
+        "Le fournisseur doit notifier ses incidents de sécurité",
+        "La restitution ou destruction des données en fin de contrat est prévue",
+        "Les clauses RGPD (article 28) sont présentes si le fournisseur traite des données personnelles"
+      ],
+      "nis2": [
+        "Art. 21.2 d"
+      ]
+    },
+    {
+      "id": "5.21",
+      "theme": "Mesures organisationnelles",
+      "titre": "Gestion de la sécurité de l'information dans la chaîne d'approvisionnement TIC",
+      "requete": "chaîne d'approvisionnement TIC sous-traitants des fournisseurs logiciels composants",
+      "criteres": [
+        "Les exigences de sécurité s'appliquent aussi aux sous-traitants des fournisseurs",
+        "Les risques de la chaîne d'approvisionnement TIC sont identifiés",
+        "L'origine et l'intégrité des produits et logiciels sont prises en compte"
+      ],
+      "nis2": [
+        "Art. 21.2 d",
+        "Art. 21.3"
+      ]
+    },
+    {
+      "id": "5.22",
+      "theme": "Mesures organisationnelles",
+      "titre": "Surveillance, révision et gestion des changements des services fournisseurs",
+      "requete": "suivi fournisseurs revue périodique niveaux de service audit changements",
+      "criteres": [
+        "Les services des fournisseurs sont suivis régulièrement",
+        "Le respect des engagements de sécurité est vérifié (revue, audit, rapport)",
+        "Les changements chez le fournisseur sont évalués",
+        "Les incidents chez le fournisseur sont suivis"
+      ],
+      "nis2": [
+        "Art. 21.2 d"
+      ]
+    },
+    {
+      "id": "5.23",
+      "theme": "Mesures organisationnelles",
+      "titre": "Sécurité de l'information dans l'utilisation de services en nuage",
+      "requete": "cloud services en nuage SaaS Microsoft 365 responsabilités partagées sortie",
+      "criteres": [
+        "Les règles d'utilisation des services en nuage sont définies",
+        "Le partage des responsabilités avec le fournisseur cloud est clarifié",
+        "Les exigences de sécurité sont définies avant l'adoption d'un service cloud",
+        "La sortie du service (réversibilité) est prévue"
+      ],
+      "nis2": [
+        "Art. 21.2 d"
+      ]
+    },
+    {
+      "id": "5.24",
+      "theme": "Mesures organisationnelles",
+      "titre": "Planification et préparation de la gestion des incidents de sécurité de l'information",
+      "requete": "gestion des incidents procédure rôles préparation contacts prestataire réponse",
+      "criteres": [
+        "Une procédure de gestion des incidents est formalisée",
+        "Les rôles et responsabilités dans la gestion des incidents sont définis",
+        "Une échelle de gravité ou de priorité est définie",
+        "Les moyens de réponse sont préparés (contacts, prestataire de réponse, outils)"
+      ],
+      "nis2": [
+        "Art. 21.2 b"
+      ]
+    },
+    {
+      "id": "5.25",
+      "theme": "Mesures organisationnelles",
+      "titre": "Évaluation des événements de sécurité de l'information et prise de décision",
+      "requete": "qualification des événements incident ou non critères gravité escalade",
+      "criteres": [
+        "Des critères permettent de décider si un événement est un incident",
+        "Les événements sont qualifiés et priorisés",
+        "Des règles d'escalade sont définies selon la gravité"
+      ],
+      "nis2": [
+        "Art. 21.2 b"
+      ]
+    },
+    {
+      "id": "5.26",
+      "theme": "Mesures organisationnelles",
+      "titre": "Réponse aux incidents de sécurité de l'information",
+      "requete": "réponse confinement éradication rétablissement notification ANSSI 24 heures CNIL 72 heures",
+      "criteres": [
+        "Les étapes de réponse sont décrites (confinement, éradication, rétablissement)",
+        "Les notifications réglementaires sont prévues avec leurs délais (NIS2 : alerte sous 24 h, notification sous 72 h, rapport final sous 1 mois)",
+        "La notification des violations de données à la CNIL sous 72 h est prévue",
+        "La communication vers les parties concernées (clients, personnes) est prévue",
+        "Les incidents sont enregistrés"
+      ],
+      "nis2": [
+        "Art. 21.2 b",
+        "Art. 23"
+      ]
+    },
+    {
+      "id": "5.27",
+      "theme": "Mesures organisationnelles",
+      "titre": "Tirer des enseignements des incidents de sécurité de l'information",
+      "requete": "retour d'expérience REX enseignements incidents actions correctives",
+      "criteres": [
+        "Un retour d'expérience est organisé après les incidents significatifs",
+        "Les causes et les améliorations sont identifiées",
+        "Les actions correctives sont suivies",
+        "Les enseignements alimentent l'analyse de risques ou les mesures"
+      ],
+      "nis2": [
+        "Art. 21.2 b"
+      ]
+    },
+    {
+      "id": "5.28",
+      "theme": "Mesures organisationnelles",
+      "titre": "Collecte des preuves",
+      "requete": "preuves conservation journaux copie disque mémoire chaîne de custody plainte",
+      "criteres": [
+        "Des règles de collecte et de conservation des preuves sont définies",
+        "Les preuves sont préservées avant toute remise en état",
+        "L'intégrité et la traçabilité des preuves sont assurées"
+      ],
+      "nis2": [
+        "Art. 21.2 b"
+      ]
+    },
+    {
+      "id": "5.29",
+      "theme": "Mesures organisationnelles",
+      "titre": "Sécurité de l'information durant une perturbation",
+      "requete": "continuité d'activité mode dégradé cellule de crise PCA gestion de crise",
+      "criteres": [
+        "Un plan de continuité d'activité existe",
+        "Le maintien de la sécurité en situation de crise ou de mode dégradé est prévu",
+        "Une cellule de crise est définie (composition, activation, lieu de repli)",
+        "Le plan est testé régulièrement (exercices de crise)"
+      ],
+      "nis2": [
+        "Art. 21.2 c"
+      ]
+    },
+    {
+      "id": "5.30",
+      "theme": "Mesures organisationnelles",
+      "titre": "Préparation des TIC pour la continuité d'activité",
+      "requete": "PRA reprise RTO RPO analyse d'impact test plan de reprise",
+      "criteres": [
+        "Une analyse d'impact sur l'activité (BIA) est réalisée",
+        "Des objectifs de reprise (RTO, RPO) sont définis pour les systèmes critiques",
+        "Des procédures de reprise informatique sont documentées",
+        "Le plan de reprise est testé régulièrement et les résultats sont exploités"
+      ],
+      "nis2": [
+        "Art. 21.2 c"
+      ]
+    },
+    {
+      "id": "5.31",
+      "theme": "Mesures organisationnelles",
+      "titre": "Exigences légales, statutaires, réglementaires et contractuelles",
+      "requete": "exigences légales réglementaires contractuelles registre NIS2 RGPD veille réglementaire",
+      "criteres": [
+        "Les exigences légales, réglementaires et contractuelles applicables sont identifiées",
+        "Elles sont recensées dans un registre tenu à jour",
+        "Une veille réglementaire est organisée",
+        "Les responsabilités de mise en conformité sont attribuées"
+      ],
+      "nis2": [
+        "Art. 21.1"
+      ]
+    },
+    {
+      "id": "5.32",
+      "theme": "Mesures organisationnelles",
+      "titre": "Droits de propriété intellectuelle",
+      "requete": "licences logicielles propriété intellectuelle logiciels autorisés droits d'auteur",
+      "criteres": [
+        "L'usage de logiciels sous licence est encadré",
+        "L'installation de logiciels non autorisés est interdite",
+        "Les licences sont suivies"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "5.33",
+      "theme": "Mesures organisationnelles",
+      "titre": "Protection des enregistrements",
+      "requete": "enregistrements archivage conservation durée intégrité registres comptables",
+      "criteres": [
+        "Les enregistrements importants sont identifiés",
+        "Des durées de conservation sont définies",
+        "Les enregistrements sont protégés contre la perte, l'altération et l'accès non autorisé"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "5.34",
+      "theme": "Mesures organisationnelles",
+      "titre": "Protection de la vie privée et des données à caractère personnel (DCP)",
+      "requete": "RGPD données personnelles registre des traitements AIPD durées de conservation droits des personnes DPO",
+      "criteres": [
+        "Un registre des activités de traitement est tenu",
+        "Des durées de conservation sont définies pour tous les traitements",
+        "Des analyses d'impact (AIPD) sont réalisées pour les traitements à risque élevé",
+        "L'exercice des droits des personnes est organisé",
+        "Un DPO ou référent est désigné"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "5.35",
+      "theme": "Mesures organisationnelles",
+      "titre": "Révision indépendante de la sécurité de l'information",
+      "requete": "audit interne audit externe test d'intrusion révision indépendante programme d'audit",
+      "criteres": [
+        "Des audits indépendants de la sécurité sont planifiés (audit interne, externe)",
+        "Les audits sont réalisés selon une fréquence définie",
+        "Les résultats sont présentés à la direction",
+        "Les non-conformités font l'objet d'actions correctives suivies"
+      ],
+      "nis2": [
+        "Art. 21.2 f"
+      ]
+    },
+    {
+      "id": "5.36",
+      "theme": "Mesures organisationnelles",
+      "titre": "Conformité aux politiques, règles et normes de sécurité de l'information",
+      "requete": "contrôle de conformité vérification application des politiques indicateurs",
+      "criteres": [
+        "Le respect des politiques de sécurité est vérifié régulièrement",
+        "Les écarts constatés sont traités",
+        "Des indicateurs de conformité sont suivis"
+      ],
+      "nis2": [
+        "Art. 21.2 f"
+      ]
+    },
+    {
+      "id": "5.37",
+      "theme": "Mesures organisationnelles",
+      "titre": "Procédures d'exploitation documentées",
+      "requete": "procédures d'exploitation documentation opérationnelle administration",
+      "criteres": [
+        "Les procédures d'exploitation sont documentées",
+        "Elles sont accessibles aux personnes qui en ont besoin",
+        "Elles sont tenues à jour"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "6.1",
+      "theme": "Mesures liées aux personnes",
+      "titre": "Sélection des candidats",
+      "requete": "recrutement vérification des antécédents références candidats postes sensibles",
+      "criteres": [
+        "Des vérifications sont réalisées lors du recrutement",
+        "Elles sont proportionnées à la sensibilité du poste",
+        "Elles respectent la réglementation"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "6.2",
+      "theme": "Mesures liées aux personnes",
+      "titre": "Termes et conditions du contrat de travail",
+      "requete": "contrat de travail obligations de sécurité règlement intérieur engagement",
+      "criteres": [
+        "Les obligations de sécurité figurent dans le contrat ou le règlement intérieur",
+        "Le collaborateur s'engage formellement à les respecter",
+        "Les obligations s'appliquent aussi aux intérimaires et prestataires"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "6.3",
+      "theme": "Mesures liées aux personnes",
+      "titre": "Sensibilisation, enseignement et formation en sécurité de l'information",
+      "requete": "sensibilisation formation annuelle hameçonnage campagne taux de participation",
+      "criteres": [
+        "Une sensibilisation est réalisée à l'arrivée",
+        "Une sensibilisation périodique est réalisée (au moins annuelle)",
+        "Des formations adaptées aux rôles sont prévues (administrateurs, direction)",
+        "La participation est suivie et mesurée",
+        "La direction est formée aux risques cyber"
+      ],
+      "nis2": [
+        "Art. 20.2",
+        "Art. 21.2 g"
+      ]
+    },
+    {
+      "id": "6.4",
+      "theme": "Mesures liées aux personnes",
+      "titre": "Processus disciplinaire",
+      "requete": "sanctions disciplinaires non-respect de la politique règlement intérieur",
+      "criteres": [
+        "Un processus disciplinaire en cas de manquement à la sécurité est défini",
+        "Il est communiqué aux collaborateurs"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "6.5",
+      "theme": "Mesures liées aux personnes",
+      "titre": "Responsabilités consécutivement à la fin ou à la modification du contrat de travail",
+      "requete": "départ obligations après départ confidentialité désactivation des accès",
+      "criteres": [
+        "Les obligations qui restent valables après le départ sont définies (confidentialité)",
+        "Elles sont communiquées au collaborateur partant",
+        "Les accès sont retirés au départ ou au changement de poste"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "6.6",
+      "theme": "Mesures liées aux personnes",
+      "titre": "Engagements de confidentialité ou de non-divulgation",
+      "requete": "accord de confidentialité clause de non-divulgation NDA",
+      "criteres": [
+        "Des engagements de confidentialité sont signés par les collaborateurs et les tiers",
+        "Ils sont revus régulièrement"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "6.7",
+      "theme": "Mesures liées aux personnes",
+      "titre": "Travail à distance",
+      "requete": "télétravail VPN nomadisme Wi-Fi public confidentialité écran",
+      "criteres": [
+        "Les règles de sécurité du travail à distance sont définies",
+        "L'accès distant passe par des moyens sécurisés (VPN, authentification forte)",
+        "La protection des informations hors des locaux est prévue"
+      ],
+      "nis2": [
+        "Art. 21.2 j"
+      ]
+    },
+    {
+      "id": "6.8",
+      "theme": "Mesures liées aux personnes",
+      "titre": "Déclaration des événements de sécurité de l'information",
+      "requete": "signalement des incidents support informatique hameçonnage bouton de signalement",
+      "criteres": [
+        "Un canal de signalement des événements de sécurité existe",
+        "Les collaborateurs sont tenus de signaler sans délai",
+        "Le canal est connu des collaborateurs"
+      ],
+      "nis2": [
+        "Art. 21.2 b"
+      ]
+    },
+    {
+      "id": "7.1",
+      "theme": "Mesures physiques",
+      "titre": "Périmètres de sécurité physique",
+      "requete": "sécurité physique périmètre locaux zones sécurisées sites",
+      "criteres": [
+        "Les périmètres de sécurité sont définis pour chaque site",
+        "Les zones sensibles sont identifiées",
+        "Une protection adaptée est définie pour chaque zone"
+      ],
+      "nis2": [
+        "Art. 21.2 a"
+      ]
+    },
+    {
+      "id": "7.2",
+      "theme": "Mesures physiques",
+      "titre": "Les entrées physiques",
+      "requete": "contrôle d'accès physique badge visiteurs registre accueil",
+      "criteres": [
+        "L'accès physique aux locaux est contrôlé (badge, clé)",
+        "Les visiteurs sont enregistrés et accompagnés",
+        "Les droits d'accès physique sont revus"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.3",
+      "theme": "Mesures physiques",
+      "titre": "Sécurisation des bureaux, des salles et des équipements",
+      "requete": "salle informatique fermée accès restreint bureaux",
+      "criteres": [
+        "Les salles informatiques sont sécurisées et leur accès restreint",
+        "Les bureaux contenant des informations sensibles sont protégés"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.4",
+      "theme": "Mesures physiques",
+      "titre": "Surveillance de la sécurité physique",
+      "requete": "vidéosurveillance alarme détection d'intrusion surveillance des locaux",
+      "criteres": [
+        "Les locaux sensibles sont surveillés (vidéosurveillance, alarme)",
+        "Les alertes de sécurité physique sont traitées"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.5",
+      "theme": "Mesures physiques",
+      "titre": "Protection contre les menaces physiques et environnementales",
+      "requete": "incendie inondation climatisation détection extinction risques environnementaux",
+      "criteres": [
+        "Les menaces physiques et environnementales sont identifiées",
+        "Des protections sont en place (détection incendie, climatisation, protection contre l'eau)"
+      ],
+      "nis2": [
+        "Art. 21.2 c"
+      ]
+    },
+    {
+      "id": "7.6",
+      "theme": "Mesures physiques",
+      "titre": "Travail dans les zones sécurisées",
+      "requete": "règles zones sécurisées travail seul photographie",
+      "criteres": [
+        "Des règles de travail dans les zones sécurisées sont définies"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.7",
+      "theme": "Mesures physiques",
+      "titre": "Bureau propre et écran vide",
+      "requete": "bureau propre écran verrouillé documents imprimantes verrouillage de session",
+      "criteres": [
+        "Le verrouillage de session est obligatoire",
+        "Les documents sensibles ne doivent pas être laissés sur les bureaux ou les imprimantes"
+      ],
+      "nis2": [
+        "Art. 21.2 g"
+      ]
+    },
+    {
+      "id": "7.8",
+      "theme": "Mesures physiques",
+      "titre": "Emplacement et protection du matériel",
+      "requete": "emplacement du matériel protection équipements",
+      "criteres": [
+        "Le matériel sensible est placé dans des emplacements protégés",
+        "Les risques d'accès non autorisé et environnementaux sont pris en compte"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.9",
+      "theme": "Mesures physiques",
+      "titre": "Sécurité des actifs hors des locaux",
+      "requete": "ordinateur portable perte vol hors des locaux chiffrement disque",
+      "criteres": [
+        "Les règles de protection du matériel hors des locaux sont définies",
+        "Les équipements mobiles sont protégés (chiffrement du disque)",
+        "La perte ou le vol doit être signalé"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.10",
+      "theme": "Mesures physiques",
+      "titre": "Supports de stockage",
+      "requete": "clés USB supports amovibles chiffrement interdiction",
+      "criteres": [
+        "L'usage des supports amovibles est encadré ou interdit",
+        "Les supports contenant des informations sensibles sont chiffrés",
+        "Le transport des supports est sécurisé"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.11",
+      "theme": "Mesures physiques",
+      "titre": "Services généraux",
+      "requete": "alimentation électrique onduleur groupe électrogène climatisation",
+      "criteres": [
+        "Les équipements critiques sont protégés contre les coupures (onduleur, groupe électrogène)",
+        "Les services généraux sont maintenus et testés"
+      ],
+      "nis2": [
+        "Art. 21.2 c"
+      ]
+    },
+    {
+      "id": "7.12",
+      "theme": "Mesures physiques",
+      "titre": "Sécurité du câblage",
+      "requete": "câblage réseau électrique protection",
+      "criteres": [
+        "Le câblage réseau et électrique est protégé contre les dommages et les interceptions"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.13",
+      "theme": "Mesures physiques",
+      "titre": "Maintenance du matériel",
+      "requete": "maintenance du matériel prestataire intervention",
+      "criteres": [
+        "La maintenance du matériel est planifiée",
+        "Les interventions des prestataires de maintenance sont encadrées et tracées"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "7.14",
+      "theme": "Mesures physiques",
+      "titre": "Élimination ou recyclage sécurisé(e) du matériel",
+      "requete": "destruction effacement sécurisé recyclage réforme certificat de destruction",
+      "criteres": [
+        "Les données sont effacées de façon sécurisée avant réforme ou réutilisation",
+        "La destruction est tracée (certificat)",
+        "Le matériel réutilisé est réinitialisé"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "8.1",
+      "theme": "Mesures technologiques",
+      "titre": "Terminaux finaux des utilisateurs",
+      "requete": "postes de travail ordinateurs portables smartphones configuration chiffrement antivirus mobiles",
+      "criteres": [
+        "Les règles de sécurité des terminaux sont définies (postes, mobiles)",
+        "Les terminaux sont gérés et configurés de façon sécurisée",
+        "Les données des terminaux mobiles sont protégées (chiffrement, effacement à distance)",
+        "L'usage d'équipements personnels (BYOD) est encadré"
+      ],
+      "nis2": [
+        "Art. 21.2 g"
+      ]
+    },
+    {
+      "id": "8.2",
+      "theme": "Mesures technologiques",
+      "titre": "Droits d'accès privilégiés",
+      "requete": "comptes administrateurs privilèges comptes à privilèges administration séparés",
+      "criteres": [
+        "Les comptes à privilèges sont limités et nominatifs",
+        "Les comptes d'administration sont distincts des comptes d'usage courant",
+        "L'usage des privilèges est tracé",
+        "Les droits privilégiés sont revus fréquemment"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "8.3",
+      "theme": "Mesures technologiques",
+      "titre": "Restriction d'accès aux informations",
+      "requete": "restriction d'accès aux informations dossiers partagés droits applicatifs",
+      "criteres": [
+        "L'accès aux informations est restreint selon la politique de contrôle d'accès",
+        "Les accès aux informations sensibles sont limités aux personnes habilitées"
+      ],
+      "nis2": [
+        "Art. 21.2 i"
+      ]
+    },
+    {
+      "id": "8.4",
+      "theme": "Mesures technologiques",
+      "titre": "Accès aux codes source",
+      "requete": "code source dépôt accès développeurs gestion de versions",
+      "criteres": [
+        "L'accès au code source est restreint",
+        "Les modifications du code sont tracées (gestion de versions)"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.5",
+      "theme": "Mesures technologiques",
+      "titre": "Authentification sécurisée",
+      "requete": "authentification multifacteur MFA VPN messagerie administrateurs authentification forte",
+      "criteres": [
+        "Une authentification forte (MFA) est exigée pour les accès distants",
+        "La MFA est exigée pour les comptes à privilèges",
+        "La MFA est exigée pour les services exposés sur Internet (messagerie, cloud)",
+        "Les tentatives de connexion échouées sont limitées"
+      ],
+      "nis2": [
+        "Art. 21.2 j"
+      ]
+    },
+    {
+      "id": "8.6",
+      "theme": "Mesures technologiques",
+      "titre": "Dimensionnement",
+      "requete": "capacité dimensionnement performance stockage surveillance des ressources",
+      "criteres": [
+        "L'utilisation des ressources est surveillée",
+        "Les besoins futurs de capacité sont anticipés"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "8.7",
+      "theme": "Mesures technologiques",
+      "titre": "Protection contre les programmes malveillants",
+      "requete": "antivirus EDR logiciels malveillants protection postes serveurs",
+      "criteres": [
+        "Une protection contre les logiciels malveillants est déployée sur les postes et les serveurs",
+        "Elle est tenue à jour",
+        "Sa désactivation par les utilisateurs est interdite ou empêchée",
+        "Les utilisateurs sont sensibilisés aux logiciels malveillants"
+      ],
+      "nis2": [
+        "Art. 21.2 g"
+      ]
+    },
+    {
+      "id": "8.8",
+      "theme": "Mesures technologiques",
+      "titre": "Gestion des vulnérabilités techniques",
+      "requete": "vulnérabilités correctifs délais CVSS veille scan obsolescence exceptions",
+      "criteres": [
+        "Une veille sur les vulnérabilités est organisée",
+        "Des délais de correction sont définis selon la criticité, courts pour les vulnérabilités critiques et les systèmes exposés sur Internet",
+        "Des scans de vulnérabilités ou tests d'intrusion sont réalisés régulièrement",
+        "Les systèmes obsolètes sont identifiés et traités",
+        "Les exceptions sont justifiées avec des mesures compensatoires"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.9",
+      "theme": "Mesures technologiques",
+      "titre": "Gestion des configurations",
+      "requete": "configuration de référence durcissement baseline paramétrage sécurisé",
+      "criteres": [
+        "Des configurations de sécurité de référence (durcissement) sont définies",
+        "Les configurations sont appliquées et contrôlées",
+        "Les modifications de configuration sont maîtrisées"
+      ],
+      "nis2": [
+        "Art. 21.2 g"
+      ]
+    },
+    {
+      "id": "8.10",
+      "theme": "Mesures technologiques",
+      "titre": "Suppression des informations",
+      "requete": "suppression des données effacement durée de conservation dépassée",
+      "criteres": [
+        "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires",
+        "Les méthodes de suppression sont adaptées à la sensibilité"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "8.11",
+      "theme": "Mesures technologiques",
+      "titre": "Masquage des données",
+      "requete": "masquage anonymisation pseudonymisation données de test",
+      "criteres": [
+        "Le masquage, l'anonymisation ou la pseudonymisation des données sensibles est prévu lorsque c'est nécessaire"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "8.12",
+      "theme": "Mesures technologiques",
+      "titre": "Prévention de la fuite de données",
+      "requete": "fuite de données DLP transfert externe messagerie stockage personnel",
+      "criteres": [
+        "Des mesures de prévention des fuites de données sont définies",
+        "Les canaux de fuite sont identifiés et surveillés (messagerie, stockage personnel, supports amovibles)"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "8.13",
+      "theme": "Mesures technologiques",
+      "titre": "Sauvegarde des informations",
+      "requete": "sauvegarde fréquence conservation copie hors site hors ligne immuable test de restauration chiffrement",
+      "criteres": [
+        "La fréquence des sauvegardes est définie pour les systèmes critiques",
+        "Les durées de conservation sont définies",
+        "Une copie est stockée hors site et une copie est hors ligne ou immuable (protection contre les rançongiciels)",
+        "Les sauvegardes sont protégées (chiffrement, isolement de l'annuaire, accès restreint)",
+        "Des tests de restauration sont réalisés régulièrement et leurs résultats tracés"
+      ],
+      "nis2": [
+        "Art. 21.2 c"
+      ]
+    },
+    {
+      "id": "8.14",
+      "theme": "Mesures technologiques",
+      "titre": "Redondance des moyens de traitement de l'information",
+      "requete": "redondance haute disponibilité doublement des équipements",
+      "criteres": [
+        "Les besoins de redondance sont identifiés pour les systèmes critiques",
+        "Des moyens redondants sont mis en place et testés"
+      ],
+      "nis2": [
+        "Art. 21.2 c"
+      ]
+    },
+    {
+      "id": "8.15",
+      "theme": "Mesures technologiques",
+      "titre": "Journalisation",
+      "requete": "journaux journalisation sources centralisation SIEM durée de conservation intégrité",
+      "criteres": [
+        "Les événements à journaliser et les sources sont définis",
+        "Les journaux sont centralisés",
+        "Une durée de conservation suffisante est définie (au moins 6 mois)",
+        "Les journaux sont protégés contre la modification et l'accès non autorisé"
+      ],
+      "nis2": [
+        "Art. 21.2 b"
+      ]
+    },
+    {
+      "id": "8.16",
+      "theme": "Mesures technologiques",
+      "titre": "Activités de surveillance",
+      "requete": "surveillance SIEM alertes détection règles 24/7 astreinte",
+      "criteres": [
+        "Le SI est surveillé pour détecter les comportements anormaux",
+        "Des règles de détection sont définies et revues",
+        "Les alertes sont traitées dans des délais adaptés à leur criticité, y compris hors heures ouvrées",
+        "Les responsabilités de traitement des alertes sont définies"
+      ],
+      "nis2": [
+        "Art. 21.2 b"
+      ]
+    },
+    {
+      "id": "8.17",
+      "theme": "Mesures technologiques",
+      "titre": "Synchronisation des horloges",
+      "requete": "synchronisation horloge NTP source de temps",
+      "criteres": [
+        "Les horloges des systèmes sont synchronisées sur une source de référence"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "8.18",
+      "theme": "Mesures technologiques",
+      "titre": "Utilisation de programmes utilitaires à privilèges",
+      "requete": "utilitaires à privilèges outils d'administration restriction",
+      "criteres": [
+        "L'usage des programmes utilitaires capables de contourner les mesures de sécurité est restreint et tracé"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "8.19",
+      "theme": "Mesures technologiques",
+      "titre": "Installation de logiciels sur des systèmes en exploitation",
+      "requete": "installation de logiciels autorisés interdiction utilisateurs liste blanche",
+      "criteres": [
+        "L'installation de logiciels est réservée aux personnes autorisées",
+        "Les logiciels autorisés sont définis"
+      ],
+      "nis2": [
+        "Art. 21.2 g"
+      ]
+    },
+    {
+      "id": "8.20",
+      "theme": "Mesures technologiques",
+      "titre": "Sécurité des réseaux",
+      "requete": "sécurité réseau pare-feu filtrage administration des équipements réseau",
+      "criteres": [
+        "Les réseaux sont protégés (pare-feu, filtrage)",
+        "L'administration des équipements réseau est sécurisée",
+        "Les flux réseau sont maîtrisés"
+      ],
+      "nis2": [
+        "Art. 21.2 a"
+      ]
+    },
+    {
+      "id": "8.21",
+      "theme": "Mesures technologiques",
+      "titre": "Sécurité des services réseau",
+      "requete": "services réseau opérateur infogérance niveaux de service VPN",
+      "criteres": [
+        "Les exigences de sécurité des services réseau sont définies",
+        "Elles figurent dans les accords avec les fournisseurs de ces services"
+      ],
+      "nis2": [
+        "Art. 21.2 d"
+      ]
+    },
+    {
+      "id": "8.22",
+      "theme": "Mesures technologiques",
+      "titre": "Cloisonnement des réseaux",
+      "requete": "segmentation cloisonnement VLAN zones réseau isolement",
+      "criteres": [
+        "Le réseau est segmenté en zones selon la sensibilité",
+        "Les flux entre zones sont filtrés",
+        "Les systèmes sensibles ou obsolètes sont isolés"
+      ],
+      "nis2": [
+        "Art. 21.2 a"
+      ]
+    },
+    {
+      "id": "8.23",
+      "theme": "Mesures technologiques",
+      "titre": "Filtrage web",
+      "requete": "filtrage web Internet sites interdits proxy",
+      "criteres": [
+        "L'accès aux sites web malveillants ou interdits est filtré",
+        "Les catégories de sites bloquées sont définies"
+      ],
+      "nis2": [
+        "Art. 21.2 g"
+      ]
+    },
+    {
+      "id": "8.24",
+      "theme": "Mesures technologiques",
+      "titre": "Utilisation de la cryptographie",
+      "requete": "politique de cryptographie chiffrement algorithmes gestion des clés",
+      "criteres": [
+        "Une politique de cryptographie est formalisée",
+        "Les usages du chiffrement sont définis (données au repos, en transit)",
+        "Les algorithmes et longueurs de clés acceptés sont définis",
+        "La gestion des clés est organisée (génération, stockage, renouvellement, révocation)"
+      ],
+      "nis2": [
+        "Art. 21.2 h"
+      ]
+    },
+    {
+      "id": "8.25",
+      "theme": "Mesures technologiques",
+      "titre": "Cycle de vie de développement sécurisé",
+      "requete": "développement sécurisé SDLC règles de développement",
+      "criteres": [
+        "Des règles de développement sécurisé sont formalisées",
+        "La sécurité est intégrée à chaque étape du cycle de développement",
+        "Les développeurs sont formés"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.26",
+      "theme": "Mesures technologiques",
+      "titre": "Exigences de sécurité des applications",
+      "requete": "exigences de sécurité des applications spécifications acquisition",
+      "criteres": [
+        "Les exigences de sécurité sont définies lors du développement ou de l'acquisition d'une application"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.27",
+      "theme": "Mesures technologiques",
+      "titre": "Principes d'ingénierie et d'architecture des systèmes sécurisés",
+      "requete": "architecture sécurisée principes de conception défense en profondeur",
+      "criteres": [
+        "Des principes d'architecture sécurisée sont définis et appliqués aux nouveaux systèmes"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.28",
+      "theme": "Mesures technologiques",
+      "titre": "Codage sécurisé",
+      "requete": "codage sécurisé bonnes pratiques OWASP revue de code",
+      "criteres": [
+        "Des règles de codage sécurisé sont appliquées",
+        "Le code est revu"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.29",
+      "theme": "Mesures technologiques",
+      "titre": "Tests de sécurité dans le développement et l'acceptation",
+      "requete": "tests de sécurité recette acceptation avant mise en production",
+      "criteres": [
+        "Des tests de sécurité sont réalisés avant la mise en production"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.30",
+      "theme": "Mesures technologiques",
+      "titre": "Développement externalisé",
+      "requete": "développement externalisé prestataire de développement exigences",
+      "criteres": [
+        "Les exigences de sécurité sont imposées aux prestataires de développement",
+        "Le travail livré est contrôlé"
+      ],
+      "nis2": [
+        "Art. 21.2 d",
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.31",
+      "theme": "Mesures technologiques",
+      "titre": "Séparation des environnements de développement, de test et de production",
+      "requete": "environnements séparés développement recette production",
+      "criteres": [
+        "Les environnements de développement, de test et de production sont séparés",
+        "Les données de production ne sont pas utilisées en test sans protection"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.32",
+      "theme": "Mesures technologiques",
+      "titre": "Gestion des changements",
+      "requete": "gestion des changements demande validation planification retour arrière",
+      "criteres": [
+        "Une procédure de gestion des changements est formalisée",
+        "Les changements sont évalués, approuvés et planifiés",
+        "Un plan de retour arrière est prévu",
+        "Les changements sont tracés"
+      ],
+      "nis2": [
+        "Art. 21.2 e"
+      ]
+    },
+    {
+      "id": "8.33",
+      "theme": "Mesures technologiques",
+      "titre": "Informations de test",
+      "requete": "données de test protection anonymisation",
+      "criteres": [
+        "Les informations utilisées pour les tests sont choisies et protégées de façon appropriée"
+      ],
+      "nis2": []
+    },
+    {
+      "id": "8.34",
+      "theme": "Mesures technologiques",
+      "titre": "Protection des systèmes d'information en cours d'audit et de test",
+      "requete": "audit test d'intrusion encadrement autorisation impact production",
+      "criteres": [
+        "Les audits et tests techniques sur les systèmes en exploitation sont planifiés et autorisés",
+        "Leur impact sur la production est maîtrisé"
+      ],
+      "nis2": [
+        "Art. 21.2 f"
+      ]
+    }
+  ]
+}

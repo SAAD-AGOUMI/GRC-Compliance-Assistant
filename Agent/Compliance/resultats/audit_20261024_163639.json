@@ -1,0 +1,1737 @@
+{
+  "date": "2026-10-24T16:36:39",
+  "referentiel": "ISO/IEC 27002:2022",
+  "stats": {
+    "global": {
+      "Périmètre": "Global",
+      "Mesures": 34,
+      "Conforme": 0,
+      "Partiellement conforme": 19,
+      "Non conforme": 12,
+      "Non traitée": 3,
+      "Erreur d'évaluation": 0,
+      "Taux de conformité (%)": 0.0,
+      "Taux pondéré (%)": 27.9
+    },
+    "par_theme": [
+      {
+        "Périmètre": "Mesures technologiques",
+        "Mesures": 34,
+        "Conforme": 0,
+        "Partiellement conforme": 19,
+        "Non conforme": 12,
+        "Non traitée": 3,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 27.9
+      }
+    ],
+    "par_nis2": [
+      {
+        "Périmètre": "NIS2 Art. 21.2 a",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 2,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 b",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 2,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 c",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 1,
+        "Non conforme": 1,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 25.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 d",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 2,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 e",
+        "Mesures": 10,
+        "Conforme": 0,
+        "Partiellement conforme": 5,
+        "Non conforme": 5,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 25.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 f",
+        "Mesures": 1,
+        "Conforme": 0,
+        "Partiellement conforme": 0,
+        "Non conforme": 0,
+        "Non traitée": 1,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 0.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 g",
+        "Mesures": 5,
+        "Conforme": 0,
+        "Partiellement conforme": 3,
+        "Non conforme": 1,
+        "Non traitée": 1,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 30.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 h",
+        "Mesures": 1,
+        "Conforme": 0,
+        "Partiellement conforme": 0,
+        "Non conforme": 1,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 0.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 i",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 2,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 j",
+        "Mesures": 1,
+        "Conforme": 0,
+        "Partiellement conforme": 1,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      }
+    ]
+  },
+  "resultats": [
+    {
+      "id": "8.1",
+      "theme": "Mesures technologiques",
+      "titre": "Terminaux finaux des utilisateurs",
+      "nis2": [
+        "Art. 21.2 g"
+      ],
+      "criteres": [
+        "Les règles de sécurité des terminaux sont définies (postes, mobiles)",
+        "Les terminaux sont gérés et configurés de façon sécurisée",
+        "Les données des terminaux mobiles sont protégées (chiffrement, effacement à distance)",
+        "L'usage d'équipements personnels (BYOD) est encadré"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les règles de sécurité des terminaux sont définies (postes, mobiles)",
+        "Les terminaux sont gérés et configurés de façon sécurisée",
+        "Les données des terminaux mobiles sont protégées (chiffrement, effacement à distance)",
+        "L'usage d'équipements personnels (BYOD) est encadré"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Les règles de sécurité des terminaux (C1) sont définies dans la charte informatique (03_Charte_informatique.docx), mais la gestion sécurisée des terminaux (C2) et l'encadrement du BYOD (C4) ne sont pas explicitement couverts. Le chiffrement des données mobiles (C3) n'est pas mentionné, bien que le chiffrement des sauvegardes et VPN soit déclaré.",
+      "recommandation": "Documenter explicitement les procédures de gestion sécurisée des terminaux (C2), inclure des règles spécifiques pour l'usage d'équipements personnels (C4) et préciser les mesures de chiffrement et d'effacement à distance pour les terminaux mobiles (C3) dans une politique dédiée ou une mise à jour de la charte informatique.",
+      "avertissements": [
+        "Statut du modèle (partiellement conforme) corrigé en « non conforme » d'après les preuves vérifiées"
+      ],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "03_Charte_informatique.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 24.7
+    },
+    {
+      "id": "8.2",
+      "theme": "Mesures technologiques",
+      "titre": "Droits d'accès privilégiés",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "Les comptes à privilèges sont limités et nominatifs",
+        "Les comptes d'administration sont distincts des comptes d'usage courant",
+        "L'usage des privilèges est tracé",
+        "Les droits privilégiés sont revus fréquemment"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les comptes à privilèges sont limités et nominatifs",
+        "Les comptes d'administration sont distincts des comptes d'usage courant",
+        "L'usage des privilèges est tracé"
+      ],
+      "criteres_manquants": [
+        "Les droits privilégiés sont revus fréquemment"
+      ],
+      "preuves": [
+        {
+          "critere": "Les comptes à privilèges sont limités et nominatifs",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Tout accès au système d'information se fait au moyen d'un compte nominatif. Les comptes partagés ou génériques sont interdits, sauf dérogation accordée par le RSSI pour des équipements techniques (ex. : compte de service), avec une journalisation renforcée."
+        },
+        {
+          "critere": "Les comptes d'administration sont distincts des comptes d'usage courant",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les comptes d'administration sont distincts des comptes utilisateurs nominaux. Ils ne sont utilisés que pour les tâches d'administration et ne disposent pas d'accès à la messagerie ou à la bureautique."
+        },
+        {
+          "critere": "L'usage des privilèges est tracé",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les connexions, les créations et modifications de comptes, les changements de groupes d'administration et les opérations sensibles sont journalisés et centralisés dans le SIEM (cf. ARM-POL-005)."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Les droits privilégiés sont revus fréquemment",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "La liste des membres des groupes d'administration est vérifiée lors de la **revue annuelle des habilitations**."
+        }
+      ],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère **C4** n'est pas explicitement couvert par une fréquence de révision des droits privilégiés autre que la revue annuelle des habilitations (P1). Bien que la revue annuelle soit mentionnée, elle ne précise pas si elle inclut une révision **fréquente** des droits privilégiés (au-delà d'une fois par an). Aucun autre passage ne mentionne une périodicité plus courte ou des contrôles intermédiaires.",
+      "recommandation": "Préciser dans la politique ou procédure une fréquence de révision des droits privilégiés (ex. trimestrielle ou semestrielle) et documenter les comptes revus, leurs droits et les décisions prises, en lien avec le registre des accès privilégiés.",
+      "avertissements": [
+        "C4 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 25.2
+    },
+    {
+      "id": "8.3",
+      "theme": "Mesures technologiques",
+      "titre": "Restriction d'accès aux informations",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "L'accès aux informations est restreint selon la politique de contrôle d'accès",
+        "Les accès aux informations sensibles sont limités aux personnes habilitées"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "L'accès aux informations est restreint selon la politique de contrôle d'accès",
+        "Les accès aux informations sensibles sont limités aux personnes habilitées"
+      ],
+      "criteres_manquants": [],
+      "preuves": [
+        {
+          "critere": "L'accès aux informations est restreint selon la politique de contrôle d'accès",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "L'accès aux informations est limité selon leur niveau de classification (cf. ARM-POL-002) : Public : accès libre en interne ; Interne : réservé aux collaborateurs ; Confidentiel : accès limité aux personnes habilitées ayant besoin d'en connaître, sur validation du propriétaire ; Secret : accès limité à une liste nominative de personnes, avec chiffrement des fichiers."
+        },
+        {
+          "critere": "Les accès aux informations sensibles sont limités aux personnes habilitées",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Confidentiel : accès limité aux personnes habilitées ayant besoin d'en connaître, sur validation du propriétaire ; Secret : accès limité à une liste nominative de personnes, avec chiffrement des fichiers."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Bien que les politiques de contrôle d'accès soient définies (04_Politique_controle_acces.docx), aucune preuve explicite n'est fournie dans les passages fournis pour démontrer que les accès sont effectivement restreints selon la politique dans les systèmes ou processus opérationnels (ex. : mise en œuvre technique, revues d'habilitations récentes, ou comptes rendus de revues annuelles).",
+      "recommandation": "Documenter et conserver les preuves de la mise en œuvre effective des restrictions d'accès (ex. : comptes rendus des revues annuelles des habilitations, logs de validation des accès, ou audits techniques) et s'assurer que les politiques sont appliquées dans les systèmes et processus opérationnels.",
+      "avertissements": [],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 22.9
+    },
+    {
+      "id": "8.4",
+      "theme": "Mesures technologiques",
+      "titre": "Accès aux codes source",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "L'accès au code source est restreint",
+        "Les modifications du code sont tracées (gestion de versions)"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "L'accès au code source est restreint",
+        "Les modifications du code sont tracées (gestion de versions)"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Aucun passage ne traite explicitement de la restriction de l'accès au code source (C1) ni de la gestion des versions des modifications du code (C2). Les déclarations d'applicabilité (P2, P3, P4, P5) ne suffisent pas à prouver la mise en œuvre concrète de ces mesures. La politique de contrôle d'accès (P1, P6) mentionne des principes généraux comme la défense en profondeur et le contrôle d'accès, mais ne précise pas les mécanismes spécifiques pour le code source.",
+      "recommandation": "Documenter explicitement dans une politique ou procédure dédiée (ex. ARM-POL-00X) les règles de restriction d'accès au code source (C1) et mettre en place un système de gestion de versions (ex. Git, SVN) avec traçabilité des modifications (C2), en s'assurant que ces mesures sont appliquées et vérifiées régulièrement.",
+      "avertissements": [],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 25.7
+    },
+    {
+      "id": "8.5",
+      "theme": "Mesures technologiques",
+      "titre": "Authentification sécurisée",
+      "nis2": [
+        "Art. 21.2 j"
+      ],
+      "criteres": [
+        "Une authentification forte (MFA) est exigée pour les accès distants",
+        "La MFA est exigée pour les comptes à privilèges",
+        "La MFA est exigée pour les services exposés sur Internet (messagerie, cloud)",
+        "Les tentatives de connexion échouées sont limitées"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Une authentification forte (MFA) est exigée pour les accès distants",
+        "La MFA est exigée pour les comptes à privilèges"
+      ],
+      "criteres_manquants": [
+        "La MFA est exigée pour les services exposés sur Internet (messagerie, cloud)",
+        "Les tentatives de connexion échouées sont limitées"
+      ],
+      "preuves": [
+        {
+          "critere": "Une authentification forte (MFA) est exigée pour les accès distants",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les accès distants au système d'information se font exclusivement par le VPN de l'entreprise, avec authentification multifacteur."
+        },
+        {
+          "critere": "La MFA est exigée pour les comptes à privilèges",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "les comptes d'administration (annuaire, sauvegarde, SIEM, pare-feu) ;"
+        }
+      ],
+      "constats": [
+        {
+          "critere": "La MFA est exigée pour les services exposés sur Internet (messagerie, cloud)",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Le déploiement de la MFA sur le VPN et la messagerie est planifié avant fin mars 2026 (décision de la revue de direction du 15 janvier 2026)."
+        }
+      ],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)"
+      ],
+      "contradictions": "Contradiction entre P1 et P5 : P1 déclare que la MFA est obligatoire pour la messagerie Microsoft 365, mais P5 indique que sa mise en place est reportée à mars 2026 (donc non réalisée actuellement).",
+      "ecart": "La MFA pour les services exposés sur Internet (messagerie Microsoft 365) et la limitation des tentatives de connexion échouées ne sont pas encore déployées ou documentées comme opérationnelles. P1 et P5 montrent des intentions futures sans preuve de mise en œuvre actuelle.",
+      "recommandation": "Déployer immédiatement la MFA sur la messagerie Microsoft 365 et documenter dans la politique d'accès les mécanismes de limitation des tentatives de connexion échouées, en s’appuyant sur les décisions de la revue de direction (P4).",
+      "avertissements": [],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "14_Analyse_risques.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)",
+        "16_Revue_de_direction.docx (p. 1)"
+      ],
+      "duree_s": 33.3
+    },
+    {
+      "id": "8.6",
+      "theme": "Mesures technologiques",
+      "titre": "Dimensionnement",
+      "nis2": [],
+      "criteres": [
+        "L'utilisation des ressources est surveillée",
+        "Les besoins futurs de capacité sont anticipés"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "L'utilisation des ressources est surveillée",
+        "Les besoins futurs de capacité sont anticipés"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La mesure **8.6 – Dimensionnement** n'est pas couverte par la documentation. Aucun passage ne prouve la surveillance de l'utilisation des ressources (C1) ni l'anticipation des besoins futurs (C2). Les déclarations d'applicabilité (P1, P6) ne suffisent pas à prouver la mise en œuvre concrète des contrôles. Les politiques existantes (P3, P4, P5) se concentrent sur l'usage des ressources ou leur classification, mais ne traitent pas du dimensionnement technique ou de la planification proactive.",
+      "recommandation": "Mettre en place un processus de monitoring des ressources informatiques (ex. outils de supervision comme Nagios, SolarWinds) et documenter dans une procédure dédiée (ex. ARM-PROC-010) les modalités de surveillance et d'alerte. Réaliser un audit annuel des besoins futurs (ex. croissance prévue, pics de charge) et intégrer ces résultats dans un plan de dimensionnement des infrastructures, à publier dans le plan annuel des investissements (ex. ARM-PLAN-001).",
+      "avertissements": [],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)",
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 17.2
+    },
+    {
+      "id": "8.7",
+      "theme": "Mesures technologiques",
+      "titre": "Protection contre les programmes malveillants",
+      "nis2": [
+        "Art. 21.2 g"
+      ],
+      "criteres": [
+        "Une protection contre les logiciels malveillants est déployée sur les postes et les serveurs",
+        "Elle est tenue à jour",
+        "Sa désactivation par les utilisateurs est interdite ou empêchée",
+        "Les utilisateurs sont sensibilisés aux logiciels malveillants"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Une protection contre les logiciels malveillants est déployée sur les postes et les serveurs",
+        "Sa désactivation par les utilisateurs est interdite ou empêchée"
+      ],
+      "criteres_manquants": [
+        "Elle est tenue à jour",
+        "Les utilisateurs sont sensibilisés aux logiciels malveillants"
+      ],
+      "preuves": [
+        {
+          "critere": "Une protection contre les logiciels malveillants est déployée sur les postes et les serveurs",
+          "doc": "15_Declaration_applicabilite.docx",
+          "page": 1,
+          "extrait": "6. Mesures technologiques > 8.7 Protection contre les programmes malveillants\nApplicable. Statut : mise en œuvre. Justification : antivirus sur tous les postes et serveurs."
+        },
+        {
+          "critere": "Sa désactivation par les utilisateurs est interdite ou empêchée",
+          "doc": "03_Charte_informatique.docx",
+          "page": 1,
+          "extrait": "d'installer des logiciels non autorisés par la DSI ;\nde désactiver l'antivirus ou les mises à jour ;"
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "03_Charte_informatique.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les critères C2 (mise à jour de la protection antivirus) et C4 (sensibilisation des utilisateurs aux logiciels malveillants) ne sont pas explicitement couverts par la documentation. Bien que la désactivation de l'antivirus soit interdite (P2), il n'y a pas de preuve écrite d'une maintenance régulière de l'antivirus ni de formation ou de sensibilisation des utilisateurs sur les risques liés aux logiciels malveillants.",
+      "recommandation": "Mettre en place une procédure de mise à jour automatique ou manuelle documentée pour l'antivirus sur les postes et serveurs (PSSI ou Politique de maintenance) et organiser une campagne de sensibilisation annuelle pour les utilisateurs (Charte informatique ou Plan de formation).",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "03_Charte_informatique.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 29.3
+    },
+    {
+      "id": "8.8",
+      "theme": "Mesures technologiques",
+      "titre": "Gestion des vulnérabilités techniques",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Une veille sur les vulnérabilités est organisée",
+        "Des délais de correction sont définis selon la criticité, courts pour les vulnérabilités critiques et les systèmes exposés sur Internet",
+        "Des scans de vulnérabilités ou tests d'intrusion sont réalisés régulièrement",
+        "Les systèmes obsolètes sont identifiés et traités",
+        "Les exceptions sont justifiées avec des mesures compensatoires"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Une veille sur les vulnérabilités est organisée",
+        "Des délais de correction sont définis selon la criticité, courts pour les vulnérabilités critiques et les systèmes exposés sur Internet",
+        "Les exceptions sont justifiées avec des mesures compensatoires"
+      ],
+      "criteres_manquants": [
+        "Des scans de vulnérabilités ou tests d'intrusion sont réalisés régulièrement",
+        "Les systèmes obsolètes sont identifiés et traités"
+      ],
+      "preuves": [
+        {
+          "critere": "Une veille sur les vulnérabilités est organisée",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Cette politique définit l'organisation mise en place pour identifier, évaluer et corriger les vulnérabilités du système d'information d'Armor Logistique."
+        },
+        {
+          "critere": "Des délais de correction sont définis selon la criticité, courts pour les vulnérabilités critiques et les systèmes exposés sur Internet",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Les correctifs sont appliqués dans les délais suivants à compter de leur publication : vulnérabilité critique : 30 jours ; vulnérabilité élevée : 60 jours ; vulnérabilité moyenne : 90 jours ; vulnérabilité faible : lors de la prochaine opération de maintenance."
+        },
+        {
+          "critere": "Les exceptions sont justifiées avec des mesures compensatoires",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Lorsqu'un correctif ne peut pas être appliqué, par exemple pour un logiciel obsolète requis par une application métier, la DSI en informe le RSSI. Les exceptions sont inscrites dans le registre des risques avec les mesures compensatoires associées, comme l'isolement réseau de la machine concernée."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Les systèmes obsolètes sont identifiés et traités",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les exceptions liées à des systèmes obsolètes ou à des contraintes techniques sont inscrites au registre des risques avec des mesures compensatoires (cf. ARM-POL-004 et ARM-RSK-001)."
+        }
+      ],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les scans de vulnérabilités ou tests d'intrusion (C3) ne sont pas mentionnés dans la documentation. Bien que les exceptions et systèmes obsolètes soient partiellement couverts (P6), il n'y a pas de preuve explicite de leur identification et de leur traitement systématique (C4).",
+      "recommandation": "Mettre en place des scans de vulnérabilités ou tests d'intrusion réguliers et documenter explicitement l'identification et le traitement des systèmes obsolètes, avec des preuves tangibles (registres, comptes-rendus).",
+      "avertissements": [],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 32.6
+    },
+    {
+      "id": "8.9",
+      "theme": "Mesures technologiques",
+      "titre": "Gestion des configurations",
+      "nis2": [
+        "Art. 21.2 g"
+      ],
+      "criteres": [
+        "Des configurations de sécurité de référence (durcissement) sont définies",
+        "Les configurations sont appliquées et contrôlées",
+        "Les modifications de configuration sont maîtrisées"
+      ],
+      "statut": "non traitée",
+      "statut_llm": "non traitée",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Des configurations de sécurité de référence (durcissement) sont définies",
+        "Les configurations sont appliquées et contrôlées",
+        "Les modifications de configuration sont maîtrisées"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Aucun passage dans la documentation fournie ne traite explicitement des critères C1 (configurations de sécurité de référence définies), C2 (applications et contrôles des configurations) ou C3 (maîtrise des modifications de configuration). Les références citées (ARM-POL-004, ARM-PRO-001, ARM-PRO-002) ne mentionnent pas ces aspects de la gestion des configurations. La déclaration d'applicabilité ne suffit pas à prouver la conformité.",
+      "recommandation": "Documenter explicitement les configurations de sécurité de référence (durcissement), les procédures d'application et de contrôle des configurations, ainsi que les processus de maîtrise des modifications (ex. : registres de changements, revues, approbations) dans des politiques ou procédures dédiées, puis les lier à la déclaration d'applicabilité.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.9
+    },
+    {
+      "id": "8.10",
+      "theme": "Mesures technologiques",
+      "titre": "Suppression des informations",
+      "nis2": [],
+      "criteres": [
+        "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires",
+        "Les méthodes de suppression sont adaptées à la sensibilité"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires"
+      ],
+      "criteres_manquants": [
+        "Les méthodes de suppression sont adaptées à la sensibilité"
+      ],
+      "preuves": [
+        {
+          "critere": "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires",
+          "doc": "06_Politique_sauvegarde.docx",
+          "page": 1,
+          "extrait": "Données comptables : conservation conforme aux obligations légales, assurée par l'archivage de l'ERP."
+        },
+        {
+          "critere": "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Dossiers des salariés : 5 ans après le départ."
+        },
+        {
+          "critere": "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Bulletins de paie : 50 ans, sous forme dématérialisée."
+        },
+        {
+          "critere": "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Candidatures non retenues : 2 ans après le dernier contact, sauf opposition du candidat."
+        },
+        {
+          "critere": "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Images de vidéosurveillance : 30 jours."
+        },
+        {
+          "critere": "Les informations sont supprimées lorsqu'elles ne sont plus nécessaires",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Les journaux sont conservés 3 mois dans le SIEM. Au-delà, ils sont supprimés automatiquement afin de limiter l'espace de stockage utilisé."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Les méthodes de suppression sont adaptées à la sensibilité",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Les durées de conservation des données de géolocalisation et des données des contacts clients restent à définir."
+        }
+      ],
+      "sources": [
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "10_Politique_donnees_personnelles.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Bien que les durées de conservation soient définies pour la plupart des informations (P1, P2, P3), les méthodes de suppression adaptées à la sensibilité des données de géolocalisation et des données des contacts clients ne sont pas précisées (P2). Aucune méthode de suppression spécifique n'est mentionnée dans les documents fournis, ce qui ne permet pas de garantir une suppression adaptée à la sensibilité.",
+      "recommandation": "Définir explicitement les méthodes de suppression adaptées à la sensibilité des données de géolocalisation et des données des contacts clients, et documenter ces méthodes dans la politique de données personnelles ou un document dédié.",
+      "avertissements": [],
+      "sources_consultees": [
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.0
+    },
+    {
+      "id": "8.11",
+      "theme": "Mesures technologiques",
+      "titre": "Masquage des données",
+      "nis2": [],
+      "criteres": [
+        "Le masquage, l'anonymisation ou la pseudonymisation des données sensibles est prévu lorsque c'est nécessaire"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Le masquage, l'anonymisation ou la pseudonymisation des données sensibles est prévu lorsque c'est nécessaire"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La documentation déclare la mise en œuvre de la protection des données personnelles (ARM-POL-007) et de la classification des informations (ARM-POL-002), mais ne fournit aucune preuve concrète de la mise en place du masquage, anonymisation ou pseudonymisation des données sensibles. Ces mesures ne sont ni décrites ni attestées dans les politiques ou procédures accessibles.",
+      "recommandation": "Documenter explicitement les méthodes de masquage, anonymisation ou pseudonymisation des données sensibles dans une politique dédiée (ex. ARM-POL-00X) et inclure des procédures opérationnelles détaillant leur application, leur fréquence et leurs responsables. Valider ces mesures par un audit ou un test d'échantillonnage.",
+      "avertissements": [],
+      "sources_consultees": [
+        "05_Politique_classification.docx (p. 1)",
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 23.0
+    },
+    {
+      "id": "8.12",
+      "theme": "Mesures technologiques",
+      "titre": "Prévention de la fuite de données",
+      "nis2": [],
+      "criteres": [
+        "Des mesures de prévention des fuites de données sont définies",
+        "Les canaux de fuite sont identifiés et surveillés (messagerie, stockage personnel, supports amovibles)"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Des mesures de prévention des fuites de données sont définies",
+        "Les canaux de fuite sont identifiés et surveillés (messagerie, stockage personnel, supports amovibles)"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Bien que des mesures de prévention des fuites de données soient définies (interdiction de transférer des données vers des adresses personnelles, stockage exclusif sur les espaces autorisés, identification claire des fichiers personnels, interdiction des supports amovibles personnels, règles strictes de transmission des données classifiées), **aucune mention explicite ne couvre la surveillance active des canaux de fuite (comme la surveillance automatisée des échanges de messagerie ou des accès aux données sensibles) ni la définition d'un processus de détection proactive des tentatives de fuite**. Les contrôles mentionnés (P6) sont réactifs (après un incident) et non préventifs.",
+      "recommandation": "Définir et documenter un processus de surveillance proactive des canaux de fuite (messagerie, accès aux données sensibles, supports amovibles) avec des outils adaptés (ex. : filtrage des contenus sensibles, journalisation renforcée, alertes automatisées) et intégrer ces mesures dans la politique de prévention des fuites de données (ex. : mise à jour de la Charte informatique ou création d'une procédure dédiée).",
+      "avertissements": [
+        "C1 : passage cité inexistant ('P1,P2,P3,P4,P5,P6'), critère non retenu",
+        "C2 : passage cité inexistant ('P1,P2,P3,P5,P6'), critère non retenu",
+        "Statut du modèle (partiellement conforme) corrigé en « non conforme » d'après les preuves vérifiées"
+      ],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "duree_s": 24.2
+    },
+    {
+      "id": "8.13",
+      "theme": "Mesures technologiques",
+      "titre": "Sauvegarde des informations",
+      "nis2": [
+        "Art. 21.2 c"
+      ],
+      "criteres": [
+        "La fréquence des sauvegardes est définie pour les systèmes critiques",
+        "Les durées de conservation sont définies",
+        "Une copie est stockée hors site et une copie est hors ligne ou immuable (protection contre les rançongiciels)",
+        "Les sauvegardes sont protégées (chiffrement, isolement de l'annuaire, accès restreint)",
+        "Des tests de restauration sont réalisés régulièrement et leurs résultats tracés"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "La fréquence des sauvegardes est définie pour les systèmes critiques",
+        "Les durées de conservation sont définies",
+        "Les sauvegardes sont protégées (chiffrement, isolement de l'annuaire, accès restreint)"
+      ],
+      "criteres_manquants": [
+        "Une copie est stockée hors site et une copie est hors ligne ou immuable (protection contre les rançongiciels)",
+        "Des tests de restauration sont réalisés régulièrement et leurs résultats tracés"
+      ],
+      "preuves": [
+        {
+          "critere": "La fréquence des sauvegardes est définie pour les systèmes critiques",
+          "doc": "06_Politique_sauvegarde.docx",
+          "page": 1,
+          "extrait": "Base de données du TMS : sauvegarde complète chaque nuit et sauvegarde des journaux de transactions toutes les heures. Serveur de l'ERP : sauvegarde complète chaque nuit. Serveurs de fichiers : sauvegarde incrémentale chaque nuit, complète chaque semaine. Contrôleurs de domaine : sauvegarde de l'état du système chaque nuit. Microsoft 365 : sauvegarde quotidienne par une solution tierce."
+        },
+        {
+          "critere": "Les durées de conservation sont définies",
+          "doc": "06_Politique_sauvegarde.docx",
+          "page": 1,
+          "extrait": "Sauvegardes quotidiennes : 30 jours. Sauvegardes hebdomadaires : 3 mois. Sauvegardes mensuelles : 1 an. Données comptables : conservation conforme aux obligations légales, assurée par l'archivage de l'ERP."
+        },
+        {
+          "critere": "Les sauvegardes sont protégées (chiffrement, isolement de l'annuaire, accès restreint)",
+          "doc": "06_Politique_sauvegarde.docx",
+          "page": 1,
+          "extrait": "Les sauvegardes sont chiffrées. Les mots de passe de chiffrement sont conservés par le DSI. L'accès à la console de sauvegarde est réservé aux administrateurs de la DSI."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Une copie est stockée hors site et une copie est hors ligne ou immuable (protection contre les rançongiciels)",
+          "doc": "06_Politique_sauvegarde.docx",
+          "page": 1,
+          "extrait": "Les sauvegardes sont réalisées avec le logiciel de sauvegarde Veeam vers un serveur de stockage dédié situé dans la salle informatique du siège de Rennes. Une copie des sauvegardes est répliquée chaque nuit vers un second serveur de stockage situé dans l'entrepôt de Nantes, afin de disposer d'une copie sur un site distant."
+        }
+      ],
+      "sources": [
+        "06_Politique_sauvegarde.docx (p. 1)"
+      ],
+      "contradictions": "Le serveur de sauvegarde est membre du domaine Active Directory (P6), ce qui peut poser un risque d'accès non sécurisé, bien que l'accès à la console de sauvegarde soit restreint (P5).",
+      "ecart": "La mesure 8.13 n'est pas entièrement couverte : bien que la fréquence (C1), les durées de conservation (C2), le chiffrement et l'accès restreint (C4) soient définis, il manque une copie hors ligne ou immuable (C3) et la preuve de tests de restauration réguliers avec traçage (C5). Le stockage hors site est assuré, mais la protection contre les rançongiciels n'est pas explicitement confirmée.",
+      "recommandation": "Mettre en place une copie hors ligne ou immuable des sauvegardes pour renforcer la protection contre les rançongiciels, et réaliser des tests de restauration réguliers avec traçage des résultats dans un registre dédié, en s'assurant que le serveur de sauvegarde ne soit pas vulnérable via son appartenance au domaine Active Directory.",
+      "avertissements": [],
+      "sources_consultees": [
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.7
+    },
+    {
+      "id": "8.14",
+      "theme": "Mesures technologiques",
+      "titre": "Redondance des moyens de traitement de l'information",
+      "nis2": [
+        "Art. 21.2 c"
+      ],
+      "criteres": [
+        "Les besoins de redondance sont identifiés pour les systèmes critiques",
+        "Des moyens redondants sont mis en place et testés"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les besoins de redondance sont identifiés pour les systèmes critiques",
+        "Des moyens redondants sont mis en place et testés"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La documentation ne prouve ni l'identification des besoins de redondance pour les systèmes critiques (C1) ni la mise en place et le test de moyens redondants (C2). Bien que les systèmes critiques soient listés dans le PCA (P6) et que la continuité d'activité soit déclarée applicable (P1), aucun détail technique ou opérationnel n'est fourni pour justifier la conformité aux critères C1 et C2. La déclaration d'applicabilité (P1) ne suffit pas à prouver la mise en œuvre effective.",
+      "recommandation": "Documenter explicitement les systèmes critiques nécessitant une redondance (ex. : TMS, WMS) et décrire les moyens redondants mis en place (ex. : serveurs de secours, sites de repli, réplication de données) ainsi que les procédures de test associées. Publier ces informations dans une politique ou une procédure technique (ex. : ARM-PRO-012) et les lier au PCA (P6).",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 23.5
+    },
+    {
+      "id": "8.15",
+      "theme": "Mesures technologiques",
+      "titre": "Journalisation",
+      "nis2": [
+        "Art. 21.2 b"
+      ],
+      "criteres": [
+        "Les événements à journaliser et les sources sont définis",
+        "Les journaux sont centralisés",
+        "Une durée de conservation suffisante est définie (au moins 6 mois)",
+        "Les journaux sont protégés contre la modification et l'accès non autorisé"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les événements à journaliser et les sources sont définis",
+        "Les journaux sont centralisés",
+        "Les journaux sont protégés contre la modification et l'accès non autorisé"
+      ],
+      "criteres_manquants": [
+        "Une durée de conservation suffisante est définie (au moins 6 mois)"
+      ],
+      "preuves": [
+        {
+          "critere": "Les événements à journaliser et les sources sont définis",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Les journaux des sources suivantes sont collectés : contrôleurs de domaine Active Directory : authentifications, création et modification de comptes, modifications des groupes d'administration ; serveurs Windows : journaux système et de sécurité ; pare-feu et concentrateur VPN : connexions autorisées et refusées, connexions VPN ; Microsoft 365 : journaux de connexion et d'audit ; antivirus des postes et des serveurs : détections et actions réalisées ; TMS : connexions des utilisateurs et opérations sensibles comme la modification des tarifs."
+        },
+        {
+          "critere": "Les journaux sont centralisés",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Les journaux sont centralisés dans un SIEM Wazuh hébergé sur un serveur du siège. Le SIEM corrèle les événements et génère des alertes à partir de règles de détection."
+        },
+        {
+          "critere": "Les journaux sont protégés contre la modification et l'accès non autorisé",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "L'accès au SIEM est réservé aux administrateurs de la DSI et au RSSI. Les journaux peuvent contenir des données personnelles et ne sont consultés que pour des besoins de sécurité ou d'enquête, dans le respect de la charte informatique et des droits du CSE."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Une durée de conservation suffisante est définie (au moins 6 mois)",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Les journaux sont conservés 3 mois dans le SIEM. Au-delà, ils sont supprimés automatiquement afin de limiter l'espace de stockage utilisé."
+        }
+      ],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "La durée de conservation des journaux est fixée à 3 mois (08_Politique_journalisation.docx), ce qui est inférieur au seuil requis de 6 mois par la norme ISO/IEC 27002:2022.",
+      "recommandation": "Augmenter la durée de conservation des journaux à au moins 6 mois et documenter cette modification dans la politique de journalisation.",
+      "avertissements": [],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)"
+      ],
+      "duree_s": 25.5
+    },
+    {
+      "id": "8.16",
+      "theme": "Mesures technologiques",
+      "titre": "Activités de surveillance",
+      "nis2": [
+        "Art. 21.2 b"
+      ],
+      "criteres": [
+        "Le SI est surveillé pour détecter les comportements anormaux",
+        "Des règles de détection sont définies et revues",
+        "Les alertes sont traitées dans des délais adaptés à leur criticité, y compris hors heures ouvrées",
+        "Les responsabilités de traitement des alertes sont définies"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Le SI est surveillé pour détecter les comportements anormaux",
+        "Des règles de détection sont définies et revues"
+      ],
+      "criteres_manquants": [
+        "Les alertes sont traitées dans des délais adaptés à leur criticité, y compris hors heures ouvrées",
+        "Les responsabilités de traitement des alertes sont définies"
+      ],
+      "preuves": [
+        {
+          "critere": "Le SI est surveillé pour détecter les comportements anormaux",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Les journaux sont centralisés dans un SIEM Wazuh hébergé sur un serveur du siège. Le SIEM corrèle les événements et génère des alertes à partir de règles de détection."
+        },
+        {
+          "critere": "Des règles de détection sont définies et revues",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Les règles de détection couvrent notamment : les échecs d'authentification répétés sur un compte ; l'ajout d'un compte à un groupe d'administration ; les connexions VPN depuis un pays inhabituel ; la détection d'un logiciel malveillant par l'antivirus ; la désactivation de l'antivirus sur un poste."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Les alertes sont traitées dans des délais adaptés à leur criticité, y compris hors heures ouvrées",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Les alertes reçues en dehors de ces horaires sont traitées le jour ouvré suivant."
+        }
+      ],
+      "sources": [
+        "08_Politique_journalisation.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le traitement des alertes critiques hors heures ouvrées n'est pas garanti (seulement traité le jour ouvré suivant, P1). Aucune définition explicite des responsabilités de traitement des alertes n'est trouvée dans les documents fournis (C4).",
+      "recommandation": "Définir des procédures claires pour le traitement des alertes critiques en dehors des heures ouvrées (y compris SMS/alertes automatiques) et formaliser les responsabilités de traitement des alertes dans une procédure dédiée.",
+      "avertissements": [],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 26.9
+    },
+    {
+      "id": "8.17",
+      "theme": "Mesures technologiques",
+      "titre": "Synchronisation des horloges",
+      "nis2": [],
+      "criteres": [
+        "Les horloges des systèmes sont synchronisées sur une source de référence"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les horloges des systèmes sont synchronisées sur une source de référence"
+      ],
+      "criteres_manquants": [],
+      "preuves": [
+        {
+          "critere": "Les horloges des systèmes sont synchronisées sur une source de référence",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Tous les serveurs et équipements réseau sont synchronisés sur les contrôleurs de domaine, eux-mêmes synchronisés sur une source de temps externe."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "08_Politique_journalisation.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Aucun autre critère n'est explicitement couvert dans la documentation fournie pour la mesure 8.17. Les déclarations d'applicabilité (P2, P3) ne suffisent pas à prouver la conformité des autres exigences.",
+      "recommandation": "Documenter explicitement la source de référence utilisée pour la synchronisation des horloges (ex. NTP, serveur dédié) et les procédures de maintenance/validation de cette synchronisation dans une politique ou procédure dédiée.",
+      "avertissements": [],
+      "sources_consultees": [
+        "08_Politique_journalisation.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 22.4
+    },
+    {
+      "id": "8.18",
+      "theme": "Mesures technologiques",
+      "titre": "Utilisation de programmes utilitaires à privilèges",
+      "nis2": [],
+      "criteres": [
+        "L'usage des programmes utilitaires capables de contourner les mesures de sécurité est restreint et tracé"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "L'usage des programmes utilitaires capables de contourner les mesures de sécurité est restreint et tracé"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La mesure **8.18 – Utilisation de programmes utilitaires à privilèges** n'est pas documentée dans les politiques ou procédures fournies. Aucun passage ne précise ni la restriction d'usage, ni le traçage de ces outils (ex. : `sudo`, `chown`, `setuid`, outils de contournement de restrictions). Les documents existants se limitent à des principes généraux de contrôle d'accès (P1, P2, P4) ou à des règles d'usage des comptes (P5), sans mention des outils spécifiques à privilèges ou de leur journalisation.",
+      "recommandation": "Établir une politique dédiée définissant les programmes utilitaires à privilèges autorisés, leurs conditions d'utilisation (ex. : justification écrite, approbation préalable), et leur traçage via la journalisation (intégration dans la **Politique_journalisation.docx** ou un document dédié). Prévoir des audits réguliers des logs pour détecter les usages anormaux, en s’appuyant sur des outils comme **AIDE** (Audit Information Data Entry) ou des solutions SIEM pour les environnements critiques.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)"
+      ],
+      "duree_s": 21.7
+    },
+    {
+      "id": "8.19",
+      "theme": "Mesures technologiques",
+      "titre": "Installation de logiciels sur des systèmes en exploitation",
+      "nis2": [
+        "Art. 21.2 g"
+      ],
+      "criteres": [
+        "L'installation de logiciels est réservée aux personnes autorisées",
+        "Les logiciels autorisés sont définis"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "L'installation de logiciels est réservée aux personnes autorisées"
+      ],
+      "criteres_manquants": [
+        "Les logiciels autorisés sont définis"
+      ],
+      "preuves": [
+        {
+          "critere": "L'installation de logiciels est réservée aux personnes autorisées",
+          "doc": "03_Charte_informatique.docx",
+          "page": 1,
+          "extrait": "L'utilisateur prend soin du matériel qui lui est confié. Il lui est interdit : d'installer des logiciels non autorisés par la DSI ;"
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Les logiciels autorisés sont définis",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "La correction des vulnérabilités suppose de connaître les équipements et logiciels utilisés. La DSI tient un inventaire des serveurs et des équipements réseau. **Les logiciels installés sur les postes sont recensés par l'outil de gestion des postes.**"
+        }
+      ],
+      "sources": [
+        "03_Charte_informatique.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère **C1** est couvert par la **Charte informatique (03_Charte_informatique.docx, page 1)**, mais le critère **C2** (« Les logiciels autorisés sont définis ») n'est pas explicitement détaillé dans la documentation. Bien que les logiciels installés soient recensés (P2), il manque une liste ou une procédure définissant **quels logiciels sont autorisés** et sous quelles conditions. La politique de vulnérabilités (P2) ne précise pas les logiciels **autorisés**, seulement leur recensement.",
+      "recommandation": "Documenter explicitement dans une politique ou une procédure la **liste des logiciels autorisés** pour les systèmes en exploitation, incluant les critères d'approbation (ex. : DSI, RSSI) et les exceptions éventuelles. Intégrer cette liste à l'inventaire des logiciels (P2) et la mettre à jour régulièrement.",
+      "avertissements": [
+        "C2 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 24.6
+    },
+    {
+      "id": "8.20",
+      "theme": "Mesures technologiques",
+      "titre": "Sécurité des réseaux",
+      "nis2": [
+        "Art. 21.2 a"
+      ],
+      "criteres": [
+        "Les réseaux sont protégés (pare-feu, filtrage)",
+        "L'administration des équipements réseau est sécurisée",
+        "Les flux réseau sont maîtrisés"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les réseaux sont protégés (pare-feu, filtrage)",
+        "L'administration des équipements réseau est sécurisée"
+      ],
+      "criteres_manquants": [
+        "Les flux réseau sont maîtrisés"
+      ],
+      "preuves": [
+        {
+          "critere": "Les réseaux sont protégés (pare-feu, filtrage)",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "La politique couvre les postes de travail, les serveurs, les équipements réseau (pare-feu, commutateurs, bornes Wi-Fi), les applications métier et les logiciels tiers installés sur les postes."
+        },
+        {
+          "critere": "Les réseaux sont protégés (pare-feu, filtrage)",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Les micrologiciels du pare-feu et du concentrateur VPN sont mis à jour par le prestataire d'infogérance réseau, sur demande de la DSI."
+        },
+        {
+          "critere": "Les réseaux sont protégés (pare-feu, filtrage)",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "les bulletins de sécurité mensuels de Microsoft ; les bulletins des éditeurs des principaux équipements et logiciels (pare-feu, VPN, logiciel de sauvegarde). Lorsqu'une vulnérabilité concerne un produit utilisé par l'entreprise, le RSSI ouvre un ticket auprès de la DSI."
+        },
+        {
+          "critere": "L'administration des équipements réseau est sécurisée",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Les micrologiciels du pare-feu et du concentrateur VPN sont mis à jour par le prestataire d'infogérance réseau, sur demande de la DSI."
+        },
+        {
+          "critere": "L'administration des équipements réseau est sécurisée",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "le prestataire d'infogérance réseau, qui administre le pare-feu et le VPN"
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)"
+      ],
+      "contradictions": "Aucune contradiction n'est identifiée entre les passages fournis.",
+      "ecart": "Le critère C1 est partiellement couvert par la mention des équipements réseau (pare-feu, commutateurs, bornes Wi-Fi) et des mises à jour des micrologiciels, mais l'absence de détails sur les mécanismes de filtrage et de protection active (ex. règles de pare-feu explicites) n'est pas prouvée. Le critère C3 (maîtrise des flux réseau) n'est pas couvert : bien que la segmentation soit mentionnée comme planifiée (P4), aucune preuve de sa mise en œuvre ou de sa description technique n'est fournie.",
+      "recommandation": "Documenter explicitement les règles de filtrage et de protection des équipements réseau (pare-feu, VPN) dans une procédure technique, et fournir un plan détaillé de mise en œuvre de la segmentation réseau avec des comptes-rendus de tests ou de déploiement.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.2
+    },
+    {
+      "id": "8.21",
+      "theme": "Mesures technologiques",
+      "titre": "Sécurité des services réseau",
+      "nis2": [
+        "Art. 21.2 d"
+      ],
+      "criteres": [
+        "Les exigences de sécurité des services réseau sont définies",
+        "Elles figurent dans les accords avec les fournisseurs de ces services"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les exigences de sécurité des services réseau sont définies"
+      ],
+      "criteres_manquants": [
+        "Elles figurent dans les accords avec les fournisseurs de ces services"
+      ],
+      "preuves": [
+        {
+          "critere": "Les exigences de sécurité des services réseau sont définies",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les comptes des fournisseurs intervenant à distance sont nominatifs, créés à la demande du DSI et désactivés à la fin de la prestation (cf. ARM-POL-006). Le prestataire d'infogérance réseau dispose d'un accès permanent au pare-feu et au VPN, encadré contractuellement."
+        },
+        {
+          "critere": "Les exigences de sécurité des services réseau sont définies",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Les micrologiciels du pare-feu et du concentrateur VPN sont mis à jour par le prestataire d'infogérance réseau, sur demande de la DSI."
+        },
+        {
+          "critere": "Les exigences de sécurité des services réseau sont définies",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Sont concernés les fournisseurs qui accèdent au système d'information, qui hébergent ou traitent des données de l'entreprise, ou dont la défaillance affecterait l'activité. Les principaux fournisseurs concernés sont : ... le prestataire d'infogérance réseau, qui administre le pare-feu et le VPN."
+        },
+        {
+          "critere": "Les exigences de sécurité des services réseau sont définies",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Le RSSI assure une veille sur les vulnérabilités à partir des sources suivantes : ... les bulletins des éditeurs des principaux équipements et logiciels (pare-feu, VPN, logiciel de sauvegarde). Lorsqu'une vulnérabilité concerne un produit utilisé par l'entreprise, le RSSI ouvre un ticket auprès de la DSI."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Elles figurent dans les accords avec les fournisseurs de ces services",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Le prestataire d'infogérance réseau dispose d'un accès permanent au pare-feu et au concentrateur VPN pour assurer la maintenance."
+        },
+        {
+          "critere": "Elles figurent dans les accords avec les fournisseurs de ces services",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Le prestataire d'infogérance réseau dispose d'un accès permanent au pare-feu et au VPN, encadré contractuellement."
+        }
+      ],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les exigences de sécurité des services réseau sont définies dans les politiques internes (P1, P2, P3, P5, P6), mais il n'y a pas de preuve explicite dans les documents fournis que ces exigences figurent dans les accords contractuels avec les fournisseurs de services réseau (notamment le prestataire d'infogérance réseau). Les passages P1 et P2 mentionnent seulement un encadrement contractuel sans citation directe des clauses.",
+      "recommandation": "Vérifier et documenter les clauses contractuelles spécifiques aux exigences de sécurité des services réseau dans les accords avec les fournisseurs, notamment pour le prestataire d'infogérance réseau, et les référencer explicitement dans les documents contractuels.",
+      "avertissements": [
+        "C1 : extrait introuvable dans P1, critère non retenu",
+        "C1 : extrait légèrement reformulé par le modèle",
+        "C1 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "14_Analyse_risques.docx (p. 1)"
+      ],
+      "duree_s": 30.6
+    },
+    {
+      "id": "8.22",
+      "theme": "Mesures technologiques",
+      "titre": "Cloisonnement des réseaux",
+      "nis2": [
+        "Art. 21.2 a"
+      ],
+      "criteres": [
+        "Le réseau est segmenté en zones selon la sensibilité",
+        "Les flux entre zones sont filtrés",
+        "Les systèmes sensibles ou obsolètes sont isolés"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les systèmes sensibles ou obsolètes sont isolés"
+      ],
+      "criteres_manquants": [
+        "Le réseau est segmenté en zones selon la sensibilité",
+        "Les flux entre zones sont filtrés"
+      ],
+      "preuves": [
+        {
+          "critere": "Les systèmes sensibles ou obsolètes sont isolés",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Lorsqu'un correctif ne peut pas être appliqué, par exemple pour un logiciel obsolète requis par une application métier, la DSI en informe le RSSI. Les exceptions sont inscrites dans le registre des risques avec les mesures compensatoires associées, comme l'isolement réseau de la machine concernée."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Le réseau est segmenté en zones selon la sensibilité",
+          "doc": "15_Declaration_applicabilite.docx",
+          "page": 1,
+          "extrait": "6. Mesures technologiques > 8.20 Sécurité des réseaux\nApplicable. Statut : partielle. Justification : segmentation du réseau planifiée (risque R1)."
+        }
+      ],
+      "sources": [
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "contradictions": "Aucune contradiction détectée entre les passages.",
+      "ecart": "Le critère C1 n'est pas couvert par une preuve de segmentation effective des réseaux en zones selon la sensibilité (seule une planification est mentionnée dans le document 15_Declaration_applicabilite.docx). Le critère C2 (filtrage des flux entre zones) n'est pas documenté. Le critère C3 est partiellement couvert par l'isolement des systèmes obsolètes via un registre des risques, mais sans preuve de mise en œuvre systématique ou de documentation des procédures associées.",
+      "recommandation": "Documenter explicitement la segmentation du réseau en zones selon la sensibilité (C1) avec une procédure ou un schéma technique, et définir les règles de filtrage des flux entre ces zones (C2). Compléter la politique ou procédure existante pour garantir l'isolement systématique des systèmes sensibles ou obsolètes (C3) et inclure des preuves de tests ou de mise en œuvre.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "14_Analyse_risques.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 28.1
+    },
+    {
+      "id": "8.23",
+      "theme": "Mesures technologiques",
+      "titre": "Filtrage web",
+      "nis2": [
+        "Art. 21.2 g"
+      ],
+      "criteres": [
+        "L'accès aux sites web malveillants ou interdits est filtré",
+        "Les catégories de sites bloquées sont définies"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "L'accès aux sites web malveillants ou interdits est filtré"
+      ],
+      "criteres_manquants": [
+        "Les catégories de sites bloquées sont définies"
+      ],
+      "preuves": [
+        {
+          "critere": "L'accès aux sites web malveillants ou interdits est filtré",
+          "doc": "03_Charte_informatique.docx",
+          "page": 1,
+          "extrait": "L'accès à Internet est filtré. La consultation de sites à caractère illicite, pornographique, violent ou de jeux d'argent est interdite."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "03_Charte_informatique.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le filtrage web est mentionné pour bloquer des catégories spécifiques de sites (P1), mais aucune définition explicite des catégories de sites bloquées n'est fournie dans la documentation. La mesure est donc partiellement conforme car le critère C2 (catégories de sites bloquées définies) n'est pas couvert.",
+      "recommandation": "Définir explicitement dans une politique ou une procédure les catégories de sites web bloqués (ex. : sites malveillants, phishing, réseaux sociaux, etc.) et documenter leur mise en œuvre technique (ex. : règles de filtrage sur le proxy ou le pare-feu).",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 19.9
+    },
+    {
+      "id": "8.24",
+      "theme": "Mesures technologiques",
+      "titre": "Utilisation de la cryptographie",
+      "nis2": [
+        "Art. 21.2 h"
+      ],
+      "criteres": [
+        "Une politique de cryptographie est formalisée",
+        "Les usages du chiffrement sont définis (données au repos, en transit)",
+        "Les algorithmes et longueurs de clés acceptés sont définis",
+        "La gestion des clés est organisée (génération, stockage, renouvellement, révocation)"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Une politique de cryptographie est formalisée",
+        "Les usages du chiffrement sont définis (données au repos, en transit)",
+        "Les algorithmes et longueurs de clés acceptés sont définis",
+        "La gestion des clés est organisée (génération, stockage, renouvellement, révocation)"
+      ],
+      "preuves": [],
+      "constats": [
+        {
+          "critere": "Les usages du chiffrement sont définis (données au repos, en transit)",
+          "doc": "15_Declaration_applicabilite.docx",
+          "page": 1,
+          "extrait": "chiffrement des sauvegardes et des connexions VPN."
+        }
+      ],
+      "sources": [
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "La mesure **8.24 Utilisation de la cryptographie** n'est pas couverte par des documents concrets : la déclaration d'applicabilité (P1, P6) et la PSSI (P2) ne suffisent pas à prouver l'existence d'une politique formalisée, des usages définis, des algorithmes validés ou d'une gestion des clés. Seule une mention vague du chiffrement des sauvegardes et VPN (P1) est observable, sans détails opérationnels.",
+      "recommandation": "Élaborer une **politique de cryptographie dédiée** (ex. ARM-CRYPTO-001) couvrant les critères C1 à C4, avec des références claires aux algorithmes, usages (données au repos/en transit) et processus de gestion des clés, puis l’intégrer à la Déclaration d'applicabilité et à la PSSI.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)",
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 26.1
+    },
+    {
+      "id": "8.25",
+      "theme": "Mesures technologiques",
+      "titre": "Cycle de vie de développement sécurisé",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Des règles de développement sécurisé sont formalisées",
+        "La sécurité est intégrée à chaque étape du cycle de développement",
+        "Les développeurs sont formés"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "La sécurité est intégrée à chaque étape du cycle de développement"
+      ],
+      "criteres_manquants": [
+        "Des règles de développement sécurisé sont formalisées",
+        "Les développeurs sont formés"
+      ],
+      "preuves": [
+        {
+          "critere": "La sécurité est intégrée à chaque étape du cycle de développement",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "Tout nouveau projet informatique intègre les exigences de sécurité dès sa phase de conception. Le RSSI est consulté avant la mise en production de toute nouvelle application."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "01_PSSI.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les règles de développement sécurisé (C1) et les formations des développeurs (C3) ne sont pas documentées, bien que la sécurité soit intégrée à la conception (C2). La déclaration d'applicabilité (P1) ne suffit pas à prouver leur mise en œuvre.",
+      "recommandation": "Documenter explicitement les règles de développement sécurisé dans une politique dédiée (ex. « Politique de développement sécurisé ») et organiser des formations obligatoires pour les développeurs, avec un registre des participants.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 25.7
+    },
+    {
+      "id": "8.26",
+      "theme": "Mesures technologiques",
+      "titre": "Exigences de sécurité des applications",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Les exigences de sécurité sont définies lors du développement ou de l'acquisition d'une application"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les exigences de sécurité sont définies lors du développement ou de l'acquisition d'une application"
+      ],
+      "criteres_manquants": [],
+      "preuves": [
+        {
+          "critere": "Les exigences de sécurité sont définies lors du développement ou de l'acquisition d'une application",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "Tout nouveau projet informatique intègre les exigences de sécurité dès sa phase de conception. Le RSSI est consulté avant la mise en production de toute nouvelle application."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "01_PSSI.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère C1 est partiellement couvert par le PSSI (P1), mais aucune preuve explicite n'existe dans les documents fournis pour confirmer que les exigences de sécurité sont **formellement définies et documentées** lors du développement ou de l'acquisition d'une application (ex. : spécifications techniques, cahiers des charges, ou procédures détaillées). La déclaration d'applicabilité (P2, P3, P6) ne suffit pas comme preuve.",
+      "recommandation": "Documenter explicitement les exigences de sécurité (ex. : politiques techniques, procédures de développement sécurisé) pour les applications nouvelles ou acquises, et les intégrer dans les processus de validation (ex. : revue par le RSSI avec compte rendu écrit).",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 23.0
+    },
+    {
+      "id": "8.27",
+      "theme": "Mesures technologiques",
+      "titre": "Principes d'ingénierie et d'architecture des systèmes sécurisés",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Des principes d'architecture sécurisée sont définis et appliqués aux nouveaux systèmes"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des principes d'architecture sécurisée sont définis et appliqués aux nouveaux systèmes"
+      ],
+      "criteres_manquants": [],
+      "preuves": [
+        {
+          "critere": "Des principes d'architecture sécurisée sont définis et appliqués aux nouveaux systèmes",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "Tout nouveau projet informatique intègre les exigences de sécurité dès sa phase de conception. Le RSSI est consulté avant la mise en production de toute nouvelle application."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "01_PSSI.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Bien que les principes de sécurité dès la conception soient mentionnés dans le document **01_PSSI.docx** (passage P3), il manque une définition explicite et détaillée des **principes d'architecture sécurisée** appliqués aux nouveaux systèmes (ex. : normes, frameworks, bonnes pratiques comme le *Zero Trust*, la segmentation réseau, ou les exigences de conformité). La consultation du RSSI ne prouve pas l'application concrète de principes d'architecture sécurisée.",
+      "recommandation": "Documenter explicitement les principes d'architecture sécurisée (ex. : référence à des normes comme ISO/IEC 27001, ISO/IEC 27019, ou des frameworks comme NIST SP 800-53) et les intégrer dans les procédures de conception des nouveaux systèmes, avec des exemples concrets d'application (ex. : choix de technologies, configurations par défaut sécurisées, audits d'architecture).",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)"
+      ],
+      "duree_s": 35.0
+    },
+    {
+      "id": "8.28",
+      "theme": "Mesures technologiques",
+      "titre": "Codage sécurisé",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Des règles de codage sécurisé sont appliquées",
+        "Le code est revu"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Des règles de codage sécurisé sont appliquées",
+        "Le code est revu"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La mesure **8.28 – Codage sécurisé** n’est pas documentée : ni les règles de codage ni les procédures de revue du code ne sont explicitement définies ou appliquées dans les documents fournis. Le passage **P5** (déclaration d’applicabilité) ne suffit pas à prouver la conformité.",
+      "recommandation": "Documenter et mettre en œuvre des **règles de codage sécurisé** (ex. : OWASP, normes internes) et un **processus de revue du code** (ex. : revues techniques, outils statiques) avec des procédures détaillées dans le PSSI ou un document dédié, puis auditer leur application.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)",
+        "16_Revue_de_direction.docx (p. 1)"
+      ],
+      "duree_s": 23.5
+    },
+    {
+      "id": "8.29",
+      "theme": "Mesures technologiques",
+      "titre": "Tests de sécurité dans le développement et l'acceptation",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Des tests de sécurité sont réalisés avant la mise en production"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Des tests de sécurité sont réalisés avant la mise en production"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La mesure **8.29 – Tests de sécurité dans le développement et l'acceptation** n'est pas prouvée par la documentation. Bien que le principe de sécurité dès la conception soit évoqué (P1) et que le cycle de vie de développement sécurisé soit déclaré applicable (P2), aucun document ne décrit des tests de sécurité **réalisés** avant la mise en production (ex. : procédures de test, comptes rendus, intégration dans le cycle de développement). Les risques résiduels (P3, P6) et l'analyse de risques (P4) ne couvrent pas ce critère spécifique.",
+      "recommandation": "Mettre en place une procédure écrite détaillant les tests de sécurité à réaliser avant la mise en production (ex. : tests d'intrusion, revues de code, audits automatisés) et conserver les preuves (comptes rendus, logs) dans un registre dédié. Intégrer cette obligation dans le cycle de vie du développement (ex. : dans le document **15_Declaration_applicabilite.docx** ou une procédure technique complémentaire).",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)",
+        "14_Analyse_risques.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 26.5
+    },
+    {
+      "id": "8.30",
+      "theme": "Mesures technologiques",
+      "titre": "Développement externalisé",
+      "nis2": [
+        "Art. 21.2 d",
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Les exigences de sécurité sont imposées aux prestataires de développement",
+        "Le travail livré est contrôlé"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les exigences de sécurité sont imposées aux prestataires de développement"
+      ],
+      "criteres_manquants": [
+        "Le travail livré est contrôlé"
+      ],
+      "preuves": [
+        {
+          "critere": "Les exigences de sécurité sont imposées aux prestataires de développement",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Les contrats avec les fournisseurs critiques comprennent : [...] l'engagement du fournisseur à respecter la PSSI d'Armor Logistique lorsqu'il intervient sur le système d'information ; [...] des engagements de niveau de service (disponibilité, délais d'intervention)."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Le travail livré est contrôlé",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les comptes des intérimaires et des prestataires sont créés avec une date d'expiration correspondant à la fin de mission et identifiés par le préfixe « ext ». Les comptes des fournisseurs intervenant à distance sont nominatifs, créés à la demande du DSI et désactivés à la fin de la prestation (cf. ARM-POL-006). Le prestataire d'infogérance réseau dispose d'un accès permanent au pare-feu et au VPN, encadré contractuellement."
+        }
+      ],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Bien que les exigences de sécurité soient imposées aux prestataires via des clauses contractuelles (09_Politique_fournisseurs.docx), le contrôle du travail livré n'est pas explicitement détaillé dans les documents fournis. Le passage P4 mentionne des contrôles d'accès et de désactivation, mais ne prouve pas un contrôle systématique du travail livré (ex. : revues, audits, tests de sécurité).",
+      "recommandation": "Mettre en place un processus formel de contrôle du travail livré par les prestataires (ex. : revue des livrables, tests de sécurité, audits) et documenter ce processus dans une procédure dédiée (ex. : 13_Procedure_arrivees_departs.docx ou un nouveau document).",
+      "avertissements": [
+        "C1 : extrait légèrement reformulé par le modèle",
+        "C2 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 21.2
+    },
+    {
+      "id": "8.31",
+      "theme": "Mesures technologiques",
+      "titre": "Séparation des environnements de développement, de test et de production",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Les environnements de développement, de test et de production sont séparés",
+        "Les données de production ne sont pas utilisées en test sans protection"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les environnements de développement, de test et de production sont séparés",
+        "Les données de production ne sont pas utilisées en test sans protection"
+      ],
+      "preuves": [],
+      "constats": [
+        {
+          "critere": "Les environnements de développement, de test et de production sont séparés",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Le RSSI exerçant également des missions d'administration, une séparation des tâches complète n'est pas possible à ce jour. Ce point est identifié comme un risque dans l'analyse de risques."
+        }
+      ],
+      "sources": [
+        "02_Organisation_securite.docx (p. 1)"
+      ],
+      "contradictions": "Les documents **P1** et **P2** confirment explicitement l'absence de séparation des tâches et des environnements, tandis que **P4** mentionne une mise en œuvre partielle pour le cycle de vie de développement sécurisé sans préciser la séparation des environnements. Aucune preuve technique ou organisationnelle ne démontre la séparation des environnements de développement, test et production.",
+      "ecart": "Aucune preuve documentaire ne confirme la séparation physique ou logique des environnements de développement, test et production (critère C1). De plus, aucune mention explicite ne prouve que les données de production ne sont pas utilisées en test sans protection (critère C2). Les documents **P1**, **P2** et **P3** soulignent un risque lié à l'absence de séparation des tâches, mais ne couvrent pas les critères techniques requis par la norme.",
+      "recommandation": "Mettre en place une politique ou une procédure formalisant la séparation physique ou logique des environnements (développement, test, production) et documenter les contrôles techniques (ex. : isolation réseau, accès restreints, sauvegardes distinctes). Vérifier que les données de production ne sont pas utilisées en test sans chiffrement ou anonymisation, et ajouter cette exigence dans les procédures techniques (ex. : **02_Organisation_securite.docx** ou un document dédié aux règles de développement sécurisé).",
+      "avertissements": [],
+      "sources_consultees": [
+        "02_Organisation_securite.docx (p. 1)",
+        "14_Analyse_risques.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.2
+    },
+    {
+      "id": "8.32",
+      "theme": "Mesures technologiques",
+      "titre": "Gestion des changements",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "Une procédure de gestion des changements est formalisée",
+        "Les changements sont évalués, approuvés et planifiés",
+        "Un plan de retour arrière est prévu",
+        "Les changements sont tracés"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Une procédure de gestion des changements est formalisée",
+        "Les changements sont évalués, approuvés et planifiés",
+        "Un plan de retour arrière est prévu",
+        "Les changements sont tracés"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Les passages fournis ne couvrent aucun des critères de la mesure 8.32 (gestion des changements). Les procédures mentionnées (comme ARM-PRO-001 ou ARM-PRO-003) ne sont pas détaillées ici et ne traitent pas explicitement de la gestion des changements techniques ou organisationnels. La déclaration d'applicabilité (P1) ne suffit pas à prouver la conformité.",
+      "recommandation": "Documenter une procédure complète de gestion des changements incluant l'évaluation, l'approbation, la planification, un plan de retour arrière et un système de traçabilité, puis l'intégrer dans les documents officiels (ex. ARM-PRO-001 ou un nouveau document dédié).",
+      "avertissements": [],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 24.8
+    },
+    {
+      "id": "8.33",
+      "theme": "Mesures technologiques",
+      "titre": "Informations de test",
+      "nis2": [],
+      "criteres": [
+        "Les informations utilisées pour les tests sont choisies et protégées de façon appropriée"
+      ],
+      "statut": "non traitée",
+      "statut_llm": "non traitée",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les informations utilisées pour les tests sont choisies et protégées de façon appropriée"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Aucun passage dans la documentation fournie ne traite explicitement de la sélection et de la protection appropriée des informations utilisées pour les tests (mesure 8.33 – Informations de test). Les déclarations d'applicabilité (P1, P2, P3, P4, P5) ne fournissent pas de détails sur les modalités de gestion de ces informations, et la politique de données personnelles (P6) ne couvre pas ce critère spécifique.",
+      "recommandation": "Documenter explicitement dans une politique ou une procédure dédiée (ex. ARM-POL-00X) les modalités de sélection et de protection des informations de test, en précisant les mécanismes de classification, d'accès et de conservation appliqués. Intégrer cette exigence dans la déclaration d'applicabilité et fournir des preuves tangibles (ex. extraits de politiques ou procédures techniques).",
+      "avertissements": [],
+      "sources_consultees": [
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 22.8
+    },
+    {
+      "id": "8.34",
+      "theme": "Mesures technologiques",
+      "titre": "Protection des systèmes d'information en cours d'audit et de test",
+      "nis2": [
+        "Art. 21.2 f"
+      ],
+      "criteres": [
+        "Les audits et tests techniques sur les systèmes en exploitation sont planifiés et autorisés",
+        "Leur impact sur la production est maîtrisé"
+      ],
+      "statut": "non traitée",
+      "statut_llm": "non traitée",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les audits et tests techniques sur les systèmes en exploitation sont planifiés et autorisés",
+        "Leur impact sur la production est maîtrisé"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Aucun passage dans la documentation ne traite explicitement de la planification, de l'autorisation ou de la maîtrise de l'impact des audits et tests techniques sur les systèmes en exploitation. Les documents mentionnent des analyses de risques, des procédures d'habilitation, des revues de direction et des obligations réglementaires, mais rien sur la gestion spécifique des audits et tests en cours d'exploitation.",
+      "recommandation": "Documenter une procédure claire définissant la planification, l'autorisation et la maîtrise des impacts des audits et tests techniques sur les systèmes en exploitation, en incluant des mécanismes de validation préalable et des protocoles de gestion des risques opérationnels associés.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)",
+        "16_Revue_de_direction.docx (p. 1)"
+      ],
+      "duree_s": 20.1
+    }
+  ]
+}

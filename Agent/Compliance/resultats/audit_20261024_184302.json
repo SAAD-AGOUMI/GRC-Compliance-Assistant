@@ -1,0 +1,2246 @@
+{
+  "date": "2026-10-24T18:43:02",
+  "referentiel": "ISO/IEC 27002:2022",
+  "stats": {
+    "global": {
+      "Périmètre": "Global",
+      "Mesures": 37,
+      "Conforme": 0,
+      "Partiellement conforme": 29,
+      "Non conforme": 7,
+      "Non traitée": 1,
+      "Erreur d'évaluation": 0,
+      "Taux de conformité (%)": 0.0,
+      "Taux pondéré (%)": 39.2
+    },
+    "par_theme": [
+      {
+        "Périmètre": "Mesures organisationnelles",
+        "Mesures": 37,
+        "Conforme": 0,
+        "Partiellement conforme": 29,
+        "Non conforme": 7,
+        "Non traitée": 1,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 39.2
+      }
+    ],
+    "par_nis2": [
+      {
+        "Périmètre": "NIS2 Art. 20",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 1,
+        "Non conforme": 1,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 25.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.1",
+        "Mesures": 1,
+        "Conforme": 0,
+        "Partiellement conforme": 1,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 a",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 2,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 b",
+        "Mesures": 5,
+        "Conforme": 0,
+        "Partiellement conforme": 5,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 c",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 2,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 d",
+        "Mesures": 5,
+        "Conforme": 0,
+        "Partiellement conforme": 3,
+        "Non conforme": 2,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 30.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 e",
+        "Mesures": 1,
+        "Conforme": 0,
+        "Partiellement conforme": 1,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 f",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 0,
+        "Non conforme": 2,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 0.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 g",
+        "Mesures": 1,
+        "Conforme": 0,
+        "Partiellement conforme": 1,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 i",
+        "Mesures": 7,
+        "Conforme": 0,
+        "Partiellement conforme": 7,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.2 j",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 2,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 21.3",
+        "Mesures": 1,
+        "Conforme": 0,
+        "Partiellement conforme": 0,
+        "Non conforme": 1,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 0.0
+      },
+      {
+        "Périmètre": "NIS2 Art. 23",
+        "Mesures": 2,
+        "Conforme": 0,
+        "Partiellement conforme": 2,
+        "Non conforme": 0,
+        "Non traitée": 0,
+        "Erreur d'évaluation": 0,
+        "Taux de conformité (%)": 0.0,
+        "Taux pondéré (%)": 50.0
+      }
+    ]
+  },
+  "resultats": [
+    {
+      "id": "5.1",
+      "theme": "Mesures organisationnelles",
+      "titre": "Politiques de sécurité de l'information",
+      "nis2": [
+        "Art. 21.2 a"
+      ],
+      "criteres": [
+        "Une politique générale de sécurité (PSSI) existe et est approuvée par la direction",
+        "Elle fixe des objectifs de sécurité ou un cadre pour les définir",
+        "Elle est déclinée en politiques thématiques",
+        "Une fréquence de revue de la politique est définie",
+        "La politique est communiquée aux collaborateurs et parties concernées"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Une politique générale de sécurité (PSSI) existe et est approuvée par la direction",
+        "Elle est déclinée en politiques thématiques",
+        "Une fréquence de revue de la politique est définie"
+      ],
+      "criteres_manquants": [
+        "Elle fixe des objectifs de sécurité ou un cadre pour les définir",
+        "La politique est communiquée aux collaborateurs et parties concernées"
+      ],
+      "preuves": [
+        {
+          "critere": "Une politique générale de sécurité (PSSI) existe et est approuvée par la direction",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "Politique de Sécurité des Systèmes d'Information (PSSI)\nRéférence : ARM-GOV-001  |  Version : 3.0  |  Date : 12 février 2026  |  Propriétaire : RSSI  |  Approbation : Direction générale  |  Classification : Interne"
+        },
+        {
+          "critere": "Elle est déclinée en politiques thématiques",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "La PSSI est déclinée en politiques thématiques, notamment : contrôle d'accès, classification de l'information, sauvegarde, gestion des vulnérabilités, journalisation, sécurité des fournisseurs, protection des données personnelles, gestion des incidents et continuité d'activité."
+        },
+        {
+          "critere": "Une fréquence de revue de la politique est définie",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "La PSSI est revue au moins une fois tous les deux ans, ou plus tôt en cas d'évolution majeure de l'organisation, de la menace ou de la réglementation."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "01_PSSI.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les critères C2 (fixation d'objectifs de sécurité ou cadre pour les définir) et C5 (communication aux collaborateurs et parties concernées) ne sont pas explicitement couverts par la documentation. Bien que la PSSI soit approuvée par la direction (P2, P4, P5), il manque une définition claire des objectifs de sécurité et une preuve de communication effective de la politique.",
+      "recommandation": "Définir explicitement les objectifs de sécurité dans la PSSI (PSSI.docx) et mettre en place un processus de communication formalisé (ex. formation, affichage, email) avec preuve de réception (ex. liste de diffusion signée, attestation de lecture).",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)"
+      ],
+      "duree_s": 44.0
+    },
+    {
+      "id": "5.2",
+      "theme": "Mesures organisationnelles",
+      "titre": "Fonctions et responsabilités liées à la sécurité de l'information",
+      "nis2": [
+        "Art. 20"
+      ],
+      "criteres": [
+        "Les rôles de sécurité sont définis (direction, RSSI, DSI, DPO, propriétaires d'actifs)",
+        "Les responsabilités de chaque rôle sont décrites",
+        "Des personnes sont nommément désignées pour les rôles clés",
+        "Une instance de pilotage de la sécurité est définie (comité, fréquence)"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les rôles de sécurité sont définis (direction, RSSI, DSI, DPO, propriétaires d'actifs)",
+        "Les responsabilités de chaque rôle sont décrites",
+        "Des personnes sont nommément désignées pour les rôles clés",
+        "Une instance de pilotage de la sécurité est définie (comité, fréquence)"
+      ],
+      "preuves": [],
+      "constats": [
+        {
+          "critere": "Une instance de pilotage de la sécurité est définie (comité, fréquence)",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "préside le comité de sécurité"
+        }
+      ],
+      "sources": [
+        "02_Organisation_securite.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "L'instance de pilotage de la sécurité (comité) est mentionnée dans le document 02_Organisation_securite.docx (P4) comme présidée par le Directeur général, mais aucune fréquence de réunion ou modalités de fonctionnement n'est définie ou documentée.",
+      "recommandation": "Définir dans un document officiel (procédure ou charte) la fréquence des réunions du comité de sécurité, son ordre du jour type, les rôles des participants et les modalités de suivi des décisions.",
+      "avertissements": [
+        "C1 : passage cité inexistant ('P1,P2,P4,P5,P6'), critère non retenu",
+        "C2 : passage cité inexistant ('P1,P3,P4,P5,P6'), critère non retenu",
+        "C3 : passage cité inexistant ('P1,P4'), critère non retenu",
+        "Statut du modèle (partiellement conforme) corrigé en « non conforme » d'après les preuves vérifiées"
+      ],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "duree_s": 45.1
+    },
+    {
+      "id": "5.3",
+      "theme": "Mesures organisationnelles",
+      "titre": "Séparation des tâches",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "Les tâches ou fonctions incompatibles sont identifiées",
+        "Ces tâches sont attribuées à des personnes différentes",
+        "À défaut, des mesures compensatoires sont définies et le risque est formellement accepté"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les tâches ou fonctions incompatibles sont identifiées"
+      ],
+      "criteres_manquants": [
+        "Ces tâches sont attribuées à des personnes différentes",
+        "À défaut, des mesures compensatoires sont définies et le risque est formellement accepté"
+      ],
+      "preuves": [
+        {
+          "critere": "Les tâches ou fonctions incompatibles sont identifiées",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Le RSSI exerçant également des missions d'administration, une séparation des tâches complète n'est pas possible à ce jour. Ce point est identifié comme un risque dans l'analyse de risques."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Ces tâches sont attribuées à des personnes différentes",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Le RSSI exerçant également des missions d'administration, une séparation des tâches complète n'est pas possible à ce jour."
+        },
+        {
+          "critere": "À défaut, des mesures compensatoires sont définies et le risque est formellement accepté",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Ce point est identifié comme un risque dans l'analyse de risques."
+        }
+      ],
+      "sources": [
+        "02_Organisation_securite.docx (p. 1)"
+      ],
+      "contradictions": "Contradiction entre P1 et P2 : P1 indique qu'une séparation complète n'est pas possible et que ce point est identifié comme un risque, tandis que P2 déclare la mesure partiellement applicable avec un risque formellement accepté (ARM-RSK-001).",
+      "ecart": "Bien que le risque soit identifié (P1 et P3) et formellement accepté (P2), aucune attribution des tâches incompatibles à des personnes différentes n'est explicitement décrite, ni de mesures compensatoires définies et documentées. La déclaration d'applicabilité partielle (P2) ne suffit pas à prouver la conformité des critères C2 et C3.",
+      "recommandation": "Définir explicitement une répartition des tâches incompatibles entre plusieurs personnes ou, à défaut, documenter et formaliser des mesures compensatoires (ex. contrôles périodiques, revues indépendantes) pour couvrir les risques liés à la concentration des droits du RSSI, en lien avec l'analyse de risques (ARM-RSK-001).",
+      "avertissements": [],
+      "sources_consultees": [
+        "02_Organisation_securite.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)",
+        "14_Analyse_risques.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 18.7
+    },
+    {
+      "id": "5.4",
+      "theme": "Mesures organisationnelles",
+      "titre": "Responsabilités de la direction",
+      "nis2": [
+        "Art. 20"
+      ],
+      "criteres": [
+        "La direction exige l'application des politiques de sécurité par le personnel",
+        "La direction alloue des ressources (budget, personnel) à la sécurité",
+        "La responsabilité finale de la direction en matière de sécurité est formalisée",
+        "La formation de la direction aux risques cyber est prévue"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "La direction exige l'application des politiques de sécurité par le personnel",
+        "La direction alloue des ressources (budget, personnel) à la sécurité",
+        "La responsabilité finale de la direction en matière de sécurité est formalisée"
+      ],
+      "criteres_manquants": [
+        "La formation de la direction aux risques cyber est prévue"
+      ],
+      "preuves": [
+        {
+          "critere": "La direction exige l'application des politiques de sécurité par le personnel",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Le Directeur général, Marc Le Goff, porte la responsabilité finale de la sécurité de l'information. À ce titre, il : [...] s'assure du respect des obligations prévues par la directive NIS2."
+        },
+        {
+          "critere": "La direction alloue des ressources (budget, personnel) à la sécurité",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "La direction générale est responsable de la sécurité de l'information. Elle approuve la PSSI, alloue les ressources nécessaires et valide les risques résiduels."
+        },
+        {
+          "critere": "La responsabilité finale de la direction en matière de sécurité est formalisée",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Le Directeur général, Marc Le Goff, porte la responsabilité finale de la sécurité de l'information."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Aucun passage ne mentionne explicitement la formation de la direction aux risques cyber, bien que la sensibilisation des collaborateurs soit prévue (P4). La formation spécifique de la direction aux risques cyber n'est pas documentée.",
+      "recommandation": "Mettre en place une formation spécifique pour la direction sur les risques cyber et documenter cette obligation dans la PSSI ou un document dédié, comme la politique de sensibilisation.",
+      "avertissements": [
+        "C1 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "06_Politique_sauvegarde.docx (p. 1)"
+      ],
+      "duree_s": 26.5
+    },
+    {
+      "id": "5.5",
+      "theme": "Mesures organisationnelles",
+      "titre": "Contacts avec les autorités",
+      "nis2": [
+        "Art. 23"
+      ],
+      "criteres": [
+        "Les autorités à contacter sont identifiées (ANSSI, CNIL, forces de l'ordre)",
+        "Les situations et délais de contact sont définis",
+        "La personne chargée du contact avec chaque autorité est désignée",
+        "Les coordonnées des autorités sont tenues à jour"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les autorités à contacter sont identifiées (ANSSI, CNIL, forces de l'ordre)"
+      ],
+      "criteres_manquants": [
+        "Les situations et délais de contact sont définis",
+        "La personne chargée du contact avec chaque autorité est désignée",
+        "Les coordonnées des autorités sont tenues à jour"
+      ],
+      "preuves": [
+        {
+          "critere": "Les autorités à contacter sont identifiées (ANSSI, CNIL, forces de l'ordre)",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "Une liste des contacts d'urgence (membres de la cellule, prestataires, assureur, **autorités**) est tenue par le DSI."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "La personne chargée du contact avec chaque autorité est désignée",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "Une liste des contacts d'urgence (...) est tenue par le **DSI**."
+        }
+      ],
+      "sources": [
+        "12_PCA_PRA.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les autorités (ANSSI, CNIL, forces de l'ordre) sont mentionnées dans une liste de contacts d'urgence (P1), mais ni les situations ni les délais de contact (C2) ni les personnes responsables (C3) ni la mise à jour des coordonnées (C4) ne sont explicitement définis ou attestés dans la documentation. Le DSI est désigné comme responsable de la liste, mais pas spécifiquement pour chaque autorité.",
+      "recommandation": "Définir dans un document dédié (ex. procédure ou plan de continuité d'activité) les situations nécessitant un contact avec chaque autorité (ANSSI, CNIL, forces de l'ordre), les délais associés, les personnes responsables et un processus de mise à jour annuelle des coordonnées. Documenter ces éléments et les intégrer dans la matrice des responsabilités (P4).",
+      "avertissements": [
+        "C1 : extrait légèrement reformulé par le modèle",
+        "C3 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "02_Organisation_securite.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "16_Revue_de_direction.docx (p. 1)"
+      ],
+      "duree_s": 27.5
+    },
+    {
+      "id": "5.6",
+      "theme": "Mesures organisationnelles",
+      "titre": "Contacts avec des groupes d'intérêt spécifiques",
+      "nis2": [],
+      "criteres": [
+        "L'organisation participe à des groupes ou communautés de sécurité",
+        "Ces contacts sont utilisés pour la veille et le partage d'informations",
+        "Les personnes chargées de ces contacts sont désignées"
+      ],
+      "statut": "non traitée",
+      "statut_llm": "non traitée",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "L'organisation participe à des groupes ou communautés de sécurité",
+        "Ces contacts sont utilisés pour la veille et le partage d'informations",
+        "Les personnes chargées de ces contacts sont désignées"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Aucun passage dans la documentation ne mentionne explicitement la participation de l'organisation à des groupes ou communautés de sécurité, l'utilisation de ces contacts pour la veille et le partage d'informations, ni la désignation des personnes chargées de ces contacts. Les documents fournis se concentrent sur les contrôles d'accès, la cellule de crise, les risques et les relations avec les fournisseurs, sans aborder la mesure 5.6 de l'ISO/IEC 27002:2022.",
+      "recommandation": "Mettre en place une politique ou procédure formalisant la participation à des groupes ou communautés de sécurité (ex. : clubs de la sécurité de l'information, forums spécialisés), documenter les modalités d'utilisation de ces contacts pour la veille et le partage d'informations, et désigner explicitement les responsables de ces échanges dans un document dédié (ex. : politique de relations externes en sécurité).",
+      "avertissements": [],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "14_Analyse_risques.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 29.2
+    },
+    {
+      "id": "5.7",
+      "theme": "Mesures organisationnelles",
+      "titre": "Renseignements sur les menaces",
+      "nis2": [
+        "Art. 21.2 a"
+      ],
+      "criteres": [
+        "Des sources de renseignement sur les menaces sont définies",
+        "Les informations collectées sont analysées au regard du contexte de l'organisation",
+        "Les résultats alimentent l'analyse de risques ou les mesures de détection et de protection",
+        "Un responsable de la veille est désigné"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des sources de renseignement sur les menaces sont définies",
+        "Un responsable de la veille est désigné"
+      ],
+      "criteres_manquants": [
+        "Les informations collectées sont analysées au regard du contexte de l'organisation",
+        "Les résultats alimentent l'analyse de risques ou les mesures de détection et de protection"
+      ],
+      "preuves": [
+        {
+          "critere": "Des sources de renseignement sur les menaces sont définies",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Le RSSI assure une veille sur les vulnérabilités à partir des sources suivantes : les avis et alertes du CERT-FR ; les bulletins de sécurité mensuels de Microsoft ; les bulletins des éditeurs des principaux équipements et logiciels (pare-feu, VPN, logiciel de sauvegarde)."
+        },
+        {
+          "critere": "Un responsable de la veille est désigné",
+          "doc": "07_Politique_vulnerabilites.docx",
+          "page": 1,
+          "extrait": "Le RSSI assure une veille sur les vulnérabilités à partir des sources suivantes..."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Les résultats alimentent l'analyse de risques ou les mesures de détection et de protection",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Les règles de détection sont revues chaque année par le RSSI, en tenant compte des incidents survenus et de l'évolution de la menace."
+        }
+      ],
+      "sources": [
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Bien que les sources de renseignement sur les menaces soient définies (C1) et qu'un responsable (RSSI) soit désigné (C4), il manque une preuve explicite que les informations collectées sont analysées au regard du contexte organisationnel (C2) et que les résultats alimentent directement l'analyse de risques ou les mesures de détection/protection (C3). Le passage P2 mentionne une revue annuelle des règles de détection, mais ne prouve pas l'analyse des menaces ni leur intégration dans les mesures de sécurité. Les déclarations d'applicabilité (P5, P6) ne suffisent pas à couvrir ces critères.",
+      "recommandation": "Documenter explicitement les processus d'analyse des menaces collectées (C2) et leur intégration dans l'analyse de risques ou les mesures de détection/protection (C3), en incluant des comptes-rendus de revues annuelles ou des références à des politiques/procédures détaillant ces étapes. Vérifier que les résultats de la veille sont bien utilisés pour ajuster les règles de détection et les mesures de sécurité.",
+      "avertissements": [
+        "C4 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "14_Analyse_risques.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 33.5
+    },
+    {
+      "id": "5.8",
+      "theme": "Mesures organisationnelles",
+      "titre": "Sécurité de l'information dans la gestion de projet",
+      "nis2": [
+        "Art. 21.2 e"
+      ],
+      "criteres": [
+        "La sécurité est intégrée aux projets dès leur conception",
+        "Une analyse des risques ou des exigences de sécurité est réalisée pour les projets",
+        "Le RSSI ou un référent sécurité est consulté aux étapes clés",
+        "Une validation de sécurité est requise avant la mise en production"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "La sécurité est intégrée aux projets dès leur conception",
+        "Une analyse des risques ou des exigences de sécurité est réalisée pour les projets",
+        "Le RSSI ou un référent sécurité est consulté aux étapes clés"
+      ],
+      "criteres_manquants": [
+        "Une validation de sécurité est requise avant la mise en production"
+      ],
+      "preuves": [
+        {
+          "critere": "La sécurité est intégrée aux projets dès leur conception",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "Tout nouveau projet informatique intègre les exigences de sécurité dès sa phase de conception."
+        },
+        {
+          "critere": "Une analyse des risques ou des exigences de sécurité est réalisée pour les projets",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "piloter l'analyse de risques et le plan de traitement des risques ; définir les exigences de sécurité des projets;"
+        },
+        {
+          "critere": "Le RSSI ou un référent sécurité est consulté aux étapes clés",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "Le RSSI est consulté avant la mise en production de toute nouvelle application."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère C4 (validation de sécurité requise avant la mise en production) n'est pas explicitement mentionné dans les documents fournis, bien que le RSSI soit consulté avant la mise en production (P1). Aucune preuve d'une validation formelle et systématique n'est visible dans les passages analysés.",
+      "recommandation": "Documenter explicitement la procédure de validation de sécurité avant la mise en production des projets, incluant les rôles responsables (ex. : RSSI, direction générale) et les preuves de validation (ex. : comptes-rendus de validation).",
+      "avertissements": [
+        "C2 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 31.2
+    },
+    {
+      "id": "5.9",
+      "theme": "Mesures organisationnelles",
+      "titre": "Inventaire des informations et autres actifs associés",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "Un inventaire des actifs existe (matériel, logiciels, données, services)",
+        "Chaque actif a un propriétaire désigné",
+        "L'inventaire est tenu à jour selon une règle définie",
+        "L'inventaire précise la sensibilité ou la criticité des actifs"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Un inventaire des actifs existe (matériel, logiciels, données, services)",
+        "Chaque actif a un propriétaire désigné",
+        "L'inventaire précise la sensibilité ou la criticité des actifs"
+      ],
+      "criteres_manquants": [
+        "L'inventaire est tenu à jour selon une règle définie"
+      ],
+      "preuves": [
+        {
+          "critere": "Un inventaire des actifs existe (matériel, logiciels, données, services)",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Les principales catégories d'informations et leur niveau de classification sont recensées dans l'inventaire des actifs tenu par la DSI. Cet inventaire est mis à jour lors de la mise en service de toute nouvelle application."
+        },
+        {
+          "critere": "Chaque actif a un propriétaire désigné",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Chaque application et chaque ensemble de données importants disposent d'un propriétaire désigné parmi les responsables métier. Le Directeur des opérations est propriétaire du TMS et du WMS. Le Directeur administratif et financier est propriétaire de l'ERP. La Directrice des ressources humaines est propriétaire du logiciel de paie."
+        },
+        {
+          "critere": "L'inventaire précise la sensibilité ou la criticité des actifs",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Les principales catégories d'informations et leur niveau de classification sont recensées dans l'inventaire des actifs tenu par la DSI."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "02_Organisation_securite.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "L'inventaire des actifs est mentionné (C1 et C4 couverts par le document 05_Politique_classification.docx), et les propriétaires d'actifs sont désignés (C2 couvert par 02_Organisation_securite.docx). Cependant, la fréquence ou la règle de mise à jour de l'inventaire (C3) n'est pas explicitement définie dans les documents fournis, malgré la mention d'une mise à jour lors de la mise en service d'une nouvelle application, ce qui ne constitue pas une règle formelle de mise à jour périodique ou systématique.",
+      "recommandation": "Définir et documenter une procédure claire et périodique pour la mise à jour de l'inventaire des actifs (ex. : mensuelle, trimestrielle ou après chaque changement significatif), et en conserver un historique dans un document dédié (ex. : 05_Politique_classification.docx ou un registre dédié).",
+      "avertissements": [
+        "C2 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "02_Organisation_securite.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 28.9
+    },
+    {
+      "id": "5.10",
+      "theme": "Mesures organisationnelles",
+      "titre": "Utilisation correcte des informations et autres actifs associés",
+      "nis2": [
+        "Art. 21.2 g"
+      ],
+      "criteres": [
+        "Des règles d'utilisation des ressources informatiques sont définies",
+        "Elles sont communiquées et acceptées par les utilisateurs (signature, règlement intérieur)",
+        "Les usages interdits sont précisés",
+        "Les sanctions en cas de non-respect sont précisées"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des règles d'utilisation des ressources informatiques sont définies",
+        "Elles sont communiquées et acceptées par les utilisateurs (signature, règlement intérieur)",
+        "Les usages interdits sont précisés"
+      ],
+      "criteres_manquants": [
+        "Les sanctions en cas de non-respect sont précisées"
+      ],
+      "preuves": [
+        {
+          "critere": "Des règles d'utilisation des ressources informatiques sont définies",
+          "doc": "03_Charte_informatique.docx",
+          "page": 1,
+          "extrait": "La présente charte définit les règles d'utilisation des ressources informatiques mises à disposition par Armor Logistique. Elle s'applique à tous les utilisateurs : salariés, intérimaires, stagiaires et prestataires."
+        },
+        {
+          "critere": "Elles sont communiquées et acceptées par les utilisateurs (signature, règlement intérieur)",
+          "doc": "03_Charte_informatique.docx",
+          "page": 1,
+          "extrait": "Elle est annexée au règlement intérieur et doit être signée par chaque utilisateur lors de son arrivée."
+        },
+        {
+          "critere": "Les usages interdits sont précisés",
+          "doc": "03_Charte_informatique.docx",
+          "page": 1,
+          "extrait": "Les ressources informatiques sont destinées à un usage professionnel. Un usage personnel ponctuel et raisonnable est toléré, à condition qu'il ne nuise ni à l'activité, ni à la sécurité, ni à l'image de l'entreprise. Les fichiers et messages personnels doivent être clairement identifiés comme tels, par exemple dans un dossier nommé « Personnel »."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "03_Charte_informatique.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les règles d'utilisation, leur communication et les usages interdits sont clairement définis et acceptés (Charte informatique), mais aucune mention explicite des sanctions en cas de non-respect n'est trouvée dans les documents fournis.",
+      "recommandation": "Ajouter une section dans la charte informatique (03_Charte_informatique.docx) précisant les sanctions applicables en cas de non-respect des règles, en lien avec le règlement intérieur et les procédures disciplinaires.",
+      "avertissements": [],
+      "sources_consultees": [
+        "02_Organisation_securite.docx (p. 1)",
+        "03_Charte_informatique.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.2
+    },
+    {
+      "id": "5.11",
+      "theme": "Mesures organisationnelles",
+      "titre": "Restitution des actifs",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "La restitution des actifs au départ ou en fin de contrat est obligatoire",
+        "Les actifs à restituer sont précisés (matériel, badges, données)",
+        "Un responsable de la récupération est désigné",
+        "La restitution est tracée"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "La restitution des actifs au départ ou en fin de contrat est obligatoire",
+        "Les actifs à restituer sont précisés (matériel, badges, données)"
+      ],
+      "criteres_manquants": [
+        "Un responsable de la récupération est désigné",
+        "La restitution est tracée"
+      ],
+      "preuves": [
+        {
+          "critere": "La restitution des actifs au départ ou en fin de contrat est obligatoire",
+          "doc": "13_Procedure_arrivees_departs.docx",
+          "page": 1,
+          "extrait": "Le manager récupère le matériel du collaborateur (ordinateur, téléphone, badge) et le remet à la DSI, qui le réinitialise avant réattribution."
+        },
+        {
+          "critere": "Les actifs à restituer sont précisés (matériel, badges, données)",
+          "doc": "13_Procedure_arrivees_departs.docx",
+          "page": 1,
+          "extrait": "Le manager récupère le matériel du collaborateur (ordinateur, téléphone, badge) et le remet à la DSI, qui le réinitialise avant réattribution."
+        },
+        {
+          "critere": "Les actifs à restituer sont précisés (matériel, badges, données)",
+          "doc": "03_Charte_informatique.docx",
+          "page": 1,
+          "extrait": "À son départ, l'utilisateur restitue l'ensemble du matériel qui lui a été confié et supprime ses données personnelles. Il ne conserve aucune donnée de l'entreprise."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "La restitution est tracée",
+          "doc": "13_Procedure_arrivees_departs.docx",
+          "page": 1,
+          "extrait": "Les ressources humaines informent la DSI de chaque départ par une demande dans l'outil de ticketing, en précisant la date de fin de contrat."
+        }
+      ],
+      "sources": [
+        "03_Charte_informatique.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère C3 (désignation d'un responsable de la récupération) n'est pas explicitement mentionné dans la documentation. Le critère C4 (tracé de la restitution) n'est pas couvert, bien que la procédure d'information soit décrite (P5). Aucune preuve de suivi ou de traçabilité de la restitution des actifs n'est visible.",
+      "recommandation": "Définir explicitement un responsable dédié à la récupération des actifs et mettre en place un système de traçabilité (ex. : registre des restitutions, logs dans l'outil de ticketing) pour couvrir les critères C3 et C4.",
+      "avertissements": [],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)"
+      ],
+      "duree_s": 23.3
+    },
+    {
+      "id": "5.12",
+      "theme": "Mesures organisationnelles",
+      "titre": "Classification des informations",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "Des niveaux de classification sont définis",
+        "Les critères permettant d'attribuer chaque niveau sont décrits",
+        "La responsabilité de la classification est attribuée (propriétaire)",
+        "Des règles de protection sont associées à chaque niveau"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des niveaux de classification sont définis",
+        "Les critères permettant d'attribuer chaque niveau sont décrits",
+        "La responsabilité de la classification est attribuée (propriétaire)",
+        "Des règles de protection sont associées à chaque niveau"
+      ],
+      "criteres_manquants": [],
+      "preuves": [
+        {
+          "critere": "Des niveaux de classification sont définis",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Public : accès libre en interne ; Interne : réservé aux collaborateurs ; Confidentiel : accès limité aux personnes habilitées ayant besoin d'en connaître, sur validation du propriétaire ; Secret : accès limité à une liste nominative de personnes, avec chiffrement des fichiers."
+        },
+        {
+          "critere": "Les critères permettant d'attribuer chaque niveau sont décrits",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Informations dont la divulgation pourrait porter un préjudice significatif à l'entreprise, à ses clients ou à ses salariés : contrats et tarifs clients, données de paie, dossiers du personnel, plans de transport des clients, résultats financiers non publiés, rapports d'audit de sécurité. L'accès est limité aux personnes ayant besoin d'en connaître."
+        },
+        {
+          "critere": "Les critères permettant d'attribuer chaque niveau sont décrits",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Informations destinées aux collaborateurs de l'entreprise : procédures internes, organigrammes, notes de service, planning général. Leur divulgation à l'extérieur aurait un impact limité. C'est le niveau par défaut de toute information non classée."
+        },
+        {
+          "critere": "La responsabilité de la classification est attribuée (propriétaire)",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Chaque application et chaque ensemble de données importants disposent d'un propriétaire désigné parmi les responsables métier. Le propriétaire d'actif : ... détermine le niveau de classification des informations ;"
+        },
+        {
+          "critere": "La responsabilité de la classification est attribuée (propriétaire)",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Le propriétaire de l'information, généralement le responsable métier qui la produit, détermine son niveau de classification."
+        },
+        {
+          "critere": "Des règles de protection sont associées à chaque niveau",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les données personnelles des salariés et des chauffeurs, y compris la géolocalisation, sont classées au minimum « Confidentiel »."
+        },
+        {
+          "critere": "Des règles de protection sont associées à chaque niveau",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Confidentiel : accès limité aux personnes habilitées ayant besoin d'en connaître, sur validation du propriétaire ; Secret : accès limité à une liste nominative de personnes, avec chiffrement des fichiers."
+        },
+        {
+          "critere": "Des règles de protection sont associées à chaque niveau",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Le RSSI définit les règles de protection et contrôle leur application."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "02_Organisation_securite.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Bien que les niveaux de classification (C1), les critères d'attribution (C2), la responsabilité de classification (C3) et les règles de protection associées (C4) soient partiellement décrits, il manque une **description exhaustive et structurée des règles de protection pour chaque niveau de classification** (ex. : chiffrement, accès restreint, stockage sécurisé, etc.) dans un document unique et clair. Le passage P1 mentionne des règles pour le niveau Secret mais ne détaille pas explicitement les règles pour les niveaux Public, Interne et Confidentiel de manière complète.",
+      "recommandation": "Rédiger une section dédiée dans la *Politique de classification* (05_Politique_classification.docx) ou dans une *Procédure de protection des informations* définissant **explicitement les mesures de protection** (ex. : chiffrement, accès conditionnel, revues périodiques) pour chaque niveau de classification (Public, Interne, Confidentiel, Secret), en s’appuyant sur les exemples existants pour le niveau Secret.",
+      "avertissements": [
+        "C3 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "02_Organisation_securite.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "duree_s": 33.0
+    },
+    {
+      "id": "5.13",
+      "theme": "Mesures organisationnelles",
+      "titre": "Marquage des informations",
+      "nis2": [],
+      "criteres": [
+        "Des règles de marquage des informations classifiées sont définies",
+        "Les supports concernés sont précisés (documents, courriels, supports amovibles)",
+        "Le marquage couvre au minimum les niveaux sensibles"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des règles de marquage des informations classifiées sont définies"
+      ],
+      "criteres_manquants": [
+        "Les supports concernés sont précisés (documents, courriels, supports amovibles)",
+        "Le marquage couvre au minimum les niveaux sensibles"
+      ],
+      "preuves": [
+        {
+          "critere": "Des règles de marquage des informations classifiées sont définies",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Les documents classés « Confidentiel » ou « Secret » portent la mention de leur niveau en en-tête ou en pied de page. Les documents « Interne » et « Public » ne font pas l'objet d'un marquage obligatoire."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère C2 est partiellement couvert car les règles de marquage pour les supports (documents, courriels, supports amovibles) sont mentionnées indirectement dans les règles de manipulation (P5), mais il n'y a pas de définition explicite des supports concernés par le marquage dans un passage dédié. Le critère C3 n'est pas couvert : bien que les niveaux sensibles (Confidentiel, Secret) soient définis (P3), il n'y a pas de preuve que le marquage couvre explicitement ces niveaux pour TOUS les supports concernés (documents, courriels, supports amovibles).",
+      "recommandation": "Préciser dans la politique de classification (05_Politique_classification.docx) les règles de marquage explicites pour TOUS les supports (documents, courriels, supports amovibles) et s'assurer que les niveaux sensibles (Confidentiel, Secret) y sont systématiquement appliqués. Ajouter une section dédiée au marquage des courriels et supports amovibles, en complément des règles de manipulation existantes.",
+      "avertissements": [
+        "C2 : passage cité inexistant (None), critère non retenu"
+      ],
+      "sources_consultees": [
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "duree_s": 26.4
+    },
+    {
+      "id": "5.14",
+      "theme": "Mesures organisationnelles",
+      "titre": "Transfert des informations",
+      "nis2": [
+        "Art. 21.2 j"
+      ],
+      "criteres": [
+        "Des règles de transfert des informations sont définies selon leur sensibilité",
+        "Les moyens de transfert autorisés sont précisés",
+        "Les transferts sensibles sont protégés (chiffrement, lien sécurisé)",
+        "Les transferts vers des tiers sont encadrés"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des règles de transfert des informations sont définies selon leur sensibilité",
+        "Les moyens de transfert autorisés sont précisés"
+      ],
+      "criteres_manquants": [
+        "Les transferts sensibles sont protégés (chiffrement, lien sécurisé)",
+        "Les transferts vers des tiers sont encadrés"
+      ],
+      "preuves": [
+        {
+          "critere": "Des règles de transfert des informations sont définies selon leur sensibilité",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Interne : par la messagerie de l'entreprise, uniquement vers des destinataires internes. Confidentiel : par la messagerie de l'entreprise vers l'extérieur uniquement si nécessaire, de préférence par un lien de partage sécurisé à durée limitée plutôt qu'en pièce jointe. Secret : remise en main propre ou partage sur l'espace dédié, jamais par messagerie."
+        },
+        {
+          "critere": "Les moyens de transfert autorisés sont précisés",
+          "doc": "05_Politique_classification.docx",
+          "page": 1,
+          "extrait": "Interne : par la messagerie de l'entreprise, uniquement vers des destinataires internes. Confidentiel : par la messagerie de l'entreprise vers l'extérieur uniquement si nécessaire, de préférence par un lien de partage sécurisé à durée limitée plutôt qu'en pièce jointe. Secret : remise en main propre ou partage sur l'espace dédié, jamais par messagerie."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Les transferts sensibles sont protégés (chiffrement, lien sécurisé)",
+          "doc": "15_Declaration_applicabilite.docx",
+          "page": 1,
+          "extrait": "Applicable. Statut : mise en œuvre. Justification : chiffrement des sauvegardes et des connexions VPN."
+        }
+      ],
+      "sources": [
+        "05_Politique_classification.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "contradictions": "Aucune contradiction n'a été identifiée entre les passages fournis.",
+      "ecart": "Le critère C3 n'est pas explicitement couvert pour les transferts sensibles (ex. chiffrement des transferts de données sensibles via messagerie ou autres moyens). Le critère C4 n'est pas traité dans la documentation fournie, bien que les transferts vers des tiers soient partiellement évoqués (P1), il manque une procédure ou politique dédiée encadrant explicitement ces transferts.",
+      "recommandation": "1. Définir explicitement dans la politique de transfert (ex. 05_Politique_classification.docx) les modalités de chiffrement et de protection des transferts sensibles (C3), notamment pour les échanges par messagerie ou supports externes. 2. Élaborer une procédure dédiée aux transferts vers des tiers (C4) précisant les conditions, les responsabilités et les contrôles associés, en s’appuyant sur les bonnes pratiques de la politique de classification.",
+      "avertissements": [],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.0
+    },
+    {
+      "id": "5.15",
+      "theme": "Mesures organisationnelles",
+      "titre": "Contrôle d'accès",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "Une politique de contrôle d'accès est formalisée",
+        "Les principes de moindre privilège et de besoin d'en connaître sont appliqués",
+        "Les accès sont attribués selon des profils ou des rôles",
+        "Les accès sont soumis à approbation"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Une politique de contrôle d'accès est formalisée",
+        "Les principes de moindre privilège et de besoin d'en connaître sont appliqués"
+      ],
+      "criteres_manquants": [
+        "Les accès sont attribués selon des profils ou des rôles",
+        "Les accès sont soumis à approbation"
+      ],
+      "preuves": [
+        {
+          "critere": "Une politique de contrôle d'accès est formalisée",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "2. Principes > 2.1 Moindre privilège\nChaque utilisateur ne dispose que des droits strictement nécessaires à l'exercice de ses missions, conformément à la PSSI (ARM-GOV-001). Les droits sont accordés selon le principe du besoin d'en connaître et retirés dès qu'ils ne sont plus nécessaires."
+        },
+        {
+          "critere": "Les principes de moindre privilège et de besoin d'en connaître sont appliqués",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "2. Principes > 2.1 Moindre privilège\nChaque utilisateur ne dispose que des droits strictement nécessaires à l'exercice de ses missions, conformément à la PSSI (ARM-GOV-001). Les droits sont accordés selon le principe du besoin d'en connaître et retirés dès qu'ils ne sont plus nécessaires."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les principes de moindre privilège et de besoin d'en connaître sont formalisés (C1 et C2 couverts via la *Politique_controle_acces.docx*), mais il n'y a aucune mention explicite de l'attribution des accès selon des profils ou des rôles (C3) ni de leur soumission à approbation (C4). Aucun passage ne décrit un processus d'approbation ou de gestion des rôles.",
+      "recommandation": "Documenter explicitement dans la *Politique_controle_acces.docx* ou une procédure annexe le processus d'attribution des accès par rôles/profils et l'obligation d'approbation préalable, en citant les responsables concernés et les modalités de validation.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "duree_s": 28.0
+    },
+    {
+      "id": "5.16",
+      "theme": "Mesures organisationnelles",
+      "titre": "Gestion des identités",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "Chaque utilisateur dispose d'une identité unique et nominative",
+        "Les comptes partagés ou génériques sont interdits ou strictement encadrés",
+        "Le cycle de vie des identités est géré (création, modification, suppression)",
+        "Les identités des tiers sont gérées avec une date d'expiration"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Chaque utilisateur dispose d'une identité unique et nominative",
+        "Les comptes partagés ou génériques sont interdits ou strictement encadrés",
+        "Les identités des tiers sont gérées avec une date d'expiration"
+      ],
+      "criteres_manquants": [
+        "Le cycle de vie des identités est géré (création, modification, suppression)"
+      ],
+      "preuves": [
+        {
+          "critere": "Chaque utilisateur dispose d'une identité unique et nominative",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Tout accès au système d'information se fait au moyen d'un compte nominatif."
+        },
+        {
+          "critere": "Les comptes partagés ou génériques sont interdits ou strictement encadrés",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les comptes partagés ou génériques sont interdits, sauf dérogation accordée par le RSSI pour des équipements techniques (ex. : compte de service), avec une journalisation renforcée."
+        },
+        {
+          "critere": "Les identités des tiers sont gérées avec une date d'expiration",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les comptes des fournisseurs intervenant à distance sont nominatifs, créés à la demande du DSI et désactivés à la fin de la prestation (cf. ARM-POL-006)."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère C3 n'est que partiellement couvert pour les comptes internes (création et suppression) : la documentation ne précise pas explicitement la procédure de modification des identités (ex. : changement de poste, promotion, départ temporaire). Le passage P6 ne mentionne pas la suppression des comptes à la fin de la mission interne, seulement la création.",
+      "recommandation": "Documenter explicitement les procédures de modification et de suppression des comptes internes (hors tiers) dans la procédure d'arrivée/départ ou une politique dédiée, et inclure des contrôles réguliers pour vérifier l'état des comptes inactifs ou obsolètes.",
+      "avertissements": [
+        "C3 : passage cité inexistant (None), critère non retenu"
+      ],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)"
+      ],
+      "duree_s": 25.5
+    },
+    {
+      "id": "5.17",
+      "theme": "Mesures organisationnelles",
+      "titre": "Informations d'authentification",
+      "nis2": [
+        "Art. 21.2 j"
+      ],
+      "criteres": [
+        "Des règles de construction des mots de passe sont définies",
+        "Les informations d'authentification sont remises de façon sécurisée et changées à la première connexion",
+        "Leur partage ou divulgation est interdit",
+        "Le stockage des secrets est sécurisé (coffre-fort, gestionnaire de mots de passe)"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des règles de construction des mots de passe sont définies",
+        "Leur partage ou divulgation est interdit"
+      ],
+      "criteres_manquants": [
+        "Les informations d'authentification sont remises de façon sécurisée et changées à la première connexion",
+        "Le stockage des secrets est sécurisé (coffre-fort, gestionnaire de mots de passe)"
+      ],
+      "preuves": [
+        {
+          "critere": "Des règles de construction des mots de passe sont définies",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Les règles de construction et de renouvellement des mots de passe sont définies par la présente politique : longueur minimale de 12 caractères ; combinaison d'au moins trois catégories parmi majuscules, minuscules, chiffres et caractères spéciaux ; interdiction des mots de passe triviaux, des suites logiques et des mots du dictionnaire ; renouvellement tous les 180 jours, et immédiatement en cas de suspicion de compromission ; historique de 5 mots de passe pour empêcher la réutilisation."
+        },
+        {
+          "critere": "Leur partage ou divulgation est interdit",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "L'utilisateur ne communique jamais son mot de passe, y compris au support informatique, et verrouille sa session dès qu'il quitte son poste."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les critères C2 (remise sécurisée et changement automatique des mots de passe à la première connexion) et C4 (stockage sécurisé des secrets) ne sont pas couverts par la documentation. Bien que les règles de construction (C1) et l'interdiction de partage (C3) soient définies, il manque des procédures opérationnelles pour garantir la sécurité des informations d'authentification dès leur attribution et leur stockage.",
+      "recommandation": "Définir et documenter une procédure pour la remise sécurisée des mots de passe (ex. : via un gestionnaire d'identité ou un portail dédié) et leur changement automatique à la première connexion. Implémenter un coffre-fort ou un gestionnaire de mots de passe certifié (ex. : Azure Key Vault, HashiCorp Vault) pour le stockage sécurisé des secrets, et mettre à jour les politiques en conséquence.",
+      "avertissements": [
+        "C1 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)"
+      ],
+      "duree_s": 30.7
+    },
+    {
+      "id": "5.18",
+      "theme": "Mesures organisationnelles",
+      "titre": "Droits d'accès",
+      "nis2": [
+        "Art. 21.2 i"
+      ],
+      "criteres": [
+        "L'attribution des droits suit un processus d'approbation",
+        "Les droits sont modifiés lors d'une mobilité",
+        "Les droits sont retirés rapidement au départ (délai défini et court)",
+        "Une revue périodique des droits est réalisée et tracée",
+        "Les droits d'administration sont revus plus fréquemment"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "L'attribution des droits suit un processus d'approbation",
+        "Les droits sont modifiés lors d'une mobilité",
+        "Une revue périodique des droits est réalisée et tracée"
+      ],
+      "criteres_manquants": [
+        "Les droits sont retirés rapidement au départ (délai défini et court)",
+        "Les droits d'administration sont revus plus fréquemment"
+      ],
+      "preuves": [
+        {
+          "critere": "L'attribution des droits suit un processus d'approbation",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Propriétaire d'actif : valide les demandes d'accès à son application, ..."
+        },
+        {
+          "critere": "Les droits sont modifiés lors d'une mobilité",
+          "doc": "04_Politique_controle_acces.docx",
+          "page": 1,
+          "extrait": "Le nouveau manager crée une demande de mobilité. La DSI ajoute les droits du nouveau profil et retire, à la demande de l'ancien manager, les droits liés à l'ancien poste."
+        },
+        {
+          "critere": "Une revue périodique des droits est réalisée et tracée",
+          "doc": "13_Procedure_arrivees_departs.docx",
+          "page": 1,
+          "extrait": "Une revue des habilitations est réalisée une fois par an pour les applications TMS, ERP et paie. La DSI extrait la liste des utilisateurs et de leurs droits pour chaque application. Le propriétaire de l'application vérifie que chaque utilisateur a toujours besoin de ses droits et demande la suppression des droits inutiles."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les critères C3 (délai de retrait des droits au départ non défini et non court) et C5 (revue des droits d'administration non mentionnée comme plus fréquente que la revue annuelle) ne sont pas couverts par la documentation. La revue annuelle des droits est tracée (P3, P5), mais aucune mention d'une fréquence plus élevée pour les droits d'administration.",
+      "recommandation": "Définir un délai court et explicite pour le retrait des droits au départ dans la procédure d'arrivées et départs (ARM-PRO-003) et préciser dans la politique de contrôle d'accès (04_Politique_controle_acces.docx) que les droits d'administration font l'objet d'une revue plus fréquente que la revue annuelle, avec un calendrier défini.",
+      "avertissements": [
+        "C1 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "04_Politique_controle_acces.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.6
+    },
+    {
+      "id": "5.19",
+      "theme": "Mesures organisationnelles",
+      "titre": "Sécurité de l'information dans les relations avec les fournisseurs",
+      "nis2": [
+        "Art. 21.2 d"
+      ],
+      "criteres": [
+        "Les fournisseurs sont identifiés et classés selon leur criticité",
+        "La sécurité des fournisseurs est évaluée avant contractualisation",
+        "Les risques liés aux fournisseurs sont pris en compte",
+        "Les accès des fournisseurs au SI sont encadrés"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les fournisseurs sont identifiés et classés selon leur criticité",
+        "La sécurité des fournisseurs est évaluée avant contractualisation",
+        "Les accès des fournisseurs au SI sont encadrés"
+      ],
+      "criteres_manquants": [
+        "Les risques liés aux fournisseurs sont pris en compte"
+      ],
+      "preuves": [
+        {
+          "critere": "Les fournisseurs sont identifiés et classés selon leur criticité",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Les fournisseurs sont classés en deux catégories : fournisseurs critiques : leur défaillance ou leur compromission affecterait fortement l'activité ou la sécurité (éditeur du WMS, prestataire d'infogérance réseau, Microsoft) ; fournisseurs standards : tous les autres."
+        },
+        {
+          "critere": "La sécurité des fournisseurs est évaluée avant contractualisation",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Avant la signature d'un contrat avec un fournisseur critique, la direction des achats transmet au fournisseur un questionnaire de sécurité. Les réponses sont analysées par le RSSI, qui émet un avis. Cet avis est consultatif."
+        },
+        {
+          "critere": "Les accès des fournisseurs au SI sont encadrés",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Les contrats avec les fournisseurs critiques comprennent : une clause de confidentialité ; l'engagement du fournisseur à respecter la PSSI d'Armor Logistique lorsqu'il intervient sur le système d'information ; pour les fournisseurs qui traitent des données personnelles, un accord de traitement des données conforme à l'article 28 du RGPD ; des engagements de niveau de service (disponibilité, délais d'intervention)."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "09_Politique_fournisseurs.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère C3 (prise en compte des risques liés aux fournisseurs) n'est pas explicitement couvert par la documentation. Bien que la politique mentionne les risques potentiels (passage P5), aucune procédure ou analyse formelle des risques liés aux fournisseurs n'est décrite ou attestée.",
+      "recommandation": "Mettre en place une procédure formelle d'analyse des risques liés aux fournisseurs, incluant une évaluation des impacts potentiels et des mesures correctives, puis documenter cette procédure dans un registre dédié.",
+      "avertissements": [],
+      "sources_consultees": [
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 28.4
+    },
+    {
+      "id": "5.20",
+      "theme": "Mesures organisationnelles",
+      "titre": "La sécurité de l'information dans les accords conclus avec les fournisseurs",
+      "nis2": [
+        "Art. 21.2 d"
+      ],
+      "criteres": [
+        "Les contrats comportent des clauses de sécurité et de confidentialité",
+        "Un droit d'audit du fournisseur est prévu",
+        "Le fournisseur doit notifier ses incidents de sécurité",
+        "La restitution ou destruction des données en fin de contrat est prévue",
+        "Les clauses RGPD (article 28) sont présentes si le fournisseur traite des données personnelles"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les contrats comportent des clauses de sécurité et de confidentialité",
+        "La restitution ou destruction des données en fin de contrat est prévue",
+        "Les clauses RGPD (article 28) sont présentes si le fournisseur traite des données personnelles"
+      ],
+      "criteres_manquants": [
+        "Un droit d'audit du fournisseur est prévu",
+        "Le fournisseur doit notifier ses incidents de sécurité"
+      ],
+      "preuves": [
+        {
+          "critere": "Les contrats comportent des clauses de sécurité et de confidentialité",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Les contrats avec les fournisseurs critiques comprennent : une clause de confidentialité ; l'engagement du fournisseur à respecter la PSSI d'Armor Logistique lorsqu'il intervient sur le système d'information ; pour les fournisseurs qui traitent des données personnelles, un accord de traitement des données conforme à l'article 28 du RGPD ;"
+        },
+        {
+          "critere": "La restitution ou destruction des données en fin de contrat est prévue",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "À la fin d'un contrat, le fournisseur restitue ou détruit les données de l'entreprise qu'il détient."
+        },
+        {
+          "critere": "Les clauses RGPD (article 28) sont présentes si le fournisseur traite des données personnelles",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "pour les fournisseurs qui traitent des données personnelles, un accord de traitement des données conforme à l'article 28 du RGPD ;"
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "09_Politique_fournisseurs.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les critères C2 (droit d'audit du fournisseur) et C3 (notification des incidents de sécurité par le fournisseur) ne sont pas explicitement couverts dans la documentation. Seuls C1, C4 et C5 sont prouvés par des passages clairs.",
+      "recommandation": "Intégrer dans la politique fournisseurs (09_Politique_fournisseurs.docx) des clauses explicites pour le droit d'audit (C2) et l'obligation de notification des incidents de sécurité (C3) par les fournisseurs, en s'assurant que ces exigences sont vérifiables et documentées.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 26.3
+    },
+    {
+      "id": "5.21",
+      "theme": "Mesures organisationnelles",
+      "titre": "Gestion de la sécurité de l'information dans la chaîne d'approvisionnement TIC",
+      "nis2": [
+        "Art. 21.2 d",
+        "Art. 21.3"
+      ],
+      "criteres": [
+        "Les exigences de sécurité s'appliquent aussi aux sous-traitants des fournisseurs",
+        "Les risques de la chaîne d'approvisionnement TIC sont identifiés",
+        "L'origine et l'intégrité des produits et logiciels sont prises en compte"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les exigences de sécurité s'appliquent aussi aux sous-traitants des fournisseurs",
+        "Les risques de la chaîne d'approvisionnement TIC sont identifiés",
+        "L'origine et l'intégrité des produits et logiciels sont prises en compte"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La documentation ne couvre aucun des critères clés de la mesure 5.21. Les déclarations d'applicabilité (P1, P3) se limitent aux relations directes avec les fournisseurs (niveau 1) et ne mentionnent ni les sous-traitants (C1), ni les risques (C2), ni la traçabilité des produits/logiciels (C3). La politique fournisseurs (P4) évoque la sécurité des relations mais reste générique et ne détaille aucun mécanisme concret pour ces trois critères. Le périmètre du PSSI (P2) exclut explicitement les systèmes embarqués (gérés par des constructeurs tiers), ce qui aggrave l'absence de couverture pour les fournisseurs indirects.",
+      "recommandation": "1. Documenter explicitement les exigences de sécurité applicables aux sous-traitants des fournisseurs (C1) via une clause contractuelle ou un registre des fournisseurs de niveau 2/3, avec des audits réguliers. 2. Réaliser une analyse des risques ciblant la chaîne d'approvisionnement (C2) incluant les dépendances logicielles et les vulnérabilités des composants tiers, avec un plan d'atténuation priorisé. 3. Mettre en place un processus de validation de l'origine et de l'intégrité des produits/logiciels (C3) : certifications obligatoires pour les fournisseurs, vérification des signatures binaires, et tests de sécurité sur les logiciels tiers avant déploiement. Intégrer ces exigences dans les appels d'offres et les contrats.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 34.5
+    },
+    {
+      "id": "5.22",
+      "theme": "Mesures organisationnelles",
+      "titre": "Surveillance, révision et gestion des changements des services fournisseurs",
+      "nis2": [
+        "Art. 21.2 d"
+      ],
+      "criteres": [
+        "Les services des fournisseurs sont suivis régulièrement",
+        "Le respect des engagements de sécurité est vérifié (revue, audit, rapport)",
+        "Les changements chez le fournisseur sont évalués",
+        "Les incidents chez le fournisseur sont suivis"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les services des fournisseurs sont suivis régulièrement",
+        "Les incidents chez le fournisseur sont suivis"
+      ],
+      "criteres_manquants": [
+        "Le respect des engagements de sécurité est vérifié (revue, audit, rapport)",
+        "Les changements chez le fournisseur sont évalués"
+      ],
+      "preuves": [
+        {
+          "critere": "Les services des fournisseurs sont suivis régulièrement",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "La direction des achats organise une réunion annuelle avec chaque fournisseur critique pour faire le point sur la qualité de service."
+        },
+        {
+          "critere": "Les incidents chez le fournisseur sont suivis",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Les incidents survenus chez le fournisseur et ayant affecté Armor Logistique sont abordés lors de cette réunion."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Le respect des engagements de sécurité est vérifié (revue, audit, rapport)",
+          "doc": "09_Politique_fournisseurs.docx",
+          "page": 1,
+          "extrait": "Les contrats avec les fournisseurs critiques comprennent [...] des engagements de niveau de service (disponibilité, délais d'intervention)."
+        }
+      ],
+      "sources": [
+        "09_Politique_fournisseurs.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le suivi régulier des fournisseurs (C1) et le suivi des incidents (C4) sont partiellement couverts, mais il manque une preuve explicite de la vérification du respect des engagements de sécurité (C2) et de l'évaluation des changements chez les fournisseurs (C3).",
+      "recommandation": "Mettre en place des audits ou revues périodiques des engagements de sécurité des fournisseurs (C2) et formaliser une procédure pour évaluer les changements chez les fournisseurs (C3), incluant des comptes-rendus documentés.",
+      "avertissements": [
+        "C2 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 28.4
+    },
+    {
+      "id": "5.23",
+      "theme": "Mesures organisationnelles",
+      "titre": "Sécurité de l'information dans l'utilisation de services en nuage",
+      "nis2": [
+        "Art. 21.2 d"
+      ],
+      "criteres": [
+        "Les règles d'utilisation des services en nuage sont définies",
+        "Le partage des responsabilités avec le fournisseur cloud est clarifié",
+        "Les exigences de sécurité sont définies avant l'adoption d'un service cloud",
+        "La sortie du service (réversibilité) est prévue"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les règles d'utilisation des services en nuage sont définies",
+        "Le partage des responsabilités avec le fournisseur cloud est clarifié",
+        "Les exigences de sécurité sont définies avant l'adoption d'un service cloud",
+        "La sortie du service (réversibilité) est prévue"
+      ],
+      "preuves": [],
+      "constats": [
+        {
+          "critere": "Le partage des responsabilités avec le fournisseur cloud est clarifié",
+          "doc": "15_Declaration_applicabilite.docx",
+          "page": 1,
+          "extrait": "3. Mesures organisationnelles > 5.20 La sécurité de l'information dans les accords conclus avec les fournisseurs\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-006."
+        }
+      ],
+      "sources": [
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Aucun des critères de la mesure 5.23 (règles d'utilisation des services en nuage, partage des responsabilités, exigences de sécurité avant adoption, et sortie du service) n'est explicitement couvert par les documents fournis. La déclaration d'applicabilité (P5) ne suffit pas à prouver la conformité. Le périmètre du SMSI (P1) mentionne l'utilisation du WMS en mode SaaS, mais ne détaille pas les règles ou la réversibilité.",
+      "recommandation": "Documenter explicitement les règles d'utilisation des services en nuage (C1), clarifier le partage des responsabilités avec le fournisseur cloud (C2) dans les contrats, définir les exigences de sécurité avant toute adoption de service cloud (C3), et prévoir un plan de sortie (C4) avec des procédures de migration ou de désengagement. Publier ces éléments dans une politique dédiée ou une annexe à la PSSI.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 31.2
+    },
+    {
+      "id": "5.24",
+      "theme": "Mesures organisationnelles",
+      "titre": "Planification et préparation de la gestion des incidents de sécurité de l'information",
+      "nis2": [
+        "Art. 21.2 b"
+      ],
+      "criteres": [
+        "Une procédure de gestion des incidents est formalisée",
+        "Les rôles et responsabilités dans la gestion des incidents sont définis",
+        "Une échelle de gravité ou de priorité est définie",
+        "Les moyens de réponse sont préparés (contacts, prestataire de réponse, outils)"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Une procédure de gestion des incidents est formalisée",
+        "Les rôles et responsabilités dans la gestion des incidents sont définis"
+      ],
+      "criteres_manquants": [
+        "Une échelle de gravité ou de priorité est définie",
+        "Les moyens de réponse sont préparés (contacts, prestataire de réponse, outils)"
+      ],
+      "preuves": [
+        {
+          "critere": "Une procédure de gestion des incidents est formalisée",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "1. Objet\nCette procédure décrit la manière dont Armor Logistique détecte, qualifie, traite et notifie les incidents de sécurité. Elle s'inspire du cycle de réponse à incident du NIST : préparation, détection et analyse, confinement, éradication et rétablissement, activités post-incident."
+        },
+        {
+          "critere": "Les rôles et responsabilités dans la gestion des incidents sont définis",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "La direction générale est responsable de la sécurité de l'information. Elle approuve la PSSI, alloue les ressources nécessaires et valide les risques résiduels. Le Responsable de la Sécurité des Systèmes d'Information (RSSI) pilote la mise en œuvre de la présente politique. Les rôles et responsabilités détaillés sont décrits dans le document « Organisation de la sécurité » (ARM-GOV-002)."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Les moyens de réponse sont préparés (contacts, prestataire de réponse, outils)",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "Avant toute réinstallation, les éléments utiles à l'enquête sont conservés : journaux, copie du disque ou de la mémoire si possible. En cas d'incident grave, l'entreprise peut faire appel à un prestataire de réponse aux incidents de sécurité."
+        }
+      ],
+      "sources": [
+        "01_PSSI.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)"
+      ],
+      "contradictions": "Les passages P1 et P3 déclarent tous deux la mesure 5.24 et 5.26 comme applicables avec la même référence (ARM-PRO-001), mais aucune distinction claire n'est faite entre les deux mesures dans les documents cités. Cela peut prêter à confusion sur la portée exacte de la procédure ARM-PRO-001.",
+      "ecart": "L'échelle de gravité ou de priorité des incidents n'est pas explicitement définie (critère C3 non couvert). Bien que le prestataire de réponse aux incidents soit mentionné (critère C4 partiellement couvert), les moyens de réponse (contacts, outils, procédures détaillées) ne sont pas clairement préparés et documentés dans les passages fournis.",
+      "recommandation": "Définir explicitement une échelle de gravité ou de priorité des incidents dans la procédure ARM-PRO-001 et documenter les moyens de réponse (contacts, outils, procédures détaillées) pour couvrir tous les critères de la mesure 5.24. Vérifier la cohérence entre les mesures 5.24 et 5.26 dans la documentation.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "02_Organisation_securite.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 31.8
+    },
+    {
+      "id": "5.25",
+      "theme": "Mesures organisationnelles",
+      "titre": "Évaluation des événements de sécurité de l'information et prise de décision",
+      "nis2": [
+        "Art. 21.2 b"
+      ],
+      "criteres": [
+        "Des critères permettent de décider si un événement est un incident",
+        "Les événements sont qualifiés et priorisés",
+        "Des règles d'escalade sont définies selon la gravité"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des critères permettent de décider si un événement est un incident",
+        "Les événements sont qualifiés et priorisés",
+        "Des règles d'escalade sont définies selon la gravité"
+      ],
+      "criteres_manquants": [],
+      "preuves": [
+        {
+          "critere": "Des critères permettent de décider si un événement est un incident",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "Incident de sécurité : événement qui compromet ou risque de compromettre la disponibilité, l'intégrité ou la confidentialité de l'information."
+        },
+        {
+          "critere": "Les événements sont qualifiés et priorisés",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "L'administrateur de permanence analyse le signalement et détermine s'il s'agit d'un incident. Il évalue sa gravité selon l'échelle suivante : faible, moyenne, élevée, critique."
+        },
+        {
+          "critere": "Des règles d'escalade sont définies selon la gravité",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "Les incidents de gravité élevée ou critique sont escaladés sans délai au DSI et au RSSI."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "11_Procedure_incidents.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Aucun écart majeur identifié dans les critères couverts, mais il manque une description explicite des règles d'escalade pour les gravités faible et moyenne (bien que C3 soit partiellement couvert pour les cas critiques et élevés). La documentation ne précise pas les actions correctives ou les responsables pour les incidents de gravité faible et moyenne.",
+      "recommandation": "Préciser dans la procédure les règles d'escalade et les actions correctives pour les incidents de gravité faible et moyenne, et documenter explicitement les rôles et responsabilités associés.",
+      "avertissements": [
+        "C2 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.5
+    },
+    {
+      "id": "5.26",
+      "theme": "Mesures organisationnelles",
+      "titre": "Réponse aux incidents de sécurité de l'information",
+      "nis2": [
+        "Art. 21.2 b",
+        "Art. 23"
+      ],
+      "criteres": [
+        "Les étapes de réponse sont décrites (confinement, éradication, rétablissement)",
+        "Les notifications réglementaires sont prévues avec leurs délais (NIS2 : alerte sous 24 h, notification sous 72 h, rapport final sous 1 mois)",
+        "La notification des violations de données à la CNIL sous 72 h est prévue",
+        "La communication vers les parties concernées (clients, personnes) est prévue",
+        "Les incidents sont enregistrés"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les étapes de réponse sont décrites (confinement, éradication, rétablissement)",
+        "La notification des violations de données à la CNIL sous 72 h est prévue",
+        "Les incidents sont enregistrés"
+      ],
+      "criteres_manquants": [
+        "Les notifications réglementaires sont prévues avec leurs délais (NIS2 : alerte sous 24 h, notification sous 72 h, rapport final sous 1 mois)",
+        "La communication vers les parties concernées (clients, personnes) est prévue"
+      ],
+      "preuves": [
+        {
+          "critere": "Les étapes de réponse sont décrites (confinement, éradication, rétablissement)",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "Cette procédure décrit la manière dont Armor Logistique détecte, qualifie, traite et notifie les incidents de sécurité. Elle s'inspire du cycle de réponse à incident du NIST : préparation, détection et analyse, confinement, éradication et rétablissement, activités post-incident."
+        },
+        {
+          "critere": "La notification des violations de données à la CNIL sous 72 h est prévue",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "Si l'incident constitue une violation de données personnelles présentant un risque pour les personnes, le DPO la notifie à la CNIL dans un délai de 72 heures après sa découverte, conformément à l'article 33 du RGPD."
+        },
+        {
+          "critere": "Les incidents sont enregistrés",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Toutes les violations sont consignées dans un registre tenu par le DPO, qu'elles soient notifiées ou non."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "La communication vers les parties concernées (clients, personnes) est prévue",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Si le risque est élevé, les personnes concernées sont également informées."
+        }
+      ],
+      "sources": [
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les critères C2 (notifications réglementaires NIS2) et C4 (communication vers les parties concernées sans distinction de risque) ne sont pas explicitement couverts par la documentation. Le registre des incidents (C5) est mentionné, mais les délais et modalités de notification NIS2 manquent.",
+      "recommandation": "Compléter la procédure d'incidents (11_Procedure_incidents.docx) avec les délais précis de notification NIS2 (alerte sous 24h, notification sous 72h, rapport sous 1 mois) et préciser les modalités de communication systématique vers les parties concernées, y compris en cas de risque faible ou modéré.",
+      "avertissements": [],
+      "sources_consultees": [
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 33.2
+    },
+    {
+      "id": "5.27",
+      "theme": "Mesures organisationnelles",
+      "titre": "Tirer des enseignements des incidents de sécurité de l'information",
+      "nis2": [
+        "Art. 21.2 b"
+      ],
+      "criteres": [
+        "Un retour d'expérience est organisé après les incidents significatifs",
+        "Les causes et les améliorations sont identifiées",
+        "Les actions correctives sont suivies",
+        "Les enseignements alimentent l'analyse de risques ou les mesures"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Un retour d'expérience est organisé après les incidents significatifs",
+        "Les causes et les améliorations sont identifiées",
+        "Les actions correctives sont suivies"
+      ],
+      "criteres_manquants": [
+        "Les enseignements alimentent l'analyse de risques ou les mesures"
+      ],
+      "preuves": [
+        {
+          "critere": "Un retour d'expérience est organisé après les incidents significatifs",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "Un retour d'expérience est organisé après chaque incident de gravité élevée ou critique, dans un délai d'un mois."
+        },
+        {
+          "critere": "Les causes et les améliorations sont identifiées",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "Il identifie les causes, les points à améliorer et les actions correctives"
+        },
+        {
+          "critere": "Les actions correctives sont suivies",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "les actions correctives, qui sont suivies par le comité de sécurité."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "11_Procedure_incidents.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère C4 (les enseignements alimentent l'analyse de risques ou les mesures) n'est pas explicitement mentionné dans les documents fournis, malgré la présence d'un retour d'expérience et de suivi des actions correctives. Aucun passage ne prouve que les enseignements tirés des incidents sont intégrés dans l'analyse de risques ou les politiques/mesures de sécurité.",
+      "recommandation": "Documenter explicitement comment les enseignements des retours d'expérience sont intégrés dans l'analyse de risques (ex. : mise à jour du registre des risques) ou dans les politiques/mesures de sécurité (ex. : mise à jour de la charte informatique ou des procédures). Conserver un compte rendu formalisé de cette intégration.",
+      "avertissements": [],
+      "sources_consultees": [
+        "03_Charte_informatique.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 27.7
+    },
+    {
+      "id": "5.28",
+      "theme": "Mesures organisationnelles",
+      "titre": "Collecte des preuves",
+      "nis2": [
+        "Art. 21.2 b"
+      ],
+      "criteres": [
+        "Des règles de collecte et de conservation des preuves sont définies",
+        "Les preuves sont préservées avant toute remise en état",
+        "L'intégrité et la traçabilité des preuves sont assurées"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Des règles de collecte et de conservation des preuves sont définies",
+        "Les preuves sont préservées avant toute remise en état"
+      ],
+      "criteres_manquants": [
+        "L'intégrité et la traçabilité des preuves sont assurées"
+      ],
+      "preuves": [
+        {
+          "critere": "Des règles de collecte et de conservation des preuves sont définies",
+          "doc": "08_Politique_journalisation.docx",
+          "page": 1,
+          "extrait": "Cette politique définit les événements à journaliser, la conservation des journaux et l'organisation de la surveillance du système d'information."
+        },
+        {
+          "critere": "Les preuves sont préservées avant toute remise en état",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "Avant toute réinstallation, les éléments utiles à l'enquête sont conservés : journaux, copie du disque ou de la mémoire si possible."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "08_Politique_journalisation.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les règles de collecte et de conservation des preuves sont définies (Politique_journalisation.docx), et les preuves sont préservées avant toute remise en état (Procedure_incidents.docx). Cependant, l'intégrité et la traçabilité des preuves ne sont pas assurées explicitement dans la documentation. La durée de conservation des journaux (3 mois) ne garantit pas la traçabilité sur le long terme ni l'intégrité des preuves.",
+      "recommandation": "Définir dans une politique ou une procédure dédiée les mécanismes d'assurance d'intégrité (ex. : chiffrement, hash) et de traçabilité (ex. : logs d'accès, chaîne de custodie) des preuves, et documenter ces processus dans les documents officiels (ex. : Politique_journalisation.docx ou Procedure_incidents.docx).",
+      "avertissements": [],
+      "sources_consultees": [
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 29.2
+    },
+    {
+      "id": "5.29",
+      "theme": "Mesures organisationnelles",
+      "titre": "Sécurité de l'information durant une perturbation",
+      "nis2": [
+        "Art. 21.2 c"
+      ],
+      "criteres": [
+        "Un plan de continuité d'activité existe",
+        "Le maintien de la sécurité en situation de crise ou de mode dégradé est prévu",
+        "Une cellule de crise est définie (composition, activation, lieu de repli)",
+        "Le plan est testé régulièrement (exercices de crise)"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Un plan de continuité d'activité existe",
+        "Le maintien de la sécurité en situation de crise ou de mode dégradé est prévu",
+        "Une cellule de crise est définie (composition, activation, lieu de repli)"
+      ],
+      "criteres_manquants": [
+        "Le plan est testé régulièrement (exercices de crise)"
+      ],
+      "preuves": [
+        {
+          "critere": "Un plan de continuité d'activité existe",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "1. Objet\nCe plan décrit l'organisation mise en place par Armor Logistique pour maintenir ses activités essentielles en cas de sinistre affectant le système d'information, puis pour rétablir le fonctionnement normal. Le plan de continuité d'activité (PCA) traite du maintien de l'activité, éventuellement en mode dégradé. Le plan de reprise d'activité (PRA) traite du redémarrage des systèmes informatiques."
+        },
+        {
+          "critere": "Le maintien de la sécurité en situation de crise ou de mode dégradé est prévu",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "1. Objet\nCe plan décrit l'organisation mise en place par Armor Logistique pour maintenir ses activités essentielles en cas de sinistre affectant le système d'information, puis pour rétablir le fonctionnement normal. Le plan de continuité d'activité (PCA) traite du maintien de l'activité, éventuellement en mode dégradé."
+        },
+        {
+          "critere": "Une cellule de crise est définie (composition, activation, lieu de repli)",
+          "doc": "11_Procedure_incidents.docx",
+          "page": 1,
+          "extrait": "6. Cellule de crise\nEn cas d'incident critique, le Directeur général active la cellule de crise décrite dans le plan de continuité d'activité (ARM-PRO-002)."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Le plan est testé régulièrement (exercices de crise)",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "7. Tests\nLe PCA et le PRA doivent être testés au moins une fois par an. Un premier exercice de restauration complète du TMS est prévu au premier semestre 2026. Aucun exercice de gestion de crise n'a été organisé à ce jour."
+        }
+      ],
+      "sources": [
+        "11_Procedure_incidents.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le plan de continuité d'activité (PCA) et le plan de reprise d'activité (PRA) sont documentés et la cellule de crise est définie (12_PCA_PRA.docx, ARM-PRO-002), mais aucun exercice de gestion de crise n'a été réalisé à ce jour (12_PCA_PRA.docx). Les tests prévus ne couvrent pas explicitement la gestion de crise, seulement la restauration technique.",
+      "recommandation": "Organiser des exercices de gestion de crise incluant la cellule de crise et documenter les résultats pour couvrir le critère C4. Prévoir des tests réguliers (au moins annuels) incluant des scénarios de crise pour valider l'efficacité du plan.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 28.8
+    },
+    {
+      "id": "5.30",
+      "theme": "Mesures organisationnelles",
+      "titre": "Préparation des TIC pour la continuité d'activité",
+      "nis2": [
+        "Art. 21.2 c"
+      ],
+      "criteres": [
+        "Une analyse d'impact sur l'activité (BIA) est réalisée",
+        "Des objectifs de reprise (RTO, RPO) sont définis pour les systèmes critiques",
+        "Des procédures de reprise informatique sont documentées",
+        "Le plan de reprise est testé régulièrement et les résultats sont exploités"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Une analyse d'impact sur l'activité (BIA) est réalisée",
+        "Des objectifs de reprise (RTO, RPO) sont définis pour les systèmes critiques",
+        "Des procédures de reprise informatique sont documentées"
+      ],
+      "criteres_manquants": [
+        "Le plan de reprise est testé régulièrement et les résultats sont exploités"
+      ],
+      "preuves": [
+        {
+          "critere": "Une analyse d'impact sur l'activité (BIA) est réalisée",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "L'analyse d'impact sur l'activité, réalisée avec la direction des opérations, a permis de définir pour chaque application une durée maximale d'interruption admissible (DMIA, en anglais RTO) et une perte de données maximale admissible (PDMA, en anglais RPO) :"
+        },
+        {
+          "critere": "Des objectifs de reprise (RTO, RPO) sont définis pour les systèmes critiques",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "L'analyse d'impact sur l'activité, réalisée avec la direction des opérations, a permis de définir pour chaque application une durée maximale d'interruption admissible (DMIA, en anglais RTO) et une perte de données maximale admissible (PDMA, en anglais RPO) : TMS : RTO 4 heures, RPO 1 heure ; WMS : RTO 4 heures, RPO 1 heure, selon les engagements de l'éditeur ; ERP : RTO 48 heures, RPO 24 heures ; messagerie : RTO 8 heures, RPO 24 heures ; paie : RTO 5 jours, RPO 24 heures."
+        },
+        {
+          "critere": "Des procédures de reprise informatique sont documentées",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "Ce plan décrit l'organisation mise en place par Armor Logistique pour maintenir ses activités essentielles en cas de sinistre affectant le système d'information, puis pour rétablir le fonctionnement normal. Le plan de continuité d'activité (PCA) traite du maintien de l'activité, éventuellement en mode dégradé. Le plan de reprise d'activité (PRA) traite du redémarrage des systèmes informatiques."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Le plan de reprise est testé régulièrement et les résultats sont exploités",
+          "doc": "12_PCA_PRA.docx",
+          "page": 1,
+          "extrait": "Le PCA et le PRA doivent être testés au moins une fois par an. Un premier exercice de restauration complète du TMS est prévu au premier semestre 2026. Aucun exercice de gestion de crise n'a été organisé à ce jour."
+        }
+      ],
+      "sources": [
+        "12_PCA_PRA.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Les procédures de reprise informatique sont documentées (12_PCA_PRA.docx), mais les tests réguliers du plan de reprise ne sont pas réalisés : seul un test de restauration du TMS est prévu pour 2026, sans preuve de tests antérieurs ni exploitation des résultats.",
+      "recommandation": "Mettre en œuvre des tests réguliers du plan de reprise d'activité (PRA) et du plan de continuité d'activité (PCA) selon le calendrier défini (au moins une fois par an), documenter les résultats et les actions correctives mises en place.",
+      "avertissements": [],
+      "sources_consultees": [
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 41.3
+    },
+    {
+      "id": "5.31",
+      "theme": "Mesures organisationnelles",
+      "titre": "Exigences légales, statutaires, réglementaires et contractuelles",
+      "nis2": [
+        "Art. 21.1"
+      ],
+      "criteres": [
+        "Les exigences légales, réglementaires et contractuelles applicables sont identifiées",
+        "Elles sont recensées dans un registre tenu à jour",
+        "Une veille réglementaire est organisée",
+        "Les responsabilités de mise en conformité sont attribuées"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les exigences légales, réglementaires et contractuelles applicables sont identifiées"
+      ],
+      "criteres_manquants": [
+        "Elles sont recensées dans un registre tenu à jour",
+        "Une veille réglementaire est organisée",
+        "Les responsabilités de mise en conformité sont attribuées"
+      ],
+      "preuves": [
+        {
+          "critere": "Les exigences légales, réglementaires et contractuelles applicables sont identifiées",
+          "doc": "01_PSSI.docx",
+          "page": 1,
+          "extrait": "L'entreprise est également soumise au Règlement général sur la protection des données (RGPD) pour les données personnelles de ses salariés, de ses chauffeurs et des contacts de ses clients. Plusieurs contrats clients imposent par ailleurs des exigences de sécurité spécifiques."
+        }
+      ],
+      "constats": [
+        {
+          "critere": "Elles sont recensées dans un registre tenu à jour",
+          "doc": "15_Declaration_applicabilite.docx",
+          "page": 1,
+          "extrait": "le registre des exigences légales et contractuelles est en cours de constitution."
+        }
+      ],
+      "sources": [
+        "01_PSSI.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Bien que les exigences légales, réglementaires et contractuelles soient identifiées (P4), le registre des exigences n'est pas encore finalisé (P1). Aucune mention d'une veille réglementaire organisée ou d'attribution claire des responsabilités de mise en conformité n'est présente dans la documentation.",
+      "recommandation": "Finaliser le registre des exigences légales, réglementaires et contractuelles (P1) et mettre en place une veille réglementaire structurée avec des responsables désignés pour la conformité, en documentant ces actions dans des politiques ou procédures dédiées.",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "09_Politique_fournisseurs.docx (p. 1)",
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 26.2
+    },
+    {
+      "id": "5.32",
+      "theme": "Mesures organisationnelles",
+      "titre": "Droits de propriété intellectuelle",
+      "nis2": [],
+      "criteres": [
+        "L'usage de logiciels sous licence est encadré",
+        "L'installation de logiciels non autorisés est interdite",
+        "Les licences sont suivies"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "L'usage de logiciels sous licence est encadré",
+        "L'installation de logiciels non autorisés est interdite",
+        "Les licences sont suivies"
+      ],
+      "preuves": [],
+      "constats": [
+        {
+          "critere": "L'installation de logiciels non autorisés est interdite",
+          "doc": "03_Charte_informatique.docx",
+          "page": 1,
+          "extrait": "Le téléchargement de logiciels ou de fichiers volumineux sans lien avec l'activité est interdit."
+        }
+      ],
+      "sources": [
+        "03_Charte_informatique.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "La documentation ne couvre aucun critère de la mesure 5.32. Le passage P4 interdit partiellement les téléchargements non autorisés, mais ne traite pas des licences ni de l'installation de logiciels non autorisés. Aucune politique ou procédure explicite n'encadre ces aspects.",
+      "recommandation": "Élaborer une politique dédiée aux droits de propriété intellectuelle (ex. : ARM-POL-00X) définissant les règles d'usage, d'installation et de suivi des licences, puis l'intégrer dans la charte informatique ou un document dédié.",
+      "avertissements": [],
+      "sources_consultees": [
+        "02_Organisation_securite.docx (p. 1)",
+        "03_Charte_informatique.docx (p. 1)",
+        "07_Politique_vulnerabilites.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 25.4
+    },
+    {
+      "id": "5.33",
+      "theme": "Mesures organisationnelles",
+      "titre": "Protection des enregistrements",
+      "nis2": [],
+      "criteres": [
+        "Les enregistrements importants sont identifiés",
+        "Des durées de conservation sont définies",
+        "Les enregistrements sont protégés contre la perte, l'altération et l'accès non autorisé"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Les enregistrements importants sont identifiés"
+      ],
+      "criteres_manquants": [
+        "Des durées de conservation sont définies",
+        "Les enregistrements sont protégés contre la perte, l'altération et l'accès non autorisé"
+      ],
+      "preuves": [
+        {
+          "critere": "Les enregistrements importants sont identifiés",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Dossiers des salariés : 5 ans après le départ. Bulletins de paie : 50 ans, sous forme dématérialisée. Candidatures non retenues : 2 ans après le dernier contact, sauf opposition du candidat. Images de vidéosurveillance : 30 jours."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "10_Politique_donnees_personnelles.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Le critère C3 (protection contre la perte, l'altération et l'accès non autorisé) n'est pas explicitement couvert par la documentation fournie. Aucun passage ne décrit des mesures technologiques ou organisationnelles pour protéger les enregistrements (ex. chiffrement, accès restreint, audits, sauvegardes sécurisées, etc.).",
+      "recommandation": "Mettre en place des mesures de protection explicites pour les enregistrements (ex. chiffrement des données sensibles, contrôle d'accès, sauvegardes sécurisées et testées, audits réguliers) et documenter ces mesures dans une politique ou procédure dédiée.",
+      "avertissements": [
+        "C2 : passage cité inexistant ([{'passage': 'P1', 'extrait': \"Sauvegardes quotidiennes : 30 jours. Sauvegardes hebdomadaires : 3 mois. Sauvegardes mensuelles : 1 an. Données comptables : conservation conforme aux obligations légales, assurée par l'archivage de l'ERP.\"}, {'passage': 'P2', 'extrait': \"Les journaux sont conservés 3 mois dans le SIEM. Au-delà, ils sont supprimés automatiquement afin de limiter l'espace de stockage utilisé.\"}, {'passage': 'P3', 'extrait': 'Dossiers des salariés : 5 ans après le départ. Bulletins de paie : 50 ans, sous forme dématérialisée. Candidatures non retenues : 2 ans après le dernier contact, sauf opposition du candidat. Images de vidéosurveillance : 30 jours. Les durées de conservation des données de géolocalisation et des données des contacts clients restent à définir.'}]), critère non retenu"
+      ],
+      "sources_consultees": [
+        "06_Politique_sauvegarde.docx (p. 1)",
+        "08_Politique_journalisation.docx (p. 1)",
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 25.6
+    },
+    {
+      "id": "5.34",
+      "theme": "Mesures organisationnelles",
+      "titre": "Protection de la vie privée et des données à caractère personnel (DCP)",
+      "nis2": [],
+      "criteres": [
+        "Un registre des activités de traitement est tenu",
+        "Des durées de conservation sont définies pour tous les traitements",
+        "Des analyses d'impact (AIPD) sont réalisées pour les traitements à risque élevé",
+        "L'exercice des droits des personnes est organisé",
+        "Un DPO ou référent est désigné"
+      ],
+      "statut": "partiellement conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [
+        "Un registre des activités de traitement est tenu",
+        "Des analyses d'impact (AIPD) sont réalisées pour les traitements à risque élevé",
+        "L'exercice des droits des personnes est organisé",
+        "Un DPO ou référent est désigné"
+      ],
+      "criteres_manquants": [
+        "Des durées de conservation sont définies pour tous les traitements"
+      ],
+      "preuves": [
+        {
+          "critere": "Un registre des activités de traitement est tenu",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Le DPO tient le registre des activités de traitement. Le registre recense à ce jour quatorze traitements, dont la gestion de la paie, le recrutement, la géolocalisation des véhicules, la vidéosurveillance et la gestion des clients. Chaque nouveau traitement est déclaré au DPO avant sa mise en œuvre."
+        },
+        {
+          "critere": "Des analyses d'impact (AIPD) sont réalisées pour les traitements à risque élevé",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "est consultée pour les analyses d'impact relatives à la protection des données (AIPD);"
+        },
+        {
+          "critere": "L'exercice des droits des personnes est organisé",
+          "doc": "10_Politique_donnees_personnelles.docx",
+          "page": 1,
+          "extrait": "Les personnes concernées peuvent exercer leurs droits d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité en écrivant au DPO à l'adresse dpo@armor-logistique.fr. Les demandes sont traitées dans un délai d'un mois."
+        },
+        {
+          "critere": "Un DPO ou référent est désigné",
+          "doc": "02_Organisation_securite.docx",
+          "page": 1,
+          "extrait": "Sophie Lambert, juriste, est désignée DPO auprès de la CNIL."
+        }
+      ],
+      "constats": [],
+      "sources": [
+        "02_Organisation_securite.docx (p. 1)",
+        "10_Politique_donnees_personnelles.docx (p. 1)"
+      ],
+      "contradictions": "",
+      "ecart": "Aucune mention explicite de durées de conservation définies pour les traitements de données à caractère personnel dans la documentation fournie (critère C2 non couvert).",
+      "recommandation": "Définir et documenter des durées de conservation précises pour chaque traitement de données à caractère personnel dans la politique ou procédure dédiée, en s’appuyant sur les références légales (RGPD) et les bonnes pratiques sectorielles.",
+      "avertissements": [
+        "C3 : extrait légèrement reformulé par le modèle"
+      ],
+      "sources_consultees": [
+        "02_Organisation_securite.docx (p. 1)",
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "11_Procedure_incidents.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 32.5
+    },
+    {
+      "id": "5.35",
+      "theme": "Mesures organisationnelles",
+      "titre": "Révision indépendante de la sécurité de l'information",
+      "nis2": [
+        "Art. 21.2 f"
+      ],
+      "criteres": [
+        "Des audits indépendants de la sécurité sont planifiés (audit interne, externe)",
+        "Les audits sont réalisés selon une fréquence définie",
+        "Les résultats sont présentés à la direction",
+        "Les non-conformités font l'objet d'actions correctives suivies"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Des audits indépendants de la sécurité sont planifiés (audit interne, externe)",
+        "Les audits sont réalisés selon une fréquence définie",
+        "Les résultats sont présentés à la direction",
+        "Les non-conformités font l'objet d'actions correctives suivies"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "Aucun audit indépendant de la sécurité de l'information (interne ou externe planifié selon une fréquence définie) n'est documenté, ni les résultats présentés à la direction ou les actions correctives suivies. Le seul test d'intrusion externe réalisé en 2025 ne couvre pas les critères C1, C2 et C3, et ne mentionne pas explicitement les actions correctives pour les non-conformités (1 vulnérabilité élevée non corrigée).",
+      "recommandation": "Mettre en place un plan d'audits indépendants (interne et externe) avec une fréquence définie, documenter les résultats des audits et les actions correctives associées, et présenter ces résultats à la direction lors de la revue de direction annuelle.",
+      "avertissements": [
+        "C4 : constat ignoré, extrait introuvable dans P1"
+      ],
+      "sources_consultees": [
+        "15_Declaration_applicabilite.docx (p. 1)",
+        "16_Revue_de_direction.docx (p. 1)"
+      ],
+      "duree_s": 20.8
+    },
+    {
+      "id": "5.36",
+      "theme": "Mesures organisationnelles",
+      "titre": "Conformité aux politiques, règles et normes de sécurité de l'information",
+      "nis2": [
+        "Art. 21.2 f"
+      ],
+      "criteres": [
+        "Le respect des politiques de sécurité est vérifié régulièrement",
+        "Les écarts constatés sont traités",
+        "Des indicateurs de conformité sont suivis"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "partiellement conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Le respect des politiques de sécurité est vérifié régulièrement",
+        "Les écarts constatés sont traités",
+        "Des indicateurs de conformité sont suivis"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La documentation ne fournit aucune preuve que le respect des politiques de sécurité est vérifié régulièrement (C1), que les écarts sont traités (C2) ou que des indicateurs de conformité sont suivis (C3). Seule la revue de direction (P3) évoque une évaluation annuelle globale du système, mais sans détail sur les contrôles ciblés ou les indicateurs. Les politiques et procédures (P2, P4, P5) sont déclarées mais non validées par des preuves de conformité opérationnelle.",
+      "recommandation": "Mettre en place des audits réguliers du respect des politiques (ex. audits trimestriels), documenter les écarts et leurs traitements (ex. registre des non-conformités avec suivi des actions), et définir des indicateurs de conformité (ex. taux de respect des politiques, nombre d'incidents liés à des non-conformités) à intégrer dans les rapports de revue de direction (P3).",
+      "avertissements": [
+        "Statut du modèle (partiellement conforme) corrigé en « non conforme » d'après les preuves vérifiées"
+      ],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "04_Politique_controle_acces.docx (p. 1)",
+        "05_Politique_classification.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)",
+        "16_Revue_de_direction.docx (p. 1)"
+      ],
+      "duree_s": 26.1
+    },
+    {
+      "id": "5.37",
+      "theme": "Mesures organisationnelles",
+      "titre": "Procédures d'exploitation documentées",
+      "nis2": [],
+      "criteres": [
+        "Les procédures d'exploitation sont documentées",
+        "Elles sont accessibles aux personnes qui en ont besoin",
+        "Elles sont tenues à jour"
+      ],
+      "statut": "non conforme",
+      "statut_llm": "non conforme",
+      "criteres_couverts": [],
+      "criteres_manquants": [
+        "Les procédures d'exploitation sont documentées",
+        "Elles sont accessibles aux personnes qui en ont besoin",
+        "Elles sont tenues à jour"
+      ],
+      "preuves": [],
+      "constats": [],
+      "sources": [],
+      "contradictions": "",
+      "ecart": "La mesure **5.37 – Procédures d'exploitation documentées** n'est pas explicitement couverte par la documentation fournie. Bien que des procédures spécifiques (comme les arrivées/départs ou le PCA) soient documentées (P1, P5), aucune politique ou procédure générale sur les **procédures d'exploitation courantes** (C1), leur **accessibilité** (C2) ou leur **mise à jour** (C3) n'est visible. La déclaration d'applicabilité (P4) ne suffit pas à prouver la conformité.",
+      "recommandation": "Documenter explicitement les procédures d'exploitation courantes (ex. gestion des incidents, maintenance, sauvegardes) dans un document dédié (ex. *Procédures_Exploitation.docx*), définir leur accès contrôlé (ex. via un registre des utilisateurs autorisés) et instaurer un processus de révision annuel (ex. validation par le responsable sécurité).",
+      "avertissements": [],
+      "sources_consultees": [
+        "01_PSSI.docx (p. 1)",
+        "10_Politique_donnees_personnelles.docx (p. 1)",
+        "12_PCA_PRA.docx (p. 1)",
+        "13_Procedure_arrivees_departs.docx (p. 1)",
+        "15_Declaration_applicabilite.docx (p. 1)"
+      ],
+      "duree_s": 17.7
+    }
+  ]
+}

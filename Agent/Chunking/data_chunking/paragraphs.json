@@ -1,0 +1,1430 @@
+[
+    {
+        "paragraph_id": "1f255fba",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "Politique de Sécurité des Systèmes d'Information (PSSI)\nRéférence : ARM-GOV-001  |  Version : 3.0  |  Date : 12 février 2026  |  Propriétaire : RSSI  |  Approbation : Direction générale  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "578b0cad",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "1. Objet\nLa présente Politique de Sécurité des Systèmes d'Information (PSSI) définit les principes et les engagements d'Armor Logistique SAS en matière de sécurité de l'information. Elle constitue le document de plus haut niveau de la pyramide documentaire de sécurité. Les politiques thématiques, les procédures et les guides opérationnels en découlent et doivent lui être conformes.\nArmor Logistique est une entreprise de transport routier de marchandises et d'entreposage, dont le siège est situé à Rennes. Elle emploie environ 480 collaborateurs répartis sur trois sites : le siège de Rennes, l'entrepôt de Brest et l'entrepôt de Nantes. Ses principaux clients sont des enseignes de la grande distribution et des industriels de l'agroalimentaire."
+    },
+    {
+        "paragraph_id": "ca8512fd",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "2. Contexte et enjeux\nLe système d'information est indispensable à l'activité : planification des tournées, suivi des véhicules, gestion des stocks en entrepôt, facturation et échanges de données avec les clients. Une indisponibilité de plus de quelques heures du logiciel de gestion du transport (TMS) ou du logiciel de gestion d'entrepôt (WMS) entraîne des retards de livraison, des pénalités contractuelles et une atteinte à l'image de l'entreprise.\nAu titre de la directive européenne NIS2, transposée en droit français, Armor Logistique relève du secteur des transports et est considérée comme une entité importante. Elle est donc soumise à des obligations de gestion des risques, de notification des incidents et de responsabilité de la direction.\nL'entreprise est également soumise au Règlement général sur la protection des données (RGPD) pour les données personnelles de ses salariés, de ses chauffeurs et des contacts de ses clients. Plusieurs contrats clients imposent par ailleurs des exigences de sécurité spécifiques."
+    },
+    {
+        "paragraph_id": "ee1a51e4",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "3. Périmètre du système de management de la sécurité de l'information\nLe système de management de la sécurité de l'information (SMSI) couvre :\nles activités de transport, d'entreposage et les fonctions support (finance, ressources humaines, achats) ;\nles trois sites de Rennes, Brest et Nantes ;\nles systèmes d'information internes : annuaire Active Directory, messagerie et bureautique Microsoft 365, TMS développé en interne, WMS fourni en mode SaaS, ERP de gestion, outils de géolocalisation des véhicules ;\nl'ensemble des collaborateurs, des intérimaires et des prestataires ayant accès au système d'information.\nSont exclus du périmètre les systèmes embarqués des véhicules, gérés directement par le constructeur, et le site internet vitrine, hébergé et administré par une agence de communication."
+    },
+    {
+        "paragraph_id": "4cec0995",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "4. Objectifs de sécurité\nLa direction générale fixe les objectifs suivants :\ngarantir la disponibilité du TMS et du WMS à au moins 99,5 % sur les heures d'exploitation ;\nprotéger la confidentialité des données des clients et des données personnelles ;\ndétecter et traiter les incidents de sécurité dans les délais réglementaires ;\nrespecter les obligations légales, réglementaires et contractuelles applicables ;\nsensibiliser chaque collaborateur à la sécurité au moins une fois par an.\nCes objectifs sont suivis au moyen d'indicateurs présentés lors de la revue de direction annuelle."
+    },
+    {
+        "paragraph_id": "3483f134",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "5. Principes de sécurité > 5.1 Approche par les risques\nLes mesures de sécurité sont choisies en fonction d'une appréciation des risques réalisée selon la méthode EBIOS Risk Manager. L'analyse de risques est mise à jour au moins une fois par an et à chaque changement significatif du système d'information."
+    },
+    {
+        "paragraph_id": "1d9942ae",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "5. Principes de sécurité > 5.2 Moindre privilège et besoin d'en connaître\nChaque utilisateur ne dispose que des droits strictement nécessaires à ses missions. Les accès aux informations sont accordés selon le besoin d'en connaître."
+    },
+    {
+        "paragraph_id": "ceadeeeb",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "5. Principes de sécurité > 5.3 Défense en profondeur\nLa sécurité repose sur plusieurs couches de protection complémentaires : sécurité périmétrique, segmentation du réseau, protection des postes, contrôle des accès, sauvegarde et supervision."
+    },
+    {
+        "paragraph_id": "301dbea7",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "5. Principes de sécurité > 5.4 Sécurité dès la conception\nTout nouveau projet informatique intègre les exigences de sécurité dès sa phase de conception. Le RSSI est consulté avant la mise en production de toute nouvelle application."
+    },
+    {
+        "paragraph_id": "7114723d",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "5. Principes de sécurité > 5.5 Sécurité physique\nLes salles informatiques des trois sites sont fermées à clé. L'accès aux locaux est contrôlé par badge sur le site de Rennes."
+    },
+    {
+        "paragraph_id": "3a8c7499",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "6. Organisation\nLa direction générale est responsable de la sécurité de l'information. Elle approuve la PSSI, alloue les ressources nécessaires et valide les risques résiduels. Le Responsable de la Sécurité des Systèmes d'Information (RSSI) pilote la mise en œuvre de la présente politique. Les rôles et responsabilités détaillés sont décrits dans le document « Organisation de la sécurité » (ARM-GOV-002)."
+    },
+    {
+        "paragraph_id": "bee7db65",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "7. Documents de référence\nLa PSSI est déclinée en politiques thématiques, notamment : contrôle d'accès, classification de l'information, sauvegarde, gestion des vulnérabilités, journalisation, sécurité des fournisseurs, protection des données personnelles, gestion des incidents et continuité d'activité. La liste des mesures de sécurité applicables figure dans la Déclaration d'applicabilité (ARM-RSK-002)."
+    },
+    {
+        "paragraph_id": "4cb235a7",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "8. Conformité et sanctions\nLe respect de la PSSI est obligatoire pour tous les collaborateurs et prestataires. Tout manquement peut entraîner des sanctions disciplinaires prévues par le règlement intérieur, ainsi que, pour les prestataires, l'application des pénalités prévues au contrat."
+    },
+    {
+        "paragraph_id": "255933b9",
+        "document_name": "01_PSSI.docx",
+        "page_number": 1,
+        "text": "9. Revue de la politique\nLa PSSI est revue au moins une fois tous les deux ans, ou plus tôt en cas d'évolution majeure de l'organisation, de la menace ou de la réglementation.\nApprouvé par Marc Le Goff, Directeur général, le 12 février 2026."
+    },
+    {
+        "paragraph_id": "74f1f731",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "Organisation de la sécurité : rôles et responsabilités\nRéférence : ARM-GOV-002  |  Version : 2.1  |  Date : 12 février 2026  |  Propriétaire : RSSI  |  Approbation : Direction générale  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "dea5df99",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCe document décrit l'organisation mise en place par Armor Logistique pour piloter la sécurité de l'information. Il précise les rôles, les responsabilités et les instances de gouvernance, conformément à la PSSI (ARM-GOV-001)."
+    },
+    {
+        "paragraph_id": "bbbb975c",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "2. Direction générale\nLe Directeur général, Marc Le Goff, porte la responsabilité finale de la sécurité de l'information. À ce titre, il :\napprouve la PSSI et les objectifs de sécurité ;\nvalide le budget alloué à la sécurité ;\naccepte formellement les risques résiduels présentés par le RSSI ;\npréside le comité de sécurité ;\ns'assure du respect des obligations prévues par la directive NIS2."
+    },
+    {
+        "paragraph_id": "969e0970",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "3. Responsable de la Sécurité des Systèmes d'Information (RSSI)\nLa fonction de RSSI est occupée par Claire Moreau. Le RSSI est rattaché hiérarchiquement à la Direction des systèmes d'information. Il dispose d'un accès direct au Directeur général pour les sujets critiques.\nSes missions sont les suivantes :\nrédiger et maintenir la PSSI et les politiques thématiques ;\npiloter l'analyse de risques et le plan de traitement des risques ;\ndéfinir les exigences de sécurité des projets ;\ncoordonner la gestion des incidents de sécurité ;\norganiser les actions de sensibilisation ;\nsuivre les indicateurs de sécurité et en rendre compte à la direction ;\nassurer la veille réglementaire et technique.\nLe RSSI consacre 60 % de son temps à cette fonction et 40 % à des missions d'administration des systèmes."
+    },
+    {
+        "paragraph_id": "123a7f0a",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "4. Direction des systèmes d'information (DSI)\nLe Directeur des systèmes d'information, Thomas Kerjean, est responsable de l'exploitation du système d'information. L'équipe DSI compte sept personnes : trois administrateurs systèmes et réseaux, deux techniciens de support et deux développeurs chargés du TMS. La DSI met en œuvre les mesures techniques de sécurité, applique les correctifs, gère les comptes et les sauvegardes."
+    },
+    {
+        "paragraph_id": "7b4069a5",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "5. Délégué à la protection des données (DPO)\nSophie Lambert, juriste, est désignée DPO auprès de la CNIL. Elle :\ntient le registre des activités de traitement ;\nconseille l'entreprise sur ses obligations au titre du RGPD ;\nest consultée pour les analyses d'impact relatives à la protection des données (AIPD) ;\nest le point de contact de la CNIL et des personnes concernées ;\nparticipe à la gestion des violations de données personnelles."
+    },
+    {
+        "paragraph_id": "827702e0",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "6. Propriétaires d'actifs\nChaque application et chaque ensemble de données importants disposent d'un propriétaire désigné parmi les responsables métier. Le propriétaire d'actif :\ndétermine le niveau de classification des informations ;\nvalide les demandes d'accès à son application ;\nparticipe à la revue des habilitations ;\nexprime les besoins de disponibilité, d'intégrité et de confidentialité.\nLe Directeur des opérations est propriétaire du TMS et du WMS. Le Directeur administratif et financier est propriétaire de l'ERP. La Directrice des ressources humaines est propriétaire du logiciel de paie."
+    },
+    {
+        "paragraph_id": "81c87c40",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "7. Managers\nLes managers veillent à ce que leurs équipes respectent la PSSI. Ils informent les ressources humaines et la DSI de toute arrivée, mobilité ou départ dans leur équipe."
+    },
+    {
+        "paragraph_id": "3a293dee",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "8. Collaborateurs\nChaque collaborateur respecte la charte informatique, protège les informations qui lui sont confiées et signale sans délai tout événement suspect au support informatique."
+    },
+    {
+        "paragraph_id": "d4cf6231",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "9. Instances de gouvernance > 9.1 Comité de sécurité\nLe comité de sécurité réunit le Directeur général, le DSI, le RSSI, le DPO et le Directeur des opérations. Il se réunit chaque trimestre. Il suit l'avancement du plan de traitement des risques, examine les incidents significatifs et arbitre les priorités."
+    },
+    {
+        "paragraph_id": "0181ef5e",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "9. Instances de gouvernance > 9.2 Revue de direction\nUne revue de direction annuelle évalue l'efficacité du SMSI. Elle s'appuie sur les résultats des audits, les indicateurs, les incidents et l'évolution des risques."
+    },
+    {
+        "paragraph_id": "f2256516",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "10. Matrice des responsabilités\nPour les principaux processus de sécurité, les responsabilités sont réparties selon le modèle RACI (Réalise, Approuve, Consulté, Informé) :\nPSSI : le RSSI réalise, la direction générale approuve, la DSI et le DPO sont consultés, les collaborateurs sont informés.\nAnalyse de risques : le RSSI réalise, la direction générale approuve, les propriétaires d'actifs et la DSI sont consultés.\nGestion des incidents : la DSI réalise, le RSSI approuve, le DPO est consulté en cas de données personnelles, la direction générale est informée.\nGestion des accès : la DSI réalise, le propriétaire d'actif approuve, le manager est consulté.\nNotification des violations de données à la CNIL : le DPO réalise, la direction générale approuve, le RSSI est consulté."
+    },
+    {
+        "paragraph_id": "fe90ab39",
+        "document_name": "02_Organisation_securite.docx",
+        "page_number": 1,
+        "text": "11. Séparation des tâches\nLe RSSI exerçant également des missions d'administration, une séparation des tâches complète n'est pas possible à ce jour. Ce point est identifié comme un risque dans l'analyse de risques."
+    },
+    {
+        "paragraph_id": "30ea7020",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "Charte d'utilisation des ressources informatiques\nRéférence : ARM-GOV-003  |  Version : 2.0  |  Date : 3 septembre 2024  |  Propriétaire : DSI et DRH  |  Approbation : Direction générale, après avis du CSE  |  Classification : Interne – annexée au règlement intérieur\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "f4c6d2a0",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "1. Objet et champ d'application\nLa présente charte définit les règles d'utilisation des ressources informatiques mises à disposition par Armor Logistique. Elle s'applique à tous les utilisateurs : salariés, intérimaires, stagiaires et prestataires. Elle est annexée au règlement intérieur et doit être signée par chaque utilisateur lors de son arrivée.\nLes ressources informatiques comprennent notamment les postes de travail, les ordinateurs portables, les smartphones, les tablettes des chauffeurs, la messagerie, l'accès à Internet, les applications métier et les réseaux de l'entreprise."
+    },
+    {
+        "paragraph_id": "6b5c6a36",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "2. Principes généraux\nLes ressources informatiques sont destinées à un usage professionnel. Un usage personnel ponctuel et raisonnable est toléré, à condition qu'il ne nuise ni à l'activité, ni à la sécurité, ni à l'image de l'entreprise. Les fichiers et messages personnels doivent être clairement identifiés comme tels, par exemple dans un dossier nommé « Personnel »."
+    },
+    {
+        "paragraph_id": "7dc18204",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "3. Comptes et mots de passe\nChaque utilisateur dispose d'un compte nominatif. Il est responsable de l'usage qui en est fait. L'utilisateur s'engage à :\nne jamais communiquer son mot de passe, y compris au support informatique ;\nne pas utiliser le compte d'un autre utilisateur ;\nverrouiller sa session dès qu'il quitte son poste ;\nrespecter les règles de construction des mots de passe définies par la politique de contrôle d'accès."
+    },
+    {
+        "paragraph_id": "11a8587b",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "4. Protection des postes et des équipements\nL'utilisateur prend soin du matériel qui lui est confié. Il lui est interdit :\nd'installer des logiciels non autorisés par la DSI ;\nde désactiver l'antivirus ou les mises à jour ;\nde connecter des clés USB ou disques personnels aux postes de l'entreprise ;\nde modifier la configuration du poste.\nEn cas de perte ou de vol d'un équipement, l'utilisateur prévient immédiatement le support informatique."
+    },
+    {
+        "paragraph_id": "58c44e79",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "5. Messagerie\nLa messagerie professionnelle ne doit pas être utilisée pour diffuser des contenus illicites, injurieux ou sans lien avec l'activité. L'utilisateur fait preuve de vigilance face aux messages suspects : expéditeur inconnu, demande urgente de paiement, pièce jointe ou lien inattendu. Tout message suspect est signalé avec le bouton « Signaler un hameçonnage » de la messagerie.\nLe transfert automatique de la messagerie professionnelle vers une adresse personnelle est interdit."
+    },
+    {
+        "paragraph_id": "2004d070",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "6. Internet\nL'accès à Internet est filtré. La consultation de sites à caractère illicite, pornographique, violent ou de jeux d'argent est interdite. Le téléchargement de logiciels ou de fichiers volumineux sans lien avec l'activité est interdit."
+    },
+    {
+        "paragraph_id": "fb025ab4",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "7. Données de l'entreprise\nLes données de l'entreprise sont stockées sur les espaces prévus : serveurs de fichiers, OneDrive et SharePoint de l'entreprise. Il est interdit de stocker des données de l'entreprise sur des services de partage ou de stockage personnels.\nLes informations classées « Confidentiel » ne doivent pas être transmises à l'extérieur sans l'accord de leur propriétaire."
+    },
+    {
+        "paragraph_id": "465721b9",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "8. Télétravail et nomadisme\nEn situation de télétravail, l'utilisateur se connecte au système d'information uniquement par le VPN de l'entreprise. Il veille à ce que des tiers ne puissent pas voir son écran ni entendre ses échanges confidentiels. Il n'utilise pas de réseaux Wi-Fi publics non sécurisés sans le VPN."
+    },
+    {
+        "paragraph_id": "21c45e5b",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "9. Signalement des incidents\nTout événement pouvant affecter la sécurité doit être signalé sans délai au support informatique : comportement anormal du poste, message suspect ouvert par erreur, perte de matériel, divulgation accidentelle d'informations."
+    },
+    {
+        "paragraph_id": "63ead14d",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "10. Contrôles\nL'entreprise peut procéder à des contrôles de l'utilisation des ressources informatiques, dans le respect de la vie privée des salariés et des droits du CSE. Les journaux de connexion sont conservés et peuvent être analysés en cas d'incident. Les messages et fichiers identifiés comme personnels ne sont pas consultés, sauf en présence du salarié ou en cas de risque grave."
+    },
+    {
+        "paragraph_id": "b6ede276",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "11. Départ de l'entreprise\nÀ son départ, l'utilisateur restitue l'ensemble du matériel qui lui a été confié et supprime ses données personnelles. Il ne conserve aucune donnée de l'entreprise."
+    },
+    {
+        "paragraph_id": "a5cbd18b",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "12. Sanctions\nLe non-respect de la présente charte peut entraîner les sanctions disciplinaires prévues au règlement intérieur, sans préjudice d'éventuelles poursuites civiles ou pénales."
+    },
+    {
+        "paragraph_id": "c1ce8fb8",
+        "document_name": "03_Charte_informatique.docx",
+        "page_number": 1,
+        "text": "13. Engagement de l'utilisateur\n« Je reconnais avoir pris connaissance de la charte d'utilisation des ressources informatiques d'Armor Logistique et m'engage à la respecter. »\nNom, prénom, date et signature de l'utilisateur."
+    },
+    {
+        "paragraph_id": "f42ff282",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "Politique de contrôle d'accès\nRéférence : ARM-POL-001 | Version : 1.2 | Date : 12 février 2026 | Propriétaire : RSSI | Approbation : Comité de sécurité | Classification : Interne\nArmor Logistique SAS — document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "9f740cca",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCette politique définit les règles de gestion des accès au système d'information d'Armor Logistique. Elle vise à garantir que seules les personnes autorisées accèdent aux ressources, et uniquement dans la limite de ce qui est nécessaire à leurs missions. Elle s'applique à tous les utilisateurs : salariés, intérimaires, stagiaires et prestataires."
+    },
+    {
+        "paragraph_id": "4d6ea1db",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "2. Principes > 2.1 Moindre privilège\nChaque utilisateur ne dispose que des droits strictement nécessaires à l'exercice de ses missions, conformément à la PSSI (ARM-GOV-001). Les droits sont accordés selon le principe du besoin d'en connaître et retirés dès qu'ils ne sont plus nécessaires."
+    },
+    {
+        "paragraph_id": "6e19fc7c",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "2. Principes > 2.2 Comptes nominatifs\nTout accès au système d'information se fait au moyen d'un compte nominatif. Les comptes partagés ou génériques sont interdits, sauf dérogation accordée par le RSSI pour des équipements techniques (ex. : compte de service), avec une journalisation renforcée."
+    },
+    {
+        "paragraph_id": "56a54fa2",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "2. Principes > 2.3 Défense en profondeur\nLe contrôle d'accès s'appuie sur plusieurs mécanismes complémentaires : authentification, gestion des habilitations, segmentation réseau, restriction des accès distants et journalisation."
+    },
+    {
+        "paragraph_id": "9a18564c",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "3. Responsabilités\nPropriétaire d'actif : valide les demandes d'accès à son application, participe à la revue annuelle des habilitations et exprime les besoins de sécurité (confidentialité, intégrité, disponibilité).\nManager : formule les demandes d'accès pour ses collaborateurs et signale tout changement de fonction ou départ.\nDSI : met en œuvre les comptes et les droits, applique les habilitations validées, désactive les comptes dans les délais prévus.\nRSSI : définit les règles, contrôle leur application et supervise la revue des habilitations.\nDRH : informe la DSI des arrivées, mobilités et départs.\nLes rôles détaillés figurent dans le document « Organisation de la sécurité » (ARM-GOV-002) et la procédure d'arrivées et départs (ARM-PRO-003)."
+    },
+    {
+        "paragraph_id": "f14d543f",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "4. Cycle de vie des accès > 4.1 Arrivée\nLa demande d'arrivée est créée par le manager au moins 5 jours ouvrés avant la date d'arrivée (cf. ARM-PRO-003). La DSI crée le compte, l'ajoute aux groupes correspondant au profil métier et prépare le poste. Tout droit supplémentaire est validé par le propriétaire de l'application concernée. L'utilisateur signe la charte informatique (ARM-GOV-003) et change son mot de passe à la première connexion."
+    },
+    {
+        "paragraph_id": "8573674c",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "4. Cycle de vie des accès > 4.2 Mobilité\nLe nouveau manager crée une demande de mobilité. La DSI ajoute les droits du nouveau profil et retire, à la demande de l'ancien manager, les droits liés à l'ancien poste. Un contrôle croisé est effectué pour éviter l'accumulation de droits."
+    },
+    {
+        "paragraph_id": "ee4ec815",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "4. Cycle de vie des accès > 4.3 Départ\nLes ressources humaines informent la DSI. Le compte est désactivé dans un délai de 5 jours ouvrés après le départ ; en cas de départ conflictuel ou de licenciement pour faute, la désactivation est immédiate. La boîte aux lettres est conservée 3 mois puis supprimée. Les accès VPN et aux applications externes (WMS, géolocalisation) sont supprimés en même temps que le compte. Le matériel est restitué et réinitialisé."
+    },
+    {
+        "paragraph_id": "89dad85a",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "4. Cycle de vie des accès > 4.4 Intérimaires et prestataires\nLes comptes sont créés avec une date d'expiration correspondant à la fin de mission et identifiés par le préfixe « ext ». Les comptes des fournisseurs intervenant à distance sont nominatifs, créés à la demande du DSI et désactivés à la fin de la prestation (cf. ARM-POL-006). Le prestataire d'infogérance réseau dispose d'un accès permanent au pare-feu et au VPN, encadré contractuellement."
+    },
+    {
+        "paragraph_id": "dcec34a2",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "5. Authentification > 5.1 Mots de passe\nLes règles de construction et de renouvellement des mots de passe sont définies par la présente politique :\nlongueur minimale de 12 caractères ;\ncombinaison d'au moins trois catégories parmi majuscules, minuscules, chiffres et caractères spéciaux ;\ninterdiction des mots de passe triviaux, des suites logiques et des mots du dictionnaire ;\nrenouvellement tous les 180 jours, et immédiatement en cas de suspicion de compromission ;\nhistorique de 5 mots de passe pour empêcher la réutilisation ;\nverrouillage du compte après 10 échecs d'authentification consécutifs.\nL'utilisateur ne communique jamais son mot de passe, y compris au support informatique, et verrouille sa session dès qu'il quitte son poste."
+    },
+    {
+        "paragraph_id": "22188327",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "5. Authentification > 5.2 Authentification multifacteur (MFA)\nL'authentification multifacteur est obligatoire pour :\nles accès distants via le VPN ;\nles comptes d'administration (annuaire, sauvegarde, SIEM, pare-feu) ;\nla messagerie Microsoft 365.\nLe déploiement de la MFA sur le VPN et la messagerie est planifié avant fin mars 2026 (décision de la revue de direction du 15 janvier 2026). Les comptes d'administration font l'objet d'une authentification renforcée et d'une journalisation spécifique."
+    },
+    {
+        "paragraph_id": "3f8fea0a",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "5. Authentification > 5.3 Comptes d'administration\nLes comptes d'administration sont distincts des comptes utilisateurs nominaux. Ils ne sont utilisés que pour les tâches d'administration et ne disposent pas d'accès à la messagerie ou à la bureautique. La liste des membres des groupes d'administration est vérifiée lors de la revue annuelle des habilitations."
+    },
+    {
+        "paragraph_id": "a091c33f",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "6. Habilitations et revue > 6.1 Principe\nLes habilitations sont accordées sur demande du manager, validées par le propriétaire de l'application, et mises en œuvre par la DSI. Toute demande est tracée dans l'outil de ticketing."
+    },
+    {
+        "paragraph_id": "8e0b992e",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "6. Habilitations et revue > 6.2 Revue périodique\nUne revue des habilitations est réalisée une fois par an pour les applications TMS, ERP et paie, ainsi que pour les groupes d'administration de l'annuaire. La DSI extrait la liste des utilisateurs et de leurs droits ; le propriétaire de l'application vérifie que chaque utilisateur a toujours besoin de ses droits et demande la suppression des droits inutiles. La liste validée est transmise au RSSI. La dernière revue a été réalisée en janvier 2025."
+    },
+    {
+        "paragraph_id": "a1e1e689",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "6. Habilitations et revue > 6.3 Indicateurs\nNombre de comptes actifs d'utilisateurs ayant quitté l'entreprise (objectif : 0) ;\ndélai moyen de désactivation après un départ (objectif : ≤ 5 jours ouvrés) ;\ntaux de réalisation de la revue annuelle des habilitations (objectif : 100 %)."
+    },
+    {
+        "paragraph_id": "ab48a04f",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "7. Accès aux données et classification\nL'accès aux informations est limité selon leur niveau de classification (cf. ARM-POL-002) :\nPublic : accès libre en interne ;\nInterne : réservé aux collaborateurs ;\nConfidentiel : accès limité aux personnes habilitées ayant besoin d'en connaître, sur validation du propriétaire ;\nSecret : accès limité à une liste nominative de personnes, avec chiffrement des fichiers.\nLes données personnelles des salariés et des chauffeurs, y compris la géolocalisation, sont classées au minimum « Confidentiel »."
+    },
+    {
+        "paragraph_id": "ee9565d7",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "8. Accès distants et nomadisme\nLes accès distants au système d'information se font exclusivement par le VPN de l'entreprise, avec authentification multifacteur. En télétravail, l'utilisateur veille à la confidentialité de ses échanges et n'utilise pas de réseaux Wi-Fi publics non sécurisés sans VPN (cf. ARM-GOV-003). Les accès des fournisseurs à distance respectent les règles de la politique fournisseurs (ARM-POL-006)."
+    },
+    {
+        "paragraph_id": "01a231d9",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "9. Contrôles et journalisation\nLes connexions, les créations et modifications de comptes, les changements de groupes d'administration et les opérations sensibles sont journalisés et centralisés dans le SIEM (cf. ARM-POL-005). L'accès au SIEM est réservé aux administrateurs de la DSI et au RSSI. Les journaux peuvent contenir des données personnelles et ne sont consultés que pour des besoins de sécurité ou d'enquête, dans le respect de la charte informatique et des droits du CSE.\nLe RSSI réalise des contrôles ponctuels : comptes inactifs, droits excessifs, partages externes, membres des groupes d'administration."
+    },
+    {
+        "paragraph_id": "d5764ad5",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "10. Exceptions et dérogations\nToute dérogation aux règles de la présente politique (compte partagé, droit exceptionnel, accès hors profil) est demandée au RSSI, qui l'évalue et la trace. Les dérogations sont limitées dans le temps et réexaminées lors de la revue annuelle des habilitations. Les exceptions liées à des systèmes obsolètes ou à des contraintes techniques sont inscrites au registre des risques avec des mesures compensatoires (cf. ARM-POL-004 et ARM-RSK-001)."
+    },
+    {
+        "paragraph_id": "7a38e549",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "11. Conformité et sanctions\nLe respect de la présente politique est obligatoire pour tous les utilisateurs. Tout manquement peut entraîner les sanctions disciplinaires prévues au règlement intérieur, ainsi que, pour les prestataires, l'application des pénalités prévues au contrat. La politique contribue au respect des exigences de la directive NIS2 (article 21) et du RGPD."
+    },
+    {
+        "paragraph_id": "8b732708",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "12. Revue\nLa présente politique est revue au moins tous les deux ans par le RSSI, ou plus tôt en cas d'évolution majeure de l'organisation, de la menace ou de la réglementation. Elle est approuvée par le comité de sécurité."
+    },
+    {
+        "paragraph_id": "4f44a621",
+        "document_name": "04_Politique_controle_acces.docx",
+        "page_number": 1,
+        "text": "13. Documents de référence\nPSSI (ARM-GOV-001)\nOrganisation de la sécurité (ARM-GOV-002)\nCharte informatique (ARM-GOV-003)\nPolitique de classification de l'information (ARM-POL-002)\nPolitique de journalisation (ARM-POL-005)\nPolitique de sécurité des fournisseurs (ARM-POL-006)\nProcédure d'arrivées et départs (ARM-PRO-003)\nAnalyse des risques (ARM-RSK-001)\nDéclaration d'applicabilité (ARM-RSK-002)\nDocument approuvé par le comité de sécurité le 12 février 2026."
+    },
+    {
+        "paragraph_id": "bea9c92d",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "Politique de classification et de gestion de l'information\nRéférence : ARM-POL-002  |  Version : 1.1  |  Date : 15 mai 2025  |  Propriétaire : RSSI  |  Approbation : Comité de sécurité  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "8588a281",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCette politique définit les niveaux de classification de l'information utilisés par Armor Logistique et les règles de manipulation associées. Son objectif est d'appliquer à chaque information un niveau de protection proportionné à sa sensibilité."
+    },
+    {
+        "paragraph_id": "7b26054f",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "2. Responsabilités\nLe propriétaire de l'information, généralement le responsable métier qui la produit, détermine son niveau de classification. Chaque collaborateur qui manipule une information respecte les règles associées à son niveau. Le RSSI définit les règles de protection et contrôle leur application."
+    },
+    {
+        "paragraph_id": "ce720018",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "3. Niveaux de classification\nArmor Logistique utilise quatre niveaux de classification."
+    },
+    {
+        "paragraph_id": "6f5cc9ab",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "3. Niveaux de classification > 3.1 Public\nInformations destinées à être diffusées à l'extérieur sans restriction : plaquettes commerciales, offres d'emploi, communiqués de presse, contenu du site internet. Leur divulgation n'a aucun impact."
+    },
+    {
+        "paragraph_id": "f1f5ae3f",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "3. Niveaux de classification > 3.2 Interne\nInformations destinées aux collaborateurs de l'entreprise : procédures internes, organigrammes, notes de service, planning général. Leur divulgation à l'extérieur aurait un impact limité. C'est le niveau par défaut de toute information non classée."
+    },
+    {
+        "paragraph_id": "51c5bd32",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "3. Niveaux de classification > 3.3 Confidentiel\nInformations dont la divulgation pourrait porter un préjudice significatif à l'entreprise, à ses clients ou à ses salariés : contrats et tarifs clients, données de paie, dossiers du personnel, plans de transport des clients, résultats financiers non publiés, rapports d'audit de sécurité. L'accès est limité aux personnes ayant besoin d'en connaître."
+    },
+    {
+        "paragraph_id": "bc32791c",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "3. Niveaux de classification > 3.4 Secret\nInformations dont la divulgation pourrait mettre en danger la pérennité de l'entreprise : projets de fusion ou d'acquisition, informations stratégiques du comité de direction, éléments de sécurité critiques comme les mots de passe des comptes d'administration ou les clés de chiffrement. L'accès est limité à une liste nominative de personnes."
+    },
+    {
+        "paragraph_id": "325ac1b4",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "4. Marquage\nLes documents classés « Confidentiel » ou « Secret » portent la mention de leur niveau en en-tête ou en pied de page. Les documents « Interne » et « Public » ne font pas l'objet d'un marquage obligatoire."
+    },
+    {
+        "paragraph_id": "b179b55b",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "5. Règles de manipulation > 5.1 Stockage\nInterne : espaces de stockage de l'entreprise (serveurs de fichiers, SharePoint, OneDrive).\nConfidentiel : espaces de stockage de l'entreprise dont l'accès est restreint aux personnes habilitées.\nSecret : espace dédié à accès nominatif, avec chiffrement des fichiers."
+    },
+    {
+        "paragraph_id": "2753dd6b",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "5. Règles de manipulation > 5.2 Transmission\nInterne : par la messagerie de l'entreprise, uniquement vers des destinataires internes.\nConfidentiel : par la messagerie de l'entreprise vers l'extérieur uniquement si nécessaire, de préférence par un lien de partage sécurisé à durée limitée plutôt qu'en pièce jointe.\nSecret : remise en main propre ou partage sur l'espace dédié, jamais par messagerie."
+    },
+    {
+        "paragraph_id": "29081a20",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "5. Règles de manipulation > 5.3 Impression\nLes documents « Confidentiel » et « Secret » sont imprimés sur les imprimantes avec libération par badge. Ils ne doivent pas être laissés sur les bureaux ou dans les imprimantes."
+    },
+    {
+        "paragraph_id": "ad57337d",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "5. Règles de manipulation > 5.4 Supports amovibles\nLa copie d'informations « Confidentiel » ou « Secret » sur des supports amovibles est interdite, sauf dérogation accordée par le RSSI. Dans ce cas, le support doit être chiffré."
+    },
+    {
+        "paragraph_id": "01f5368c",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "5. Règles de manipulation > 5.5 Destruction\nDocuments papier « Confidentiel » et « Secret » : destruction dans les conteneurs sécurisés prévus à cet effet, collectés par un prestataire de destruction certifié.\nSupports informatiques : effacement sécurisé ou destruction physique avant réforme ou recyclage, avec un certificat de destruction."
+    },
+    {
+        "paragraph_id": "1d9b57d5",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "6. Classification des données personnelles\nLes données personnelles des salariés et des chauffeurs sont au minimum classées « Confidentiel ». Les données de géolocalisation des véhicules, qui permettent d'identifier indirectement les chauffeurs, sont également classées « Confidentiel »."
+    },
+    {
+        "paragraph_id": "72cc9658",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "7. Inventaire des informations\nLes principales catégories d'informations et leur niveau de classification sont recensées dans l'inventaire des actifs tenu par la DSI. Cet inventaire est mis à jour lors de la mise en service de toute nouvelle application."
+    },
+    {
+        "paragraph_id": "3da87a8c",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "8. Reclassification\nLe niveau de classification d'une information peut évoluer dans le temps. Par exemple, des résultats financiers deviennent publics après leur publication officielle. Seul le propriétaire de l'information peut décider de sa reclassification."
+    },
+    {
+        "paragraph_id": "3a261712",
+        "document_name": "05_Politique_classification.docx",
+        "page_number": 1,
+        "text": "9. Contrôle\nLe RSSI réalise des contrôles ponctuels : documents confidentiels laissés sur les imprimantes, droits d'accès aux dossiers confidentiels, partages externes dans SharePoint et OneDrive."
+    },
+    {
+        "paragraph_id": "0d7697f9",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "Politique de sauvegarde\nRéférence : ARM-POL-003  |  Version : 1.3  |  Date : 10 janvier 2025  |  Propriétaire : DSI  |  Approbation : RSSI  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "9b324c8a",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCette politique définit les règles de sauvegarde des données et des systèmes d'Armor Logistique. Elle vise à permettre la reprise de l'activité en cas de perte de données, de panne matérielle, d'erreur humaine ou d'attaque informatique."
+    },
+    {
+        "paragraph_id": "3b26ca45",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "2. Périmètre\nSont concernés :\nles serveurs du siège de Rennes (contrôleurs de domaine, serveurs de fichiers, base de données du TMS, serveur de l'ERP) ;\nles serveurs locaux des entrepôts de Brest et de Nantes ;\nles données Microsoft 365 (messagerie, OneDrive, SharePoint, Teams).\nLes postes de travail ne sont pas sauvegardés : les utilisateurs doivent enregistrer leurs fichiers sur OneDrive ou sur les serveurs de fichiers. Les données du WMS sont sauvegardées par l'éditeur du service SaaS, conformément au contrat."
+    },
+    {
+        "paragraph_id": "87019231",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "3. Responsabilités\nLa DSI met en œuvre les sauvegardes et surveille leur bon déroulement. Le RSSI valide la présente politique. Les propriétaires d'applications expriment leurs besoins en matière de durée de conservation et de perte de données acceptable."
+    },
+    {
+        "paragraph_id": "512852db",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "4. Fréquence et type de sauvegarde\nBase de données du TMS : sauvegarde complète chaque nuit et sauvegarde des journaux de transactions toutes les heures.\nServeur de l'ERP : sauvegarde complète chaque nuit.\nServeurs de fichiers : sauvegarde incrémentale chaque nuit, complète chaque semaine.\nContrôleurs de domaine : sauvegarde de l'état du système chaque nuit.\nMicrosoft 365 : sauvegarde quotidienne par une solution tierce."
+    },
+    {
+        "paragraph_id": "a02e9999",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "5. Durée de conservation\nSauvegardes quotidiennes : 30 jours.\nSauvegardes hebdomadaires : 3 mois.\nSauvegardes mensuelles : 1 an.\nDonnées comptables : conservation conforme aux obligations légales, assurée par l'archivage de l'ERP."
+    },
+    {
+        "paragraph_id": "02a4d8b9",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "6. Stockage des sauvegardes\nLes sauvegardes sont réalisées avec le logiciel de sauvegarde Veeam vers un serveur de stockage dédié situé dans la salle informatique du siège de Rennes. Une copie des sauvegardes est répliquée chaque nuit vers un second serveur de stockage situé dans l'entrepôt de Nantes, afin de disposer d'une copie sur un site distant.\nLe serveur de sauvegarde est membre du domaine Active Directory afin de faciliter son administration."
+    },
+    {
+        "paragraph_id": "e7daf414",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "7. Sécurité des sauvegardes\nLes sauvegardes sont chiffrées. Les mots de passe de chiffrement sont conservés par le DSI. L'accès à la console de sauvegarde est réservé aux administrateurs de la DSI."
+    },
+    {
+        "paragraph_id": "2df14cf4",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "8. Surveillance\nLe logiciel de sauvegarde envoie chaque matin un rapport par courriel à l'équipe DSI. Tout échec de sauvegarde est analysé et la sauvegarde est relancée dans la journée."
+    },
+    {
+        "paragraph_id": "2ea456fa",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "9. Restauration\nLes demandes de restauration sont formulées par les utilisateurs auprès du support informatique. La DSI restaure les fichiers ou les systèmes demandés dans les meilleurs délais.\nLes objectifs de reprise sont définis dans le plan de continuité et de reprise d'activité (ARM-PRO-002)."
+    },
+    {
+        "paragraph_id": "b1a3eff7",
+        "document_name": "06_Politique_sauvegarde.docx",
+        "page_number": 1,
+        "text": "10. Revue\nLa présente politique est revue tous les deux ans par la DSI et le RSSI."
+    },
+    {
+        "paragraph_id": "766e9517",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "Politique de gestion des vulnérabilités et des correctifs\nRéférence : ARM-POL-004  |  Version : 1.0  |  Date : 2 juin 2025  |  Propriétaire : RSSI  |  Approbation : DSI  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "5f7f4bba",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCette politique définit l'organisation mise en place pour identifier, évaluer et corriger les vulnérabilités du système d'information d'Armor Logistique. Une gestion rigoureuse des correctifs est l'une des mesures les plus efficaces pour réduire le risque d'attaque."
+    },
+    {
+        "paragraph_id": "c67220c7",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "2. Périmètre\nLa politique couvre les postes de travail, les serveurs, les équipements réseau (pare-feu, commutateurs, bornes Wi-Fi), les applications métier et les logiciels tiers installés sur les postes."
+    },
+    {
+        "paragraph_id": "6e30f17b",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "3. Veille\nLe RSSI assure une veille sur les vulnérabilités à partir des sources suivantes :\nles avis et alertes du CERT-FR ;\nles bulletins de sécurité mensuels de Microsoft ;\nles bulletins des éditeurs des principaux équipements et logiciels (pare-feu, VPN, logiciel de sauvegarde).\nLorsqu'une vulnérabilité concerne un produit utilisé par l'entreprise, le RSSI ouvre un ticket auprès de la DSI."
+    },
+    {
+        "paragraph_id": "1f2b4be7",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "4. Inventaire\nLa correction des vulnérabilités suppose de connaître les équipements et logiciels utilisés. La DSI tient un inventaire des serveurs et des équipements réseau. Les logiciels installés sur les postes sont recensés par l'outil de gestion des postes."
+    },
+    {
+        "paragraph_id": "4f9e108e",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "5. Évaluation de la criticité\nLa criticité d'une vulnérabilité est déterminée à partir du score CVSS fourni par l'éditeur ou par le CERT-FR :\ncritique : score supérieur ou égal à 9 ;\nélevée : score compris entre 7 et 8,9 ;\nmoyenne : score compris entre 4 et 6,9 ;\nfaible : score inférieur à 4."
+    },
+    {
+        "paragraph_id": "4fe5398a",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "6. Délais de correction\nLes correctifs sont appliqués dans les délais suivants à compter de leur publication :\nvulnérabilité critique : 30 jours ;\nvulnérabilité élevée : 60 jours ;\nvulnérabilité moyenne : 90 jours ;\nvulnérabilité faible : lors de la prochaine opération de maintenance."
+    },
+    {
+        "paragraph_id": "63b515ba",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "7. Déploiement des correctifs > 7.1 Postes de travail\nLes mises à jour Windows et Office sont déployées automatiquement par Windows Update for Business, avec un délai de 7 jours après leur publication. Les navigateurs se mettent à jour automatiquement."
+    },
+    {
+        "paragraph_id": "d249d7ac",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "7. Déploiement des correctifs > 7.2 Serveurs\nLes correctifs des serveurs sont appliqués manuellement par la DSI lors d'une fenêtre de maintenance mensuelle, le deuxième samedi du mois, afin de ne pas perturber l'exploitation. Les serveurs du TMS sont mis à jour après validation par l'équipe de développement."
+    },
+    {
+        "paragraph_id": "b3a3661f",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "7. Déploiement des correctifs > 7.3 Équipements réseau\nLes micrologiciels du pare-feu et du concentrateur VPN sont mis à jour par le prestataire d'infogérance réseau, sur demande de la DSI."
+    },
+    {
+        "paragraph_id": "361541e0",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "8. Exceptions\nLorsqu'un correctif ne peut pas être appliqué, par exemple pour un logiciel obsolète requis par une application métier, la DSI en informe le RSSI. Les exceptions sont inscrites dans le registre des risques avec les mesures compensatoires associées, comme l'isolement réseau de la machine concernée."
+    },
+    {
+        "paragraph_id": "4ed205d1",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "9. Systèmes obsolètes\nLes systèmes dont le support par l'éditeur a pris fin doivent être remplacés. À ce jour, deux serveurs sous Windows Server 2012 R2 hébergent d'anciennes applications de reporting et figurent dans le registre des risques."
+    },
+    {
+        "paragraph_id": "ce78ee57",
+        "document_name": "07_Politique_vulnerabilites.docx",
+        "page_number": 1,
+        "text": "10. Contrôle\nLa DSI produit chaque trimestre un état du niveau de mise à jour des postes et des serveurs, présenté au comité de sécurité."
+    },
+    {
+        "paragraph_id": "da02f901",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "Politique de journalisation et de surveillance\nRéférence : ARM-POL-005  |  Version : 1.0  |  Date : 2 juin 2025  |  Propriétaire : RSSI  |  Approbation : DSI  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "ee7ccd13",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCette politique définit les événements à journaliser, la conservation des journaux et l'organisation de la surveillance du système d'information. La journalisation permet de détecter les incidents de sécurité, d'enquêter après un incident et d'apporter des preuves."
+    },
+    {
+        "paragraph_id": "f17efcdb",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "2. Sources de journaux\nLes journaux des sources suivantes sont collectés :\ncontrôleurs de domaine Active Directory : authentifications, création et modification de comptes, modifications des groupes d'administration ;\nserveurs Windows : journaux système et de sécurité ;\npare-feu et concentrateur VPN : connexions autorisées et refusées, connexions VPN ;\nMicrosoft 365 : journaux de connexion et d'audit ;\nantivirus des postes et des serveurs : détections et actions réalisées ;\nTMS : connexions des utilisateurs et opérations sensibles comme la modification des tarifs."
+    },
+    {
+        "paragraph_id": "294d877d",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "3. Centralisation\nLes journaux sont centralisés dans un SIEM Wazuh hébergé sur un serveur du siège. Le SIEM corrèle les événements et génère des alertes à partir de règles de détection."
+    },
+    {
+        "paragraph_id": "0660acd4",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "4. Synchronisation de l'heure\nTous les serveurs et équipements réseau sont synchronisés sur les contrôleurs de domaine, eux-mêmes synchronisés sur une source de temps externe. Une heure cohérente est indispensable pour corréler les événements."
+    },
+    {
+        "paragraph_id": "f6f331d5",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "5. Durée de conservation\nLes journaux sont conservés 3 mois dans le SIEM. Au-delà, ils sont supprimés automatiquement afin de limiter l'espace de stockage utilisé."
+    },
+    {
+        "paragraph_id": "f832991a",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "6. Surveillance\nLes alertes du SIEM sont envoyées par courriel à l'équipe DSI. Elles sont examinées par les administrateurs pendant les heures ouvrées, du lundi au vendredi de 8 h à 18 h. Les alertes reçues en dehors de ces horaires sont traitées le jour ouvré suivant.\nLes alertes de niveau critique sont également envoyées par SMS au DSI."
+    },
+    {
+        "paragraph_id": "93b360a6",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "7. Cas d'usage de détection\nLes règles de détection couvrent notamment :\nles échecs d'authentification répétés sur un compte ;\nl'ajout d'un compte à un groupe d'administration ;\nles connexions VPN depuis un pays inhabituel ;\nla détection d'un logiciel malveillant par l'antivirus ;\nla désactivation de l'antivirus sur un poste."
+    },
+    {
+        "paragraph_id": "23693bb2",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "8. Accès aux journaux\nL'accès au SIEM est réservé aux administrateurs de la DSI et au RSSI. Les journaux peuvent contenir des données personnelles ; ils ne sont consultés que pour des besoins de sécurité ou d'enquête, conformément à la charte informatique."
+    },
+    {
+        "paragraph_id": "ceaf4b1a",
+        "document_name": "08_Politique_journalisation.docx",
+        "page_number": 1,
+        "text": "9. Revue\nLes règles de détection sont revues chaque année par le RSSI, en tenant compte des incidents survenus et de l'évolution de la menace."
+    },
+    {
+        "paragraph_id": "abd1ad1f",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "Politique de sécurité des relations avec les fournisseurs\nRéférence : ARM-POL-006  |  Version : 1.0  |  Date : 18 septembre 2025  |  Propriétaire : Direction des achats  |  Approbation : RSSI  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "28a32515",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "1. Objet\nArmor Logistique s'appuie sur plusieurs prestataires pour faire fonctionner son système d'information. Une faille chez un fournisseur peut affecter directement la sécurité de l'entreprise. Cette politique définit les règles de sécurité applicables aux relations avec les fournisseurs, en lien avec les exigences de la directive NIS2 sur la sécurité de la chaîne d'approvisionnement."
+    },
+    {
+        "paragraph_id": "96d420ab",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "2. Périmètre\nSont concernés les fournisseurs qui accèdent au système d'information, qui hébergent ou traitent des données de l'entreprise, ou dont la défaillance affecterait l'activité. Les principaux fournisseurs concernés sont :\nl'éditeur du WMS, fourni en mode SaaS ;\nle prestataire d'infogérance réseau, qui administre le pare-feu et le VPN ;\nMicrosoft, pour la messagerie et la bureautique ;\nl'éditeur de la solution de géolocalisation des véhicules ;\nle prestataire de maintenance des imprimantes et des terminaux de quai."
+    },
+    {
+        "paragraph_id": "68242e4c",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "3. Classification des fournisseurs\nLes fournisseurs sont classés en deux catégories :\nfournisseurs critiques : leur défaillance ou leur compromission affecterait fortement l'activité ou la sécurité (éditeur du WMS, prestataire d'infogérance réseau, Microsoft) ;\nfournisseurs standards : tous les autres."
+    },
+    {
+        "paragraph_id": "c609e547",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "4. Sélection des fournisseurs\nAvant la signature d'un contrat avec un fournisseur critique, la direction des achats transmet au fournisseur un questionnaire de sécurité. Les réponses sont analysées par le RSSI, qui émet un avis. Cet avis est consultatif."
+    },
+    {
+        "paragraph_id": "2241b5c6",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "5. Exigences contractuelles\nLes contrats avec les fournisseurs critiques comprennent :\nune clause de confidentialité ;\nl'engagement du fournisseur à respecter la PSSI d'Armor Logistique lorsqu'il intervient sur le système d'information ;\npour les fournisseurs qui traitent des données personnelles, un accord de traitement des données conforme à l'article 28 du RGPD ;\ndes engagements de niveau de service (disponibilité, délais d'intervention)."
+    },
+    {
+        "paragraph_id": "a7af98a8",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "6. Accès des fournisseurs au système d'information\nLes fournisseurs qui doivent intervenir à distance sur le système d'information utilisent un compte nominatif et se connectent par le VPN. Les comptes des fournisseurs sont créés à la demande du DSI et désactivés à la fin de la prestation.\nLe prestataire d'infogérance réseau dispose d'un accès permanent au pare-feu et au concentrateur VPN pour assurer la maintenance."
+    },
+    {
+        "paragraph_id": "3308d64c",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "7. Suivi des fournisseurs\nLa direction des achats organise une réunion annuelle avec chaque fournisseur critique pour faire le point sur la qualité de service. Les incidents survenus chez le fournisseur et ayant affecté Armor Logistique sont abordés lors de cette réunion."
+    },
+    {
+        "paragraph_id": "a17da287",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "8. Fin de contrat\nÀ la fin d'un contrat, le fournisseur restitue ou détruit les données de l'entreprise qu'il détient. Les accès du fournisseur au système d'information sont supprimés."
+    },
+    {
+        "paragraph_id": "a813fb0a",
+        "document_name": "09_Politique_fournisseurs.docx",
+        "page_number": 1,
+        "text": "9. Registre des fournisseurs\nLa direction des achats tient la liste des contrats en cours. Cette liste indique pour chaque fournisseur la date de fin du contrat et le service interne responsable."
+    },
+    {
+        "paragraph_id": "ce3dbf7a",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "Politique de protection des données personnelles\nRéférence : ARM-POL-007  |  Version : 2.0  |  Date : 4 avril 2025  |  Propriétaire : DPO  |  Approbation : Direction générale  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "7d0f5d0c",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCette politique décrit la manière dont Armor Logistique protège les données personnelles qu'elle traite, conformément au Règlement général sur la protection des données (RGPD) et à la loi Informatique et Libertés."
+    },
+    {
+        "paragraph_id": "31457793",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "2. Données traitées\nArmor Logistique traite principalement des données personnelles :\nde ses salariés et intérimaires : identité, coordonnées, données de paie, évaluations, formations ;\nde ses chauffeurs : permis de conduire, temps de conduite et de repos, données de géolocalisation des véhicules ;\nde ses candidats : CV et lettres de motivation ;\ndes contacts de ses clients et fournisseurs : nom, fonction, coordonnées professionnelles ;\ndes visiteurs : images de vidéosurveillance des entrepôts."
+    },
+    {
+        "paragraph_id": "f7866801",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "3. Principes\nArmor Logistique applique les principes du RGPD :\nlicéité : chaque traitement repose sur une base légale (contrat de travail, obligation légale, intérêt légitime ou consentement) ;\nlimitation des finalités : les données sont collectées pour des finalités déterminées et ne sont pas réutilisées pour d'autres finalités incompatibles ;\nminimisation : seules les données nécessaires sont collectées ;\nexactitude : les données sont tenues à jour ;\nlimitation de la conservation : les données ne sont pas conservées au-delà de la durée nécessaire ;\nsécurité : les données sont protégées par des mesures techniques et organisationnelles appropriées."
+    },
+    {
+        "paragraph_id": "4f32e91f",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "4. Registre des activités de traitement\nLe DPO tient le registre des activités de traitement. Le registre recense à ce jour quatorze traitements, dont la gestion de la paie, le recrutement, la géolocalisation des véhicules, la vidéosurveillance et la gestion des clients. Chaque nouveau traitement est déclaré au DPO avant sa mise en œuvre."
+    },
+    {
+        "paragraph_id": "bd07f6f8",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "5. Durées de conservation\nDossiers des salariés : 5 ans après le départ.\nBulletins de paie : 50 ans, sous forme dématérialisée.\nCandidatures non retenues : 2 ans après le dernier contact, sauf opposition du candidat.\nImages de vidéosurveillance : 30 jours.\nLes durées de conservation des données de géolocalisation et des données des contacts clients restent à définir."
+    },
+    {
+        "paragraph_id": "64875167",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "6. Analyses d'impact (AIPD)\nUne analyse d'impact relative à la protection des données est réalisée pour les traitements susceptibles d'engendrer un risque élevé pour les personnes. Le DPO identifie les traitements concernés.\nLa géolocalisation des chauffeurs constitue un traitement de surveillance de salariés. Son analyse d'impact est prévue mais n'a pas encore été réalisée."
+    },
+    {
+        "paragraph_id": "163efb7b",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "7. Droits des personnes\nLes personnes concernées peuvent exercer leurs droits d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité en écrivant au DPO à l'adresse dpo@armor-logistique.fr. Les demandes sont traitées dans un délai d'un mois.\nLes salariés sont informés des traitements les concernant par une notice d'information remise à l'embauche et disponible sur l'intranet."
+    },
+    {
+        "paragraph_id": "9fd308f6",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "8. Sous-traitants\nLes sous-traitants qui traitent des données personnelles pour le compte d'Armor Logistique signent un accord de traitement des données conforme à l'article 28 du RGPD. Les transferts de données hors de l'Union européenne doivent être validés par le DPO."
+    },
+    {
+        "paragraph_id": "6cc75f4c",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "9. Violations de données\nToute violation de données personnelles est signalée sans délai au DPO. Si la violation est susceptible d'engendrer un risque pour les droits et libertés des personnes, elle est notifiée à la CNIL dans un délai de 72 heures après sa découverte. Si le risque est élevé, les personnes concernées sont également informées. Toutes les violations sont consignées dans un registre tenu par le DPO, qu'elles soient notifiées ou non."
+    },
+    {
+        "paragraph_id": "2468b09b",
+        "document_name": "10_Politique_donnees_personnelles.docx",
+        "page_number": 1,
+        "text": "10. Sensibilisation\nLes collaborateurs qui traitent des données personnelles, notamment au sein des ressources humaines, sont sensibilisés au RGPD lors de leur prise de poste."
+    },
+    {
+        "paragraph_id": "73959c45",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "Procédure de gestion des incidents de sécurité et de notification\nRéférence : ARM-PRO-001  |  Version : 2.0  |  Date : 7 octobre 2025  |  Propriétaire : RSSI  |  Approbation : Comité de sécurité  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "ed982a20",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCette procédure décrit la manière dont Armor Logistique détecte, qualifie, traite et notifie les incidents de sécurité. Elle s'inspire du cycle de réponse à incident du NIST : préparation, détection et analyse, confinement, éradication et rétablissement, activités post-incident."
+    },
+    {
+        "paragraph_id": "676b77e8",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "2. Définitions\nÉvénement de sécurité : toute observation pouvant avoir un lien avec la sécurité, par exemple une alerte de l'antivirus.\nIncident de sécurité : événement qui compromet ou risque de compromettre la disponibilité, l'intégrité ou la confidentialité de l'information.\nViolation de données personnelles : incident entraînant la destruction, la perte, l'altération, la divulgation ou l'accès non autorisé à des données personnelles."
+    },
+    {
+        "paragraph_id": "27ed55f5",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "3. Signalement\nTout collaborateur qui constate un événement suspect le signale immédiatement au support informatique, par téléphone au poste 2222 ou par le portail de ticketing. Les alertes du SIEM et de l'antivirus sont reçues directement par l'équipe DSI."
+    },
+    {
+        "paragraph_id": "16b8fdfa",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "4. Qualification\nL'administrateur de permanence analyse le signalement et détermine s'il s'agit d'un incident. Il évalue sa gravité selon l'échelle suivante :\nfaible : impact limité à un poste ou un utilisateur, sans perte de données ;\nmoyenne : impact sur plusieurs utilisateurs ou sur une application non critique ;\nélevée : impact sur une application critique (TMS, WMS, ERP) ou compromission d'un compte d'administration ;\ncritique : arrêt de l'activité sur un ou plusieurs sites, rançongiciel, fuite de données massive.\nLes incidents de gravité élevée ou critique sont escaladés sans délai au DSI et au RSSI."
+    },
+    {
+        "paragraph_id": "1456d0ad",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "5. Traitement > 5.1 Confinement\nL'objectif est d'empêcher la propagation de l'incident : isolement réseau du poste ou du serveur concerné, désactivation du compte compromis, blocage d'une adresse IP sur le pare-feu."
+    },
+    {
+        "paragraph_id": "785e5552",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "5. Traitement > 5.2 Éradication\nLa cause de l'incident est supprimée : suppression du logiciel malveillant, réinstallation du poste, correction de la vulnérabilité exploitée, réinitialisation des mots de passe."
+    },
+    {
+        "paragraph_id": "ebc3ae1e",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "5. Traitement > 5.3 Rétablissement\nLes systèmes sont remis en service après vérification de leur intégrité, si besoin à partir des sauvegardes. Une surveillance renforcée est maintenue pendant plusieurs jours."
+    },
+    {
+        "paragraph_id": "0be63d89",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "5. Traitement > 5.4 Conservation des preuves\nAvant toute réinstallation, les éléments utiles à l'enquête sont conservés : journaux, copie du disque ou de la mémoire si possible. En cas d'incident grave, l'entreprise peut faire appel à un prestataire de réponse aux incidents de sécurité."
+    },
+    {
+        "paragraph_id": "d945ecb6",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "6. Cellule de crise\nEn cas d'incident critique, le Directeur général active la cellule de crise décrite dans le plan de continuité d'activité (ARM-PRO-002)."
+    },
+    {
+        "paragraph_id": "2cf6915a",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "7. Notifications > 7.1 Notification à la CNIL\nSi l'incident constitue une violation de données personnelles présentant un risque pour les personnes, le DPO la notifie à la CNIL dans un délai de 72 heures après sa découverte, conformément à l'article 33 du RGPD."
+    },
+    {
+        "paragraph_id": "ffea43f0",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "7. Notifications > 7.2 Notification à l'ANSSI au titre de NIS2\nLes incidents ayant un impact important sur la fourniture des services de transport sont notifiés à l'ANSSI par le RSSI, au moyen d'une notification dans un délai de 72 heures après leur détection. Un rapport final est transmis dans un délai d'un mois."
+    },
+    {
+        "paragraph_id": "00b1e13e",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "7. Notifications > 7.3 Clients\nLes clients dont les données ou les prestations sont affectées sont informés par la direction commerciale, selon les termes de leur contrat."
+    },
+    {
+        "paragraph_id": "200af9bf",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "7. Notifications > 7.4 Dépôt de plainte\nEn cas d'acte malveillant, l'entreprise dépose plainte auprès de la police ou de la gendarmerie."
+    },
+    {
+        "paragraph_id": "3a69ad11",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "8. Registre des incidents\nChaque incident est enregistré dans l'outil de ticketing avec sa date, sa description, sa gravité, les actions réalisées et sa date de clôture."
+    },
+    {
+        "paragraph_id": "2f08040b",
+        "document_name": "11_Procedure_incidents.docx",
+        "page_number": 1,
+        "text": "9. Retour d'expérience\nUn retour d'expérience est organisé après chaque incident de gravité élevée ou critique, dans un délai d'un mois. Il identifie les causes, les points à améliorer et les actions correctives, qui sont suivies par le comité de sécurité."
+    },
+    {
+        "paragraph_id": "442a4c31",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "Plan de continuité et de reprise d'activité (PCA / PRA)\nRéférence : ARM-PRO-002  |  Version : 1.2  |  Date : 30 juin 2025  |  Propriétaire : Direction générale  |  Rédaction : DSI et RSSI  |  Classification : Confidentiel\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "3eaeea49",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCe plan décrit l'organisation mise en place par Armor Logistique pour maintenir ses activités essentielles en cas de sinistre affectant le système d'information, puis pour rétablir le fonctionnement normal. Le plan de continuité d'activité (PCA) traite du maintien de l'activité, éventuellement en mode dégradé. Le plan de reprise d'activité (PRA) traite du redémarrage des systèmes informatiques."
+    },
+    {
+        "paragraph_id": "cedc9aed",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "2. Scénarios couverts\nIndisponibilité de la salle informatique du siège (incendie, inondation, panne électrique prolongée).\nAttaque par rançongiciel chiffrant les serveurs.\nPanne prolongée d'un service externe critique (WMS SaaS, Microsoft 365).\nIndisponibilité de la liaison Internet d'un site."
+    },
+    {
+        "paragraph_id": "13b6fdcc",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "3. Activités essentielles et objectifs de reprise\nL'analyse d'impact sur l'activité, réalisée avec la direction des opérations, a permis de définir pour chaque application une durée maximale d'interruption admissible (DMIA, en anglais RTO) et une perte de données maximale admissible (PDMA, en anglais RPO) :\nTMS : RTO 4 heures, RPO 1 heure ;\nWMS : RTO 4 heures, RPO 1 heure, selon les engagements de l'éditeur ;\nERP : RTO 48 heures, RPO 24 heures ;\nmessagerie : RTO 8 heures, RPO 24 heures ;\npaie : RTO 5 jours, RPO 24 heures."
+    },
+    {
+        "paragraph_id": "4967b7fd",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "4. Mesures de continuité (mode dégradé)\nEn cas d'indisponibilité du TMS, les exploitants impriment chaque soir le planning des tournées du lendemain. Ce planning papier permet d'assurer les livraisons prévues pendant 24 heures. Les chauffeurs sont joints par téléphone.\nEn cas d'indisponibilité du WMS, les entrepôts appliquent la procédure de gestion manuelle des expéditions, à l'aide de bons de préparation imprimés."
+    },
+    {
+        "paragraph_id": "f055cd36",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "5. Cellule de crise > 5.1 Composition\nLa cellule de crise est présidée par le Directeur général. Elle comprend le DSI, le RSSI, le Directeur des opérations, la Directrice des ressources humaines, le DPO et le responsable de la communication."
+    },
+    {
+        "paragraph_id": "b753d7c2",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "5. Cellule de crise > 5.2 Activation\nLa cellule de crise est activée par le Directeur général sur proposition du DSI ou du RSSI. Elle se réunit dans la salle de réunion du siège ou, si le siège est inaccessible, dans les locaux de l'entrepôt de Nantes."
+    },
+    {
+        "paragraph_id": "2b27d8fa",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "5. Cellule de crise > 5.3 Communication de crise\nUne liste des contacts d'urgence (membres de la cellule, prestataires, assureur, autorités) est tenue par le DSI. Une version imprimée est conservée dans le coffre du siège. Les messages destinés aux salariés, aux clients et à la presse sont validés par le Directeur général."
+    },
+    {
+        "paragraph_id": "5d4e50ec",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "6. Procédures de reprise > 6.1 Perte de la salle informatique du siège\nLes serveurs sont restaurés à partir de la copie des sauvegardes située à Nantes, sur des serveurs de remplacement fournis par le prestataire de location de matériel dans un délai de 48 heures."
+    },
+    {
+        "paragraph_id": "1f8b99dc",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "6. Procédures de reprise > 6.2 Rançongiciel\nAprès confinement et éradication, les serveurs sont restaurés à partir des sauvegardes les plus récentes saines. L'ordre de restauration est le suivant : contrôleurs de domaine, TMS, ERP, serveurs de fichiers."
+    },
+    {
+        "paragraph_id": "ab17ae57",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "7. Tests\nLe PCA et le PRA doivent être testés au moins une fois par an. Un premier exercice de restauration complète du TMS est prévu au premier semestre 2026. Aucun exercice de gestion de crise n'a été organisé à ce jour."
+    },
+    {
+        "paragraph_id": "4410fabb",
+        "document_name": "12_PCA_PRA.docx",
+        "page_number": 1,
+        "text": "8. Maintien en condition opérationnelle\nLe plan est mis à jour après chaque changement important du système d'information, après chaque exercice et après chaque activation réelle. Il est revu au minimum une fois par an."
+    },
+    {
+        "paragraph_id": "ccc75c07",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "Procédure d'arrivée, de mobilité et de départ des collaborateurs, et de revue des habilitations\nRéférence : ARM-PRO-003  |  Version : 1.1  |  Date : 14 novembre 2024  |  Propriétaire : DRH et DSI  |  Approbation : RSSI  |  Classification : Interne\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "74cc484e",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCette procédure décrit les étapes à suivre lors de l'arrivée, du changement de poste et du départ d'un collaborateur, afin que ses accès au système d'information correspondent à tout moment à ses fonctions. Elle décrit également la revue périodique des habilitations."
+    },
+    {
+        "paragraph_id": "adde13dc",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "2. Arrivée d'un collaborateur > 2.1 Avant l'arrivée\nLe manager crée une demande d'arrivée dans l'outil de ticketing au moins 5 jours ouvrés avant la date d'arrivée. La demande précise le poste, le site, le profil métier et le matériel nécessaire. Les ressources humaines confirment la date d'arrivée et le type de contrat."
+    },
+    {
+        "paragraph_id": "0ed87310",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "2. Arrivée d'un collaborateur > 2.2 Création des accès\nLa DSI crée le compte de l'utilisateur dans l'annuaire, l'ajoute aux groupes correspondant à son profil métier, prépare son poste de travail et ses équipements. Les droits supplémentaires éventuels sont validés par le propriétaire de l'application concernée."
+    },
+    {
+        "paragraph_id": "8ff63321",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "2. Arrivée d'un collaborateur > 2.3 Le jour de l'arrivée\nLe collaborateur reçoit ses identifiants et doit changer son mot de passe à la première connexion. Il signe la charte informatique, qui est conservée dans son dossier par les ressources humaines. Il suit le module de sensibilisation à la sécurité en ligne au cours de son premier mois."
+    },
+    {
+        "paragraph_id": "60b9b02d",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "3. Intérimaires et prestataires\nLes comptes des intérimaires et des prestataires sont créés avec une date d'expiration correspondant à la fin de leur mission. Ils sont identifiés par le préfixe « ext » dans leur identifiant."
+    },
+    {
+        "paragraph_id": "f0836228",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "4. Mobilité interne\nLorsqu'un collaborateur change de poste, le nouveau manager crée une demande de mobilité. La DSI ajoute les droits correspondant au nouveau profil métier. Les droits liés à l'ancien poste sont retirés à la demande de l'ancien manager."
+    },
+    {
+        "paragraph_id": "ad0ba13f",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "5. Départ d'un collaborateur > 5.1 Information\nLes ressources humaines informent la DSI de chaque départ par une demande dans l'outil de ticketing, en précisant la date de fin de contrat."
+    },
+    {
+        "paragraph_id": "ca539d2a",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "5. Départ d'un collaborateur > 5.2 Désactivation des accès\nLa DSI désactive le compte de l'utilisateur dans un délai de 5 jours ouvrés après son départ. La boîte aux lettres est conservée 3 mois, puis supprimée. Les accès VPN et les accès aux applications externes (WMS, géolocalisation) sont supprimés en même temps que le compte.\nEn cas de départ conflictuel ou de licenciement pour faute, les ressources humaines demandent une désactivation immédiate, le jour même du départ."
+    },
+    {
+        "paragraph_id": "5ab7b5b7",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "5. Départ d'un collaborateur > 5.3 Restitution du matériel\nLe manager récupère le matériel du collaborateur (ordinateur, téléphone, badge) et le remet à la DSI, qui le réinitialise avant réattribution."
+    },
+    {
+        "paragraph_id": "0c8309cc",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "6. Revue des habilitations\nUne revue des habilitations est réalisée une fois par an pour les applications TMS, ERP et paie. La DSI extrait la liste des utilisateurs et de leurs droits pour chaque application. Le propriétaire de l'application vérifie que chaque utilisateur a toujours besoin de ses droits et demande la suppression des droits inutiles.\nLes membres des groupes d'administration de l'annuaire sont vérifiés lors de cette même revue annuelle.\nLa revue est tracée par l'envoi au RSSI de la liste validée par chaque propriétaire d'application. La dernière revue a été réalisée en janvier 2025."
+    },
+    {
+        "paragraph_id": "8d4a84e7",
+        "document_name": "13_Procedure_arrivees_departs.docx",
+        "page_number": 1,
+        "text": "7. Indicateurs\nNombre de comptes actifs d'utilisateurs ayant quitté l'entreprise.\nDélai moyen de désactivation après un départ.\nTaux de réalisation de la revue annuelle des habilitations."
+    },
+    {
+        "paragraph_id": "7b642f5f",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "Appréciation des risques et plan de traitement des risques\nRéférence : ARM-RSK-001  |  Version : 2025  |  Date : 28 novembre 2025  |  Propriétaire : RSSI  |  Approbation : Direction générale  |  Classification : Confidentiel\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "45fd938c",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "1. Objet\nCe document présente la méthode d'appréciation des risques d'Armor Logistique, les principaux risques identifiés en 2025 et le plan de traitement associé. Il répond à l'exigence de la norme ISO 27001 (chapitres 6.1.2 et 6.1.3) et à l'article 21 de la directive NIS2, qui impose une approche fondée sur les risques."
+    },
+    {
+        "paragraph_id": "1cc1f0c9",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "2. Méthode\nL'appréciation des risques suit la méthode EBIOS Risk Manager publiée par l'ANSSI, en version simplifiée. Elle a été menée lors de quatre ateliers réunissant le RSSI, le DSI, le Directeur des opérations et le DPO."
+    },
+    {
+        "paragraph_id": "ee38ec85",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "2. Méthode > 2.1 Échelle de gravité\n1, mineure : gêne limitée, sans impact client.\n2, significative : perturbation de l'activité de quelques heures.\n3, grave : arrêt d'une activité critique de plus de 24 heures ou fuite de données confidentielles.\n4, critique : arrêt prolongé de l'activité, pertes financières majeures, sanctions réglementaires."
+    },
+    {
+        "paragraph_id": "c6e492fe",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "2. Méthode > 2.2 Échelle de vraisemblance\n1, peu vraisemblable ; 2, vraisemblable ; 3, très vraisemblable ; 4, quasi certain."
+    },
+    {
+        "paragraph_id": "73677b3d",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "2. Méthode > 2.3 Niveau de risque et critères d'acceptation\nLe niveau de risque est le produit de la gravité par la vraisemblance. Un risque dont le niveau est supérieur ou égal à 9 doit être traité. Un risque de niveau inférieur peut être accepté par la direction générale."
+    },
+    {
+        "paragraph_id": "3bb663d7",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "3. Valeurs métier et biens supports\nLes valeurs métier principales sont : la planification et l'exécution des tournées, la gestion des stocks en entrepôt, la facturation, la gestion du personnel. Elles reposent sur les biens supports suivants : TMS, WMS, ERP, annuaire Active Directory, messagerie, réseau et VPN, sauvegardes."
+    },
+    {
+        "paragraph_id": "0fda0b14",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "4. Principales sources de risque\nGroupes cybercriminels cherchant un gain financier par rançongiciel ou fraude au virement.\nConcurrents cherchant à obtenir les tarifs et contrats clients.\nErreur ou malveillance interne.\nDéfaillance d'un fournisseur critique."
+    },
+    {
+        "paragraph_id": "f44a33e4",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "5. Risques identifiés > R1. Rançongiciel paralysant le TMS et l'ERP\nScénario : un attaquant obtient un accès par hameçonnage, prend le contrôle de l'annuaire et chiffre les serveurs ainsi que les sauvegardes accessibles depuis le domaine. Gravité 4, vraisemblance 3, niveau 12."
+    },
+    {
+        "paragraph_id": "f2af9cd8",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "5. Risques identifiés > R2. Compromission d'un accès distant\nScénario : un attaquant exploite une vulnérabilité du concentrateur VPN ou réutilise des identifiants volés. Gravité 3, vraisemblance 3, niveau 9."
+    },
+    {
+        "paragraph_id": "f6af2feb",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "5. Risques identifiés > R3. Fraude au président ou au faux fournisseur\nScénario : un attaquant usurpe l'identité d'un dirigeant ou d'un fournisseur pour obtenir un virement. Gravité 3, vraisemblance 3, niveau 9."
+    },
+    {
+        "paragraph_id": "0c3247e8",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "5. Risques identifiés > R4. Indisponibilité prolongée du WMS SaaS\nScénario : défaillance ou cyberattaque chez l'éditeur. Gravité 3, vraisemblance 2, niveau 6."
+    },
+    {
+        "paragraph_id": "81511455",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "5. Risques identifiés > R5. Fuite des données de géolocalisation des chauffeurs\nScénario : accès non autorisé à la plateforme de géolocalisation. Gravité 3, vraisemblance 2, niveau 6."
+    },
+    {
+        "paragraph_id": "40e70a6b",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "5. Risques identifiés > R6. Exploitation des serveurs obsolètes sous Windows Server 2012 R2\nScénario : un attaquant exploite une vulnérabilité non corrigée pour se déplacer dans le réseau. Gravité 3, vraisemblance 3, niveau 9."
+    },
+    {
+        "paragraph_id": "c00f5577",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "5. Risques identifiés > R7. Concentration des droits du RSSI\nScénario : erreur ou abus de droits non détecté, faute de séparation des tâches. Gravité 2, vraisemblance 2, niveau 4."
+    },
+    {
+        "paragraph_id": "360b486a",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "6. Plan de traitement des risques\nR1 : traiter. Mesures : sauvegardes hors ligne ou immuables, renforcement de l'authentification des administrateurs, segmentation du réseau. Responsable : DSI. Échéance : juin 2026.\nR2 : traiter. Mesures : authentification multifacteur sur le VPN, application rapide des correctifs du concentrateur. Responsable : DSI. Échéance : mars 2026.\nR3 : traiter. Mesures : procédure de double validation des virements et des changements de coordonnées bancaires, sensibilisation des équipes financières. Responsable : DAF. Échéance : mars 2026.\nR4 : accepter, sous réserve de la procédure de mode dégradé du PCA.\nR5 : accepter.\nR6 : traiter. Mesures : migration des applications de reporting et retrait des serveurs. Responsable : DSI. Échéance : décembre 2026.\nR7 : accepter."
+    },
+    {
+        "paragraph_id": "936febbf",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "7. Risques résiduels et acceptation\nAprès mise en œuvre du plan de traitement, les risques résiduels R1, R2, R3 et R6 doivent être réévalués. Les risques R4, R5 et R7 sont acceptés en l'état.\nL'acceptation formelle des risques résiduels par la direction générale sera réalisée lors de la prochaine revue de direction."
+    },
+    {
+        "paragraph_id": "a8a8f06c",
+        "document_name": "14_Analyse_risques.docx",
+        "page_number": 1,
+        "text": "8. Mise à jour\nL'appréciation des risques est mise à jour chaque année et après tout changement significatif ou incident majeur."
+    },
+    {
+        "paragraph_id": "b1bc952a",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "Déclaration d'applicabilité (extrait)\nRéférence : ARM-RSK-002  |  Version : 1.0  |  Date : 28 novembre 2025  |  Propriétaire : RSSI  |  Approbation : Direction générale  |  Classification : Confidentiel\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "0b86adc2",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "1. Objet\nLa déclaration d'applicabilité (DdA, en anglais Statement of Applicability ou SoA) liste les mesures de sécurité de l'annexe A de la norme ISO 27001:2022. Pour chaque mesure, elle indique si la mesure est applicable, si elle est mise en œuvre, la justification de son inclusion ou de son exclusion, et le document de référence. Le présent document en reprend un extrait portant sur les mesures les plus significatives. La version complète couvre les 93 mesures de l'annexe A."
+    },
+    {
+        "paragraph_id": "c9880a19",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "2. Statuts utilisés\nMise en œuvre : la mesure est appliquée et documentée.\nPartielle : la mesure est appliquée en partie.\nPlanifiée : la mesure est prévue dans le plan de traitement des risques.\nExclue : la mesure n'est pas applicable, avec justification."
+    },
+    {
+        "paragraph_id": "d19d13c3",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.1 Politiques de sécurité de l'information\nApplicable. Statut : mise en œuvre. Justification : exigence de la norme et de NIS2. Référence : PSSI ARM-GOV-001."
+    },
+    {
+        "paragraph_id": "ced40ace",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.2 Fonctions et responsabilités liées à la sécurité de l'information\nApplicable. Statut : mise en œuvre. Référence : ARM-GOV-002."
+    },
+    {
+        "paragraph_id": "866c4c5b",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.3 Séparation des tâches\nApplicable. Statut : partielle. Justification : taille réduite de l'équipe DSI ; risque R7 accepté. Référence : ARM-RSK-001."
+    },
+    {
+        "paragraph_id": "c3c5af01",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.9 Inventaire des informations et autres actifs associés\nApplicable. Statut : mise en œuvre. Référence : inventaire des actifs de la DSI."
+    },
+    {
+        "paragraph_id": "973c12a4",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.12 Classification des informations\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-002."
+    },
+    {
+        "paragraph_id": "92f6b413",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.15 Contrôle d'accès\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-001."
+    },
+    {
+        "paragraph_id": "961090a4",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.18 Droits d'accès\nApplicable. Statut : mise en œuvre. Justification : revue annuelle des habilitations. Référence : ARM-PRO-003."
+    },
+    {
+        "paragraph_id": "6f72fd32",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.19 Sécurité de l'information dans les relations avec les fournisseurs\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-006."
+    },
+    {
+        "paragraph_id": "24572d9b",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.20 La sécurité de l'information dans les accords conclus avec les fournisseurs\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-006."
+    },
+    {
+        "paragraph_id": "4a7b77d7",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.24 Planification et préparation de la gestion des incidents de sécurité de l'information\nApplicable. Statut : mise en œuvre. Référence : ARM-PRO-001."
+    },
+    {
+        "paragraph_id": "507e53d1",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.26 Réponse aux incidents de sécurité de l'information\nApplicable. Statut : mise en œuvre. Référence : ARM-PRO-001."
+    },
+    {
+        "paragraph_id": "3e69871d",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.29 Sécurité de l'information durant une perturbation\nApplicable. Statut : mise en œuvre. Référence : ARM-PRO-002."
+    },
+    {
+        "paragraph_id": "91b573d3",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.30 Préparation des TIC pour la continuité d'activité\nApplicable. Statut : mise en œuvre. Justification : RTO et RPO définis, copie distante des sauvegardes. Référence : ARM-PRO-002."
+    },
+    {
+        "paragraph_id": "25c4cb14",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.31 Exigences légales, statutaires, réglementaires et contractuelles\nApplicable. Statut : partielle. Justification : le registre des exigences légales et contractuelles est en cours de constitution."
+    },
+    {
+        "paragraph_id": "bda8b160",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "3. Mesures organisationnelles > 5.34 Protection de la vie privée et des données personnelles\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-007."
+    },
+    {
+        "paragraph_id": "9551ddb1",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "4. Mesures liées aux personnes > 6.3 Sensibilisation, enseignement et formation en sécurité de l'information\nApplicable. Statut : mise en œuvre. Justification : module de sensibilisation en ligne à l'arrivée. Référence : ARM-PRO-003."
+    },
+    {
+        "paragraph_id": "5d097733",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "4. Mesures liées aux personnes > 6.5 Responsabilités après la fin ou le changement d'un emploi\nApplicable. Statut : mise en œuvre. Référence : ARM-PRO-003."
+    },
+    {
+        "paragraph_id": "d9d49a64",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "5. Mesures physiques > 7.1 Périmètres de sécurité physique\nApplicable. Statut : partielle. Justification : contrôle d'accès par badge au siège uniquement."
+    },
+    {
+        "paragraph_id": "d7484847",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.5 Authentification sécurisée\nApplicable. Statut : partielle. Justification : authentification multifacteur planifiée sur le VPN (risque R2)."
+    },
+    {
+        "paragraph_id": "dd8b3629",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.7 Protection contre les programmes malveillants\nApplicable. Statut : mise en œuvre. Justification : antivirus sur tous les postes et serveurs."
+    },
+    {
+        "paragraph_id": "3881bd68",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.8 Gestion des vulnérabilités techniques\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-004."
+    },
+    {
+        "paragraph_id": "d6d390a8",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.13 Sauvegarde des informations\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-003."
+    },
+    {
+        "paragraph_id": "4c4e93b0",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.15 Journalisation\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-005."
+    },
+    {
+        "paragraph_id": "e1f9c9ef",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.16 Activités de surveillance\nApplicable. Statut : mise en œuvre. Référence : ARM-POL-005."
+    },
+    {
+        "paragraph_id": "81797eda",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.20 Sécurité des réseaux\nApplicable. Statut : partielle. Justification : segmentation du réseau planifiée (risque R1)."
+    },
+    {
+        "paragraph_id": "6eb2b4c3",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.24 Utilisation de la cryptographie\nApplicable. Statut : mise en œuvre. Justification : chiffrement des sauvegardes et des connexions VPN."
+    },
+    {
+        "paragraph_id": "05cccebb",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.25 Cycle de vie de développement sécurisé\nApplicable. Statut : mise en œuvre. Justification : le TMS est développé en interne."
+    },
+    {
+        "paragraph_id": "4b090a25",
+        "document_name": "15_Declaration_applicabilite.docx",
+        "page_number": 1,
+        "text": "6. Mesures technologiques > 8.32 Gestion des changements\nApplicable. Statut : mise en œuvre. Justification : fenêtre de maintenance mensuelle."
+    },
+    {
+        "paragraph_id": "52826bef",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "Compte rendu de la revue de direction du SMSI – 2025\nRéférence : ARM-REC-001  |  Date de la réunion : 15 janvier 2026  |  Rédaction : RSSI  |  Diffusion : membres du comité de sécurité  |  Classification : Confidentiel\nArmor Logistique SAS – document fictif à usage pédagogique"
+    },
+    {
+        "paragraph_id": "4fed386c",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "1. Participants\nMarc Le Goff, Directeur général (président) ; Thomas Kerjean, DSI ; Claire Moreau, RSSI ; Sophie Lambert, DPO ; Yann Le Bihan, Directeur des opérations ; Pierre Ollivier, Directeur administratif et financier."
+    },
+    {
+        "paragraph_id": "ca4a5b31",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "2. Objet\nLa revue de direction, exigée par le chapitre 9.3 de la norme ISO 27001, permet à la direction d'évaluer chaque année si le système de management de la sécurité de l'information reste pertinent, adéquat et efficace, et de décider des améliorations nécessaires."
+    },
+    {
+        "paragraph_id": "cbb65834",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "3. Suivi des décisions de la revue précédente\nRédaction des politiques de gestion des vulnérabilités et de journalisation : réalisée en juin 2025.\nMise en place du SIEM Wazuh : réalisée en mai 2025.\nRédaction de la politique de sécurité des fournisseurs : réalisée en septembre 2025.\nMise en place de l'authentification multifacteur sur le VPN : non réalisée, reportée à mars 2026.\nExercice de test du PRA : non réalisé, reporté au premier semestre 2026."
+    },
+    {
+        "paragraph_id": "6931ed03",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "4. Évolution du contexte\nTransposition de la directive NIS2 en droit français : Armor Logistique est concernée en tant qu'entité importante du secteur des transports. L'entreprise doit s'enregistrer auprès de l'ANSSI et se conformer aux mesures de l'article 21.\nHausse des attaques par rançongiciel visant le secteur du transport et de la logistique, signalée par le CERT-FR.\nDeux nouveaux clients de la grande distribution imposent dans leurs contrats un questionnaire de sécurité annuel et la notification des incidents sous 24 heures."
+    },
+    {
+        "paragraph_id": "30113463",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "5. Performance de la sécurité > 5.1 Indicateurs\nDisponibilité du TMS sur les heures d'exploitation : 99,2 %, pour un objectif de 99,5 %.\nTaux de postes à jour des correctifs Windows : 94 %.\nTaux de serveurs à jour des correctifs : 78 %.\nTaux de collaborateurs ayant suivi la sensibilisation annuelle : 61 %, pour un objectif de 100 %.\nNombre de comptes actifs d'anciens collaborateurs détectés lors de la revue : 23."
+    },
+    {
+        "paragraph_id": "f2b2b82f",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "5. Performance de la sécurité > 5.2 Incidents\nOnze incidents de sécurité ont été enregistrés en 2025, dont un de gravité élevée : la compromission d'une boîte aux lettres d'un commercial par hameçonnage en septembre 2025. Le compte a été utilisé pour envoyer des messages frauduleux à des clients pendant deux jours avant sa détection. Le retour d'expérience a mis en évidence l'absence d'authentification multifacteur sur la messagerie."
+    },
+    {
+        "paragraph_id": "1c73ca84",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "5. Performance de la sécurité > 5.3 Audits\nAucun audit interne du SMSI n'a été réalisé en 2025. Un test d'intrusion externe a été réalisé en avril 2025 par un prestataire. Il a identifié 3 vulnérabilités élevées, dont 2 sont corrigées."
+    },
+    {
+        "paragraph_id": "e2b662c3",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "6. Risques\nL'appréciation des risques a été mise à jour en novembre 2025. Les risques résiduels R4, R5 et R7 sont présentés pour acceptation. La direction générale accepte les risques R4 et R7. Le risque R5, concernant les données de géolocalisation, est renvoyé au DPO pour avis."
+    },
+    {
+        "paragraph_id": "7841f6f1",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "7. Ressources\nLe RSSI signale que son temps consacré à la sécurité, 60 %, n'est pas suffisant au regard des obligations NIS2. Une demande de recrutement d'un ingénieur sécurité est présentée."
+    },
+    {
+        "paragraph_id": "c8851684",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "8. Décisions\nDéployer l'authentification multifacteur sur la messagerie Microsoft 365 et le VPN avant fin mars 2026. Responsable : DSI.\nRéaliser l'exercice de restauration du TMS avant fin juin 2026. Responsable : DSI.\nProgrammer un audit interne du SMSI en 2026. Responsable : RSSI.\nRelancer la campagne de sensibilisation pour atteindre 100 % des collaborateurs. Responsable : DRH et RSSI.\nÉtudier le recrutement d'un ingénieur sécurité lors de l'élaboration du budget 2027. Responsable : Directeur général."
+    },
+    {
+        "paragraph_id": "fd46db66",
+        "document_name": "16_Revue_de_direction.docx",
+        "page_number": 1,
+        "text": "9. Points non traités\nLa formation des membres de la direction à la gestion des risques cyber, exigée par l'article 20 de la directive NIS2, n'a pas été abordée et sera inscrite à l'ordre du jour de la prochaine revue."
+    }
+]
